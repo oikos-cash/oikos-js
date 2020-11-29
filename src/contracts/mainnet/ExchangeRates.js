@@ -51,7 +51,7 @@ function ExchangeRates(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 10000000,
+      feeLimit: 50000000,
       ...txParams,
     };
     const txHash = await this.contract.nominateNewOwner(_owner).send(txParams);
@@ -76,7 +76,7 @@ function ExchangeRates(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 10000000,
+      feeLimit: 50000000,
       ...txParams,
     };
     const txHash = await this.contract.setSelfDestructBeneficiary(_beneficiary).send(txParams);
@@ -93,7 +93,7 @@ function ExchangeRates(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 10000000,
+      feeLimit: 50000000,
       ...txParams,
     };
     const txHash = await this.contract.removeAggregator(currencyKey).send(txParams);
@@ -127,7 +127,7 @@ function ExchangeRates(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 10000000,
+      feeLimit: 50000000,
       ...txParams,
     };
     const txHash = await this.contract.terminateSelfDestruct().send(txParams);
@@ -145,7 +145,7 @@ function ExchangeRates(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 10000000,
+      feeLimit: 50000000,
       ...txParams,
     };
     const txHash = await this.contract.addAggregator(currencyKey, aggregatorAddress).send(txParams);
@@ -162,7 +162,7 @@ function ExchangeRates(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 10000000,
+      feeLimit: 50000000,
       ...txParams,
     };
     const txHash = await this.contract.deleteRate(currencyKey).send(txParams);
@@ -226,7 +226,7 @@ function ExchangeRates(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 10000000,
+      feeLimit: 50000000,
       ...txParams,
     };
     const txHash = await this.contract.acceptOwnership().send(txParams);
@@ -243,7 +243,7 @@ function ExchangeRates(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 10000000,
+      feeLimit: 50000000,
       ...txParams,
     };
     const txHash = await this.contract.setRateStalePeriod(_time).send(txParams);
@@ -260,7 +260,7 @@ function ExchangeRates(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 10000000,
+      feeLimit: 50000000,
       ...txParams,
     };
     const txHash = await this.contract.setOracle(_oracle).send(txParams);
@@ -301,7 +301,7 @@ function ExchangeRates(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 10000000,
+      feeLimit: 50000000,
       ...txParams,
     };
     const txHash = await this.contract.selfDestruct().send(txParams);
@@ -366,7 +366,7 @@ function ExchangeRates(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 10000000,
+      feeLimit: 50000000,
       ...txParams,
     };
     const txHash = await this.contract
@@ -408,7 +408,7 @@ function ExchangeRates(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 10000000,
+      feeLimit: 50000000,
       ...txParams,
     };
     const txHash = await this.contract.initiateSelfDestruct().send(txParams);
@@ -427,7 +427,7 @@ function ExchangeRates(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 10000000,
+      feeLimit: 50000000,
       ...txParams,
     };
     const txHash = await this.contract.updateRates(currencyKeys, newRates, timeSent).send(txParams);
@@ -461,7 +461,7 @@ function ExchangeRates(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 10000000,
+      feeLimit: 50000000,
       ...txParams,
     };
     const txHash = await this.contract.removeInversePricing(currencyKey).send(txParams);

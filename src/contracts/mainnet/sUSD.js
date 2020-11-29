@@ -32,7 +32,7 @@ function sUSD(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 10000000,
+      feeLimit: 50000000,
       ...txParams,
     };
     const txHash = await this.contract.approve(spender, value).send(txParams);
@@ -49,7 +49,7 @@ function sUSD(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 10000000,
+      feeLimit: 50000000,
       ...txParams,
     };
     const txHash = await this.contract.setIntegrationProxy(_integrationProxy).send(txParams);
@@ -66,7 +66,7 @@ function sUSD(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 10000000,
+      feeLimit: 50000000,
       ...txParams,
     };
     const txHash = await this.contract.nominateNewOwner(_owner).send(txParams);
@@ -99,7 +99,7 @@ function sUSD(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 10000000,
+      feeLimit: 50000000,
       ...txParams,
     };
     const txHash = await this.contract.setSelfDestructBeneficiary(_beneficiary).send(txParams);
@@ -119,7 +119,7 @@ function sUSD(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 10000000,
+      feeLimit: 50000000,
       ...txParams,
     };
     const txHash = await this.contract.transferFrom(from, to, value).send(txParams);
@@ -143,7 +143,7 @@ function sUSD(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 10000000,
+      feeLimit: 50000000,
       ...txParams,
     };
     const txHash = await this.contract.terminateSelfDestruct().send(txParams);
@@ -176,7 +176,7 @@ function sUSD(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 10000000,
+      feeLimit: 50000000,
       ...txParams,
     };
     const txHash = await this.contract.acceptOwnership().send(txParams);
@@ -194,7 +194,7 @@ function sUSD(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 10000000,
+      feeLimit: 50000000,
       ...txParams,
     };
     const txHash = await this.contract.issue(account, amount).send(txParams);
@@ -219,7 +219,7 @@ function sUSD(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 10000000,
+      feeLimit: 50000000,
       ...txParams,
     };
     const txHash = await this.contract.setSynthetixProxy(_synthetixProxy).send(txParams);
@@ -244,7 +244,7 @@ function sUSD(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 10000000,
+      feeLimit: 50000000,
       ...txParams,
     };
     const txHash = await this.contract.setProxy(_proxy).send(txParams);
@@ -260,7 +260,7 @@ function sUSD(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 10000000,
+      feeLimit: 50000000,
       ...txParams,
     };
     const txHash = await this.contract.selfDestruct().send(txParams);
@@ -286,7 +286,7 @@ function sUSD(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 10000000,
+      feeLimit: 50000000,
       ...txParams,
     };
     const txHash = await this.contract.burn(account, amount).send(txParams);
@@ -303,7 +303,7 @@ function sUSD(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 10000000,
+      feeLimit: 50000000,
       ...txParams,
     };
     const txHash = await this.contract.setTokenState(_tokenState).send(txParams);
@@ -330,7 +330,7 @@ function sUSD(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 10000000,
+      feeLimit: 50000000,
       ...txParams,
     };
     const txHash = await this.contract.transfer(to, value).send(txParams);
@@ -355,7 +355,7 @@ function sUSD(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 10000000,
+      feeLimit: 50000000,
       ...txParams,
     };
     const txHash = await this.contract.setMessageSender(sender).send(txParams);
@@ -371,7 +371,7 @@ function sUSD(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 10000000,
+      feeLimit: 50000000,
       ...txParams,
     };
     const txHash = await this.contract.initiateSelfDestruct().send(txParams);
@@ -420,7 +420,7 @@ function sUSD(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 10000000,
+      feeLimit: 50000000,
       ...txParams,
     };
     const txHash = await this.contract.setFeePoolProxy(_feePoolProxy).send(txParams);
@@ -471,7 +471,7 @@ function sUSD(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 10000000,
+      feeLimit: 50000000,
       ...txParams,
     };
     const txHash = await this.contract.setTotalSupply(amount).send(txParams);

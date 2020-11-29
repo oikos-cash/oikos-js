@@ -22,7 +22,6 @@ import sTRX from './sTRX';
 import iBTC from './iBTC';
 import iTRX from './iTRX';
 import iETH from './iETH';
-import sLINK from './sLINK';
 
 export default {
   Depot,
@@ -49,5 +48,4 @@ export default {
   iBTC,
   iTRX,
   iETH,
-  sLINK,
 };

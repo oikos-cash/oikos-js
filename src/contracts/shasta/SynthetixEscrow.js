@@ -24,7 +24,7 @@ function SynthetixEscrow(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 10000000,
+      feeLimit: 50000000,
       ...txParams,
     };
     const txHash = await this.contract.purgeAccount(account).send(txParams);
@@ -41,7 +41,7 @@ function SynthetixEscrow(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 10000000,
+      feeLimit: 50000000,
       ...txParams,
     };
     const txHash = await this.contract.nominateNewOwner(_owner).send(txParams);
@@ -71,7 +71,7 @@ function SynthetixEscrow(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 10000000,
+      feeLimit: 50000000,
       ...txParams,
     };
     const txHash = await this.contract.appendVestingEntry(account, time, quantity).send(txParams);
@@ -117,7 +117,7 @@ function SynthetixEscrow(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 10000000,
+      feeLimit: 50000000,
       ...txParams,
     };
     const txHash = await this.contract.vest().send(txParams);
@@ -182,7 +182,7 @@ function SynthetixEscrow(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 10000000,
+      feeLimit: 50000000,
       ...txParams,
     };
     const txHash = await this.contract.acceptOwnership().send(txParams);
@@ -239,7 +239,7 @@ function SynthetixEscrow(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 10000000,
+      feeLimit: 50000000,
       ...txParams,
     };
     const txHash = await this.contract
@@ -270,7 +270,7 @@ function SynthetixEscrow(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 10000000,
+      feeLimit: 50000000,
       ...txParams,
     };
     const txHash = await this.contract.withdrawSynthetix(quantity).send(txParams);
@@ -298,7 +298,7 @@ function SynthetixEscrow(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 10000000,
+      feeLimit: 50000000,
       ...txParams,
     };
     const txHash = await this.contract.setSynthetix(_synthetix).send(txParams);
