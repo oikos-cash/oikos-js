@@ -39125,7 +39125,10 @@ var MAINNET_ADDRESSES = {
   SynthiETH: '4108bfb3ae01fa6ba93514ccdb66daaab16e7cb952',
   Depot: '41859dc873b1568e04f93a6be623edc16cf70ced6e',
   ArbRewarder: '41de19475ec96fe20785edf6789e8e518cba2a067e',
-  DappMaintenance: '4111f52e05c7cc79199ab104b084c7997308e09c72'
+  DappMaintenance: '4111f52e05c7cc79199ab104b084c7997308e09c72',
+  TokenStatesLINK: '4106d2388f5e676b5aa07e6cd75ea7a060ad1f86bd',
+  ProxysLINK: '41d30302da9bef8dfb251ff87977d578db2c4e9e64',
+  SynthsLINK: '4183df1cb6a4231082c77dda12e672b3e83e75210f'
 };
 var SHASTA_ADDRESSES = {
   SafeDecimalMath: '41ee6fa20f26a2ac860408159c33bd4ee896a387a0',
@@ -39810,7 +39813,8 @@ var SHASTA_ADDRESSES = {
 }, {
   payable: true,
   stateMutability: 'payable',
-  type: 'fallback'
+  type: 'fallback',
+  name: 'fallback'
 }, {
   anonymous: false,
   inputs: [{
@@ -45350,8 +45354,885 @@ var SHASTA_ADDRESSES = {
   ArbRewarder: ArbRewarder
 });
 // CONCATENATED MODULE: ./lib/abis/shasta/Depot.js
-
-/* harmony default export */ var shasta_Depot = (mainnet_Depot);
+/* harmony default export */ var shasta_Depot = ([{
+  constant: false,
+  inputs: [],
+  name: 'exchangeEtherForSNX',
+  outputs: [{
+    name: '',
+    type: 'uint256'
+  }],
+  payable: true,
+  stateMutability: 'payable',
+  type: 'function'
+}, {
+  constant: true,
+  inputs: [],
+  name: 'minimumDepositAmount',
+  outputs: [{
+    name: '',
+    type: 'uint256'
+  }],
+  payable: false,
+  stateMutability: 'view',
+  type: 'function'
+}, {
+  constant: false,
+  inputs: [{
+    name: 'guaranteedRate',
+    type: 'uint256'
+  }],
+  name: 'exchangeEtherForSynthsAtRate',
+  outputs: [{
+    name: '',
+    type: 'uint256'
+  }],
+  payable: true,
+  stateMutability: 'payable',
+  type: 'function'
+}, {
+  constant: true,
+  inputs: [{
+    name: 'amount',
+    type: 'uint256'
+  }],
+  name: 'synthsReceivedForEther',
+  outputs: [{
+    name: '',
+    type: 'uint256'
+  }],
+  payable: false,
+  stateMutability: 'view',
+  type: 'function'
+}, {
+  constant: true,
+  inputs: [],
+  name: 'synth',
+  outputs: [{
+    name: '',
+    type: 'address'
+  }],
+  payable: false,
+  stateMutability: 'view',
+  type: 'function'
+}, {
+  constant: false,
+  inputs: [{
+    name: 'synthAmount',
+    type: 'uint256'
+  }],
+  name: 'exchangeSynthsForSynthetix',
+  outputs: [{
+    name: '',
+    type: 'uint256'
+  }],
+  payable: false,
+  stateMutability: 'nonpayable',
+  type: 'function'
+}, {
+  constant: false,
+  inputs: [{
+    name: '_owner',
+    type: 'address'
+  }],
+  name: 'nominateNewOwner',
+  outputs: [],
+  payable: false,
+  stateMutability: 'nonpayable',
+  type: 'function'
+}, {
+  constant: false,
+  inputs: [{
+    name: '_paused',
+    type: 'bool'
+  }],
+  name: 'setPaused',
+  outputs: [],
+  payable: false,
+  stateMutability: 'nonpayable',
+  type: 'function'
+}, {
+  constant: true,
+  inputs: [],
+  name: 'initiationTime',
+  outputs: [{
+    name: '',
+    type: 'uint256'
+  }],
+  payable: false,
+  stateMutability: 'view',
+  type: 'function'
+}, {
+  constant: false,
+  inputs: [],
+  name: 'exchangeEtherForSynths',
+  outputs: [{
+    name: '',
+    type: 'uint256'
+  }],
+  payable: true,
+  stateMutability: 'payable',
+  type: 'function'
+}, {
+  constant: false,
+  inputs: [{
+    name: '_beneficiary',
+    type: 'address'
+  }],
+  name: 'setSelfDestructBeneficiary',
+  outputs: [],
+  payable: false,
+  stateMutability: 'nonpayable',
+  type: 'function'
+}, {
+  constant: true,
+  inputs: [],
+  name: 'fundsWallet',
+  outputs: [{
+    name: '',
+    type: 'address'
+  }],
+  payable: false,
+  stateMutability: 'view',
+  type: 'function'
+}, {
+  constant: true,
+  inputs: [],
+  name: 'priceStalePeriod',
+  outputs: [{
+    name: '',
+    type: 'uint256'
+  }],
+  payable: false,
+  stateMutability: 'view',
+  type: 'function'
+}, {
+  constant: false,
+  inputs: [{
+    name: '_time',
+    type: 'uint256'
+  }],
+  name: 'setPriceStalePeriod',
+  outputs: [],
+  payable: false,
+  stateMutability: 'nonpayable',
+  type: 'function'
+}, {
+  constant: false,
+  inputs: [],
+  name: 'terminateSelfDestruct',
+  outputs: [],
+  payable: false,
+  stateMutability: 'nonpayable',
+  type: 'function'
+}, {
+  constant: false,
+  inputs: [{
+    name: '_synth',
+    type: 'address'
+  }],
+  name: 'setSynth',
+  outputs: [],
+  payable: false,
+  stateMutability: 'nonpayable',
+  type: 'function'
+}, {
+  constant: true,
+  inputs: [],
+  name: 'pricesAreStale',
+  outputs: [{
+    name: '',
+    type: 'bool'
+  }],
+  payable: false,
+  stateMutability: 'view',
+  type: 'function'
+}, {
+  constant: false,
+  inputs: [{
+    name: 'newEthPrice',
+    type: 'uint256'
+  }, {
+    name: 'newSynthetixPrice',
+    type: 'uint256'
+  }, {
+    name: 'timeSent',
+    type: 'uint256'
+  }],
+  name: 'updatePrices',
+  outputs: [],
+  payable: false,
+  stateMutability: 'nonpayable',
+  type: 'function'
+}, {
+  constant: true,
+  inputs: [],
+  name: 'lastPriceUpdateTime',
+  outputs: [{
+    name: '',
+    type: 'uint256'
+  }],
+  payable: false,
+  stateMutability: 'view',
+  type: 'function'
+}, {
+  constant: true,
+  inputs: [],
+  name: 'totalSellableDeposits',
+  outputs: [{
+    name: '',
+    type: 'uint256'
+  }],
+  payable: false,
+  stateMutability: 'view',
+  type: 'function'
+}, {
+  constant: true,
+  inputs: [],
+  name: 'snxProxy',
+  outputs: [{
+    name: '',
+    type: 'address'
+  }],
+  payable: false,
+  stateMutability: 'view',
+  type: 'function'
+}, {
+  constant: true,
+  inputs: [],
+  name: 'nominatedOwner',
+  outputs: [{
+    name: '',
+    type: 'address'
+  }],
+  payable: false,
+  stateMutability: 'view',
+  type: 'function'
+}, {
+  constant: false,
+  inputs: [{
+    name: 'synthAmount',
+    type: 'uint256'
+  }, {
+    name: 'guaranteedRate',
+    type: 'uint256'
+  }],
+  name: 'exchangeSynthsForSynthetixAtRate',
+  outputs: [{
+    name: '',
+    type: 'uint256'
+  }],
+  payable: false,
+  stateMutability: 'nonpayable',
+  type: 'function'
+}, {
+  constant: true,
+  inputs: [],
+  name: 'paused',
+  outputs: [{
+    name: '',
+    type: 'bool'
+  }],
+  payable: false,
+  stateMutability: 'view',
+  type: 'function'
+}, {
+  constant: false,
+  inputs: [{
+    name: '_fundsWallet',
+    type: 'address'
+  }],
+  name: 'setFundsWallet',
+  outputs: [],
+  payable: false,
+  stateMutability: 'nonpayable',
+  type: 'function'
+}, {
+  constant: true,
+  inputs: [],
+  name: 'depositStartIndex',
+  outputs: [{
+    name: '',
+    type: 'uint256'
+  }],
+  payable: false,
+  stateMutability: 'view',
+  type: 'function'
+}, {
+  constant: false,
+  inputs: [],
+  name: 'acceptOwnership',
+  outputs: [],
+  payable: false,
+  stateMutability: 'nonpayable',
+  type: 'function'
+}, {
+  constant: false,
+  inputs: [{
+    name: '_oracle',
+    type: 'address'
+  }],
+  name: 'setOracle',
+  outputs: [],
+  payable: false,
+  stateMutability: 'nonpayable',
+  type: 'function'
+}, {
+  constant: false,
+  inputs: [{
+    name: 'guaranteedEtherRate',
+    type: 'uint256'
+  }, {
+    name: 'guaranteedSynthetixRate',
+    type: 'uint256'
+  }],
+  name: 'exchangeEtherForSynthetixAtRate',
+  outputs: [{
+    name: '',
+    type: 'uint256'
+  }],
+  payable: true,
+  stateMutability: 'payable',
+  type: 'function'
+}, {
+  constant: true,
+  inputs: [],
+  name: 'oracle',
+  outputs: [{
+    name: '',
+    type: 'address'
+  }],
+  payable: false,
+  stateMutability: 'view',
+  type: 'function'
+}, {
+  constant: false,
+  inputs: [],
+  name: 'withdrawMyDepositedSynths',
+  outputs: [],
+  payable: false,
+  stateMutability: 'nonpayable',
+  type: 'function'
+}, {
+  constant: true,
+  inputs: [],
+  name: 'owner',
+  outputs: [{
+    name: '',
+    type: 'address'
+  }],
+  payable: false,
+  stateMutability: 'view',
+  type: 'function'
+}, {
+  constant: true,
+  inputs: [],
+  name: 'lastPauseTime',
+  outputs: [{
+    name: '',
+    type: 'uint256'
+  }],
+  payable: false,
+  stateMutability: 'view',
+  type: 'function'
+}, {
+  constant: false,
+  inputs: [],
+  name: 'selfDestruct',
+  outputs: [],
+  payable: false,
+  stateMutability: 'nonpayable',
+  type: 'function'
+}, {
+  constant: true,
+  inputs: [{
+    name: 'amount',
+    type: 'uint256'
+  }],
+  name: 'synthetixReceivedForSynths',
+  outputs: [{
+    name: '',
+    type: 'uint256'
+  }],
+  payable: false,
+  stateMutability: 'view',
+  type: 'function'
+}, {
+  constant: true,
+  inputs: [],
+  name: 'SELFDESTRUCT_DELAY',
+  outputs: [{
+    name: '',
+    type: 'uint256'
+  }],
+  payable: false,
+  stateMutability: 'view',
+  type: 'function'
+}, {
+  constant: false,
+  inputs: [{
+    name: '_amount',
+    type: 'uint256'
+  }],
+  name: 'setMinimumDepositAmount',
+  outputs: [],
+  payable: false,
+  stateMutability: 'nonpayable',
+  type: 'function'
+}, {
+  constant: true,
+  inputs: [],
+  name: 'feePool',
+  outputs: [{
+    name: '',
+    type: 'address'
+  }],
+  payable: false,
+  stateMutability: 'view',
+  type: 'function'
+}, {
+  constant: true,
+  inputs: [{
+    name: '',
+    type: 'uint256'
+  }],
+  name: 'deposits',
+  outputs: [{
+    name: 'user',
+    type: 'address'
+  }, {
+    name: 'amount',
+    type: 'uint256'
+  }],
+  payable: false,
+  stateMutability: 'view',
+  type: 'function'
+}, {
+  constant: true,
+  inputs: [],
+  name: 'selfDestructInitiated',
+  outputs: [{
+    name: '',
+    type: 'bool'
+  }],
+  payable: false,
+  stateMutability: 'view',
+  type: 'function'
+}, {
+  constant: true,
+  inputs: [],
+  name: 'usdToEthPrice',
+  outputs: [{
+    name: '',
+    type: 'uint256'
+  }],
+  payable: false,
+  stateMutability: 'view',
+  type: 'function'
+}, {
+  constant: false,
+  inputs: [],
+  name: 'initiateSelfDestruct',
+  outputs: [],
+  payable: false,
+  stateMutability: 'nonpayable',
+  type: 'function'
+}, {
+  constant: true,
+  inputs: [],
+  name: 'selfDestructBeneficiary',
+  outputs: [{
+    name: '',
+    type: 'address'
+  }],
+  payable: false,
+  stateMutability: 'view',
+  type: 'function'
+}, {
+  constant: true,
+  inputs: [{
+    name: '',
+    type: 'address'
+  }],
+  name: 'smallDeposits',
+  outputs: [{
+    name: '',
+    type: 'uint256'
+  }],
+  payable: false,
+  stateMutability: 'view',
+  type: 'function'
+}, {
+  constant: true,
+  inputs: [{
+    name: 'amount',
+    type: 'uint256'
+  }],
+  name: 'synthetixReceivedForEther',
+  outputs: [{
+    name: '',
+    type: 'uint256'
+  }],
+  payable: false,
+  stateMutability: 'view',
+  type: 'function'
+}, {
+  constant: false,
+  inputs: [{
+    name: 'amount',
+    type: 'uint256'
+  }],
+  name: 'depositSynths',
+  outputs: [],
+  payable: false,
+  stateMutability: 'nonpayable',
+  type: 'function'
+}, {
+  constant: false,
+  inputs: [{
+    name: 'amount',
+    type: 'uint256'
+  }],
+  name: 'withdrawSynthetix',
+  outputs: [],
+  payable: false,
+  stateMutability: 'nonpayable',
+  type: 'function'
+}, {
+  constant: true,
+  inputs: [],
+  name: 'usdToSnxPrice',
+  outputs: [{
+    name: '',
+    type: 'uint256'
+  }],
+  payable: false,
+  stateMutability: 'view',
+  type: 'function'
+}, {
+  constant: true,
+  inputs: [],
+  name: 'ORACLE_FUTURE_LIMIT',
+  outputs: [{
+    name: '',
+    type: 'uint256'
+  }],
+  payable: false,
+  stateMutability: 'view',
+  type: 'function'
+}, {
+  constant: true,
+  inputs: [],
+  name: 'depositEndIndex',
+  outputs: [{
+    name: '',
+    type: 'uint256'
+  }],
+  payable: false,
+  stateMutability: 'view',
+  type: 'function'
+}, {
+  constant: false,
+  inputs: [{
+    name: '_snxProxy',
+    type: 'address'
+  }],
+  name: 'setSynthetix',
+  outputs: [],
+  payable: false,
+  stateMutability: 'nonpayable',
+  type: 'function'
+}, {
+  inputs: [{
+    name: '_owner',
+    type: 'address'
+  }, {
+    name: '_fundsWallet',
+    type: 'address'
+  }, {
+    name: '_snxProxy',
+    type: 'address'
+  }, {
+    name: '_synth',
+    type: 'address'
+  }, {
+    name: '_feePool',
+    type: 'address'
+  }, {
+    name: '_oracle',
+    type: 'address'
+  }, {
+    name: '_usdToEthPrice',
+    type: 'uint256'
+  }, {
+    name: '_usdToSnxPrice',
+    type: 'uint256'
+  }],
+  payable: false,
+  stateMutability: 'nonpayable',
+  type: 'constructor'
+}, {
+  payable: true,
+  stateMutability: 'payable',
+  type: 'fallback'
+}, {
+  anonymous: false,
+  inputs: [{
+    indexed: false,
+    name: 'newFundsWallet',
+    type: 'address'
+  }],
+  name: 'FundsWalletUpdated',
+  type: 'event'
+}, {
+  anonymous: false,
+  inputs: [{
+    indexed: false,
+    name: 'newOracle',
+    type: 'address'
+  }],
+  name: 'OracleUpdated',
+  type: 'event'
+}, {
+  anonymous: false,
+  inputs: [{
+    indexed: false,
+    name: 'newSynthContract',
+    type: 'address'
+  }],
+  name: 'SynthUpdated',
+  type: 'event'
+}, {
+  anonymous: false,
+  inputs: [{
+    indexed: false,
+    name: 'newSNXProxy',
+    type: 'address'
+  }],
+  name: 'SynthetixUpdated',
+  type: 'event'
+}, {
+  anonymous: false,
+  inputs: [{
+    indexed: false,
+    name: 'priceStalePeriod',
+    type: 'uint256'
+  }],
+  name: 'PriceStalePeriodUpdated',
+  type: 'event'
+}, {
+  anonymous: false,
+  inputs: [{
+    indexed: false,
+    name: 'newEthPrice',
+    type: 'uint256'
+  }, {
+    indexed: false,
+    name: 'newSynthetixPrice',
+    type: 'uint256'
+  }, {
+    indexed: false,
+    name: 'timeSent',
+    type: 'uint256'
+  }],
+  name: 'PricesUpdated',
+  type: 'event'
+}, {
+  anonymous: false,
+  inputs: [{
+    indexed: false,
+    name: 'fromCurrency',
+    type: 'string'
+  }, {
+    indexed: false,
+    name: 'fromAmount',
+    type: 'uint256'
+  }, {
+    indexed: false,
+    name: 'toCurrency',
+    type: 'string'
+  }, {
+    indexed: false,
+    name: 'toAmount',
+    type: 'uint256'
+  }],
+  name: 'Exchange',
+  type: 'event'
+}, {
+  anonymous: false,
+  inputs: [{
+    indexed: false,
+    name: 'user',
+    type: 'address'
+  }, {
+    indexed: false,
+    name: 'amount',
+    type: 'uint256'
+  }],
+  name: 'SynthWithdrawal',
+  type: 'event'
+}, {
+  anonymous: false,
+  inputs: [{
+    indexed: true,
+    name: 'user',
+    type: 'address'
+  }, {
+    indexed: false,
+    name: 'amount',
+    type: 'uint256'
+  }, {
+    indexed: true,
+    name: 'depositIndex',
+    type: 'uint256'
+  }],
+  name: 'SynthDeposit',
+  type: 'event'
+}, {
+  anonymous: false,
+  inputs: [{
+    indexed: true,
+    name: 'user',
+    type: 'address'
+  }, {
+    indexed: false,
+    name: 'amount',
+    type: 'uint256'
+  }, {
+    indexed: true,
+    name: 'depositIndex',
+    type: 'uint256'
+  }],
+  name: 'SynthDepositRemoved',
+  type: 'event'
+}, {
+  anonymous: false,
+  inputs: [{
+    indexed: false,
+    name: 'user',
+    type: 'address'
+  }, {
+    indexed: false,
+    name: 'amount',
+    type: 'uint256'
+  }, {
+    indexed: false,
+    name: 'minimum',
+    type: 'uint256'
+  }],
+  name: 'SynthDepositNotAccepted',
+  type: 'event'
+}, {
+  anonymous: false,
+  inputs: [{
+    indexed: false,
+    name: 'amount',
+    type: 'uint256'
+  }],
+  name: 'MinimumDepositAmountUpdated',
+  type: 'event'
+}, {
+  anonymous: false,
+  inputs: [{
+    indexed: true,
+    name: 'receiver',
+    type: 'address'
+  }, {
+    indexed: false,
+    name: 'amount',
+    type: 'uint256'
+  }],
+  name: 'NonPayableContract',
+  type: 'event'
+}, {
+  anonymous: false,
+  inputs: [{
+    indexed: true,
+    name: 'fromAddress',
+    type: 'address'
+  }, {
+    indexed: true,
+    name: 'toAddress',
+    type: 'address'
+  }, {
+    indexed: false,
+    name: 'fromETHAmount',
+    type: 'uint256'
+  }, {
+    indexed: false,
+    name: 'toAmount',
+    type: 'uint256'
+  }, {
+    indexed: true,
+    name: 'depositIndex',
+    type: 'uint256'
+  }],
+  name: 'ClearedDeposit',
+  type: 'event'
+}, {
+  anonymous: false,
+  inputs: [{
+    indexed: false,
+    name: 'isPaused',
+    type: 'bool'
+  }],
+  name: 'PauseChanged',
+  type: 'event'
+}, {
+  anonymous: false,
+  inputs: [],
+  name: 'SelfDestructTerminated',
+  type: 'event'
+}, {
+  anonymous: false,
+  inputs: [{
+    indexed: false,
+    name: 'beneficiary',
+    type: 'address'
+  }],
+  name: 'SelfDestructed',
+  type: 'event'
+}, {
+  anonymous: false,
+  inputs: [{
+    indexed: false,
+    name: 'selfDestructDelay',
+    type: 'uint256'
+  }],
+  name: 'SelfDestructInitiated',
+  type: 'event'
+}, {
+  anonymous: false,
+  inputs: [{
+    indexed: false,
+    name: 'newBeneficiary',
+    type: 'address'
+  }],
+  name: 'SelfDestructBeneficiaryUpdated',
+  type: 'event'
+}, {
+  anonymous: false,
+  inputs: [{
+    indexed: false,
+    name: 'newOwner',
+    type: 'address'
+  }],
+  name: 'OwnerNominated',
+  type: 'event'
+}, {
+  anonymous: false,
+  inputs: [{
+    indexed: false,
+    name: 'oldOwner',
+    type: 'address'
+  }, {
+    indexed: false,
+    name: 'newOwner',
+    type: 'address'
+  }],
+  name: 'OwnerChanged',
+  type: 'event'
+}]);
 // CONCATENATED MODULE: ./lib/abis/shasta/EscrowChecker.js
 
 /* harmony default export */ var shasta_EscrowChecker = (EscrowChecker);
@@ -45859,6 +46740,13 @@ var MAINNET_SYNTHS = [{
     upperLimit: 330,
     lowerLimit: 110
   }
+}, {
+  name: 'sLINK',
+  asset: 'LINK',
+  category: 'crypto',
+  sign: '',
+  desc: 'ChainLink token',
+  aggregator: ''
 }];
 var SHASTA_SYNTHS = [{
   name: 'ODR',
@@ -78620,7 +79508,1416 @@ function iETH(contractSettings) {
 }
 
 /* harmony default export */ var mainnet_iETH = (iETH);
+// CONCATENATED MODULE: ./src/contracts/mainnet/sLINK.js
+
+
+
+
+function sLINK_ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function sLINK_objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { sLINK_ownKeys(Object(source), true).forEach(function (key) { defineProperty_default()(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { sLINK_ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+
+
+
+/** @constructor
+ * @param contractSettings {ContractSettings}
+ */
+
+function sLINK(contractSettings) {
+  var _this = this;
+
+  this.contractSettings = contractSettings || new src_contractSettings();
+  var address = this.contractSettings.addressList['ProxysLINK'];
+  var tronWeb = this.contractSettings.tronWeb;
+  this.signer = this.contractSettings.signer;
+  this.contract = tronContract(mainnet_Synth, address, tronWeb, this.signer);
+  /**
+   * Call (no gas consumed, doesn't require signer)
+   * @returns String
+   **/
+
+  this.name =
+  /*#__PURE__*/
+  asyncToGenerator_default()(
+  /*#__PURE__*/
+  regenerator_default.a.mark(function _callee() {
+    return regenerator_default.a.wrap(function _callee$(_context) {
+      while (1) {
+        switch (_context.prev = _context.next) {
+          case 0:
+            _context.next = 2;
+            return _this.contract.name().call({
+              _isConstant: true
+            });
+
+          case 2:
+            return _context.abrupt("return", _context.sent);
+
+          case 3:
+          case "end":
+            return _context.stop();
+        }
+      }
+    }, _callee);
+  }));
+  /**
+   * Transaction (consumes gas, requires signer)
+   * @param spender {String<TrxAddress>}
+   * @param value {BigNumber}
+   * @param txParams {TxParams}
+   * @returns boolean
+   **/
+
+  this.approve =
+  /*#__PURE__*/
+  function () {
+    var _ref2 = asyncToGenerator_default()(
+    /*#__PURE__*/
+    regenerator_default.a.mark(function _callee2(spender, value, txParams) {
+      var txHash;
+      return regenerator_default.a.wrap(function _callee2$(_context2) {
+        while (1) {
+          switch (_context2.prev = _context2.next) {
+            case 0:
+              txParams = txParams || {};
+              txParams = sLINK_objectSpread({
+                // fee limit in SUN
+                feeLimit: 50000000
+              }, txParams);
+              _context2.next = 4;
+              return _this.contract.approve(spender, value).send(txParams);
+
+            case 4:
+              txHash = _context2.sent;
+              return _context2.abrupt("return", {
+                hash: txHash
+              });
+
+            case 6:
+            case "end":
+              return _context2.stop();
+          }
+        }
+      }, _callee2);
+    }));
+
+    return function (_x, _x2, _x3) {
+      return _ref2.apply(this, arguments);
+    };
+  }();
+  /**
+   * Transaction (consumes gas, requires signer)
+   * @param _integrationProxy {String<TrxAddress>}
+   * @param txParams {TxParams}
+  
+   **/
+
+
+  this.setIntegrationProxy =
+  /*#__PURE__*/
+  function () {
+    var _ref3 = asyncToGenerator_default()(
+    /*#__PURE__*/
+    regenerator_default.a.mark(function _callee3(_integrationProxy, txParams) {
+      var txHash;
+      return regenerator_default.a.wrap(function _callee3$(_context3) {
+        while (1) {
+          switch (_context3.prev = _context3.next) {
+            case 0:
+              txParams = txParams || {};
+              txParams = sLINK_objectSpread({
+                // fee limit in SUN
+                feeLimit: 50000000
+              }, txParams);
+              _context3.next = 4;
+              return _this.contract.setIntegrationProxy(_integrationProxy).send(txParams);
+
+            case 4:
+              txHash = _context3.sent;
+              return _context3.abrupt("return", {
+                hash: txHash
+              });
+
+            case 6:
+            case "end":
+              return _context3.stop();
+          }
+        }
+      }, _callee3);
+    }));
+
+    return function (_x4, _x5) {
+      return _ref3.apply(this, arguments);
+    };
+  }();
+  /**
+   * Transaction (consumes gas, requires signer)
+   * @param _owner {String<TrxAddress>}
+   * @param txParams {TxParams}
+  
+   **/
+
+
+  this.nominateNewOwner =
+  /*#__PURE__*/
+  function () {
+    var _ref4 = asyncToGenerator_default()(
+    /*#__PURE__*/
+    regenerator_default.a.mark(function _callee4(_owner, txParams) {
+      var txHash;
+      return regenerator_default.a.wrap(function _callee4$(_context4) {
+        while (1) {
+          switch (_context4.prev = _context4.next) {
+            case 0:
+              txParams = txParams || {};
+              txParams = sLINK_objectSpread({
+                // fee limit in SUN
+                feeLimit: 50000000
+              }, txParams);
+              _context4.next = 4;
+              return _this.contract.nominateNewOwner(_owner).send(txParams);
+
+            case 4:
+              txHash = _context4.sent;
+              return _context4.abrupt("return", {
+                hash: txHash
+              });
+
+            case 6:
+            case "end":
+              return _context4.stop();
+          }
+        }
+      }, _callee4);
+    }));
+
+    return function (_x6, _x7) {
+      return _ref4.apply(this, arguments);
+    };
+  }();
+  /**
+   * Call (no gas consumed, doesn't require signer)
+   * @returns BigNumber
+   **/
+
+
+  this.initiationTime =
+  /*#__PURE__*/
+  asyncToGenerator_default()(
+  /*#__PURE__*/
+  regenerator_default.a.mark(function _callee5() {
+    return regenerator_default.a.wrap(function _callee5$(_context5) {
+      while (1) {
+        switch (_context5.prev = _context5.next) {
+          case 0:
+            _context5.next = 2;
+            return _this.contract.initiationTime().call({
+              _isConstant: true
+            });
+
+          case 2:
+            return _context5.abrupt("return", _context5.sent);
+
+          case 3:
+          case "end":
+            return _context5.stop();
+        }
+      }
+    }, _callee5);
+  }));
+  /**
+   * Call (no gas consumed, doesn't require signer)
+   * @returns BigNumber
+   **/
+
+  this.totalSupply =
+  /*#__PURE__*/
+  asyncToGenerator_default()(
+  /*#__PURE__*/
+  regenerator_default.a.mark(function _callee6() {
+    return regenerator_default.a.wrap(function _callee6$(_context6) {
+      while (1) {
+        switch (_context6.prev = _context6.next) {
+          case 0:
+            _context6.next = 2;
+            return _this.contract.totalSupply().call({
+              _isConstant: true
+            });
+
+          case 2:
+            return _context6.abrupt("return", _context6.sent);
+
+          case 3:
+          case "end":
+            return _context6.stop();
+        }
+      }
+    }, _callee6);
+  }));
+  /**
+   * Transaction (consumes gas, requires signer)
+   * @param _beneficiary {String<TrxAddress>}
+   * @param txParams {TxParams}
+  
+   **/
+
+  this.setSelfDestructBeneficiary =
+  /*#__PURE__*/
+  function () {
+    var _ref7 = asyncToGenerator_default()(
+    /*#__PURE__*/
+    regenerator_default.a.mark(function _callee7(_beneficiary, txParams) {
+      var txHash;
+      return regenerator_default.a.wrap(function _callee7$(_context7) {
+        while (1) {
+          switch (_context7.prev = _context7.next) {
+            case 0:
+              txParams = txParams || {};
+              txParams = sLINK_objectSpread({
+                // fee limit in SUN
+                feeLimit: 50000000
+              }, txParams);
+              _context7.next = 4;
+              return _this.contract.setSelfDestructBeneficiary(_beneficiary).send(txParams);
+
+            case 4:
+              txHash = _context7.sent;
+              return _context7.abrupt("return", {
+                hash: txHash
+              });
+
+            case 6:
+            case "end":
+              return _context7.stop();
+          }
+        }
+      }, _callee7);
+    }));
+
+    return function (_x8, _x9) {
+      return _ref7.apply(this, arguments);
+    };
+  }();
+  /**
+   * Override ERC20 transferFrom function in order to subtract the transaction fee and send it to the fee pool for SNX holders to claim.<br>
+   * Transaction (consumes gas, requires signer)
+   * @param from {String<TrxAddress>}
+   * @param to {String<TrxAddress>}
+   * @param value {BigNumber}
+   * @param txParams {TxParams}
+   * @returns boolean
+   **/
+
+
+  this.transferFrom =
+  /*#__PURE__*/
+  function () {
+    var _ref8 = asyncToGenerator_default()(
+    /*#__PURE__*/
+    regenerator_default.a.mark(function _callee8(from, to, value, txParams) {
+      var txHash;
+      return regenerator_default.a.wrap(function _callee8$(_context8) {
+        while (1) {
+          switch (_context8.prev = _context8.next) {
+            case 0:
+              txParams = txParams || {};
+              txParams = sLINK_objectSpread({
+                // fee limit in SUN
+                feeLimit: 50000000
+              }, txParams);
+              _context8.next = 4;
+              return _this.contract.transferFrom(from, to, value).send(txParams);
+
+            case 4:
+              txHash = _context8.sent;
+              return _context8.abrupt("return", {
+                hash: txHash
+              });
+
+            case 6:
+            case "end":
+              return _context8.stop();
+          }
+        }
+      }, _callee8);
+    }));
+
+    return function (_x10, _x11, _x12, _x13) {
+      return _ref8.apply(this, arguments);
+    };
+  }();
+  /**
+   * Call (no gas consumed, doesn't require signer)
+   * @returns Number
+   **/
+
+
+  this.decimals =
+  /*#__PURE__*/
+  asyncToGenerator_default()(
+  /*#__PURE__*/
+  regenerator_default.a.mark(function _callee9() {
+    return regenerator_default.a.wrap(function _callee9$(_context9) {
+      while (1) {
+        switch (_context9.prev = _context9.next) {
+          case 0:
+            _context9.next = 2;
+            return _this.contract.decimals().call({
+              _isConstant: true
+            });
+
+          case 2:
+            return _context9.abrupt("return", _context9.sent);
+
+          case 3:
+          case "end":
+            return _context9.stop();
+        }
+      }
+    }, _callee9);
+  }));
+  /**
+   * Transaction (consumes gas, requires signer)
+   * @param txParams {TxParams}
+  
+   **/
+
+  this.terminateSelfDestruct =
+  /*#__PURE__*/
+  function () {
+    var _ref10 = asyncToGenerator_default()(
+    /*#__PURE__*/
+    regenerator_default.a.mark(function _callee10(txParams) {
+      var txHash;
+      return regenerator_default.a.wrap(function _callee10$(_context10) {
+        while (1) {
+          switch (_context10.prev = _context10.next) {
+            case 0:
+              txParams = txParams || {};
+              txParams = sLINK_objectSpread({
+                // fee limit in SUN
+                feeLimit: 50000000
+              }, txParams);
+              _context10.next = 4;
+              return _this.contract.terminateSelfDestruct().send(txParams);
+
+            case 4:
+              txHash = _context10.sent;
+              return _context10.abrupt("return", {
+                hash: txHash
+              });
+
+            case 6:
+            case "end":
+              return _context10.stop();
+          }
+        }
+      }, _callee10);
+    }));
+
+    return function (_x14) {
+      return _ref10.apply(this, arguments);
+    };
+  }();
+  /**
+   * Call (no gas consumed, doesn't require signer)
+   * @returns String<TrxAddress>
+   **/
+
+
+  this.nominatedOwner =
+  /*#__PURE__*/
+  asyncToGenerator_default()(
+  /*#__PURE__*/
+  regenerator_default.a.mark(function _callee11() {
+    return regenerator_default.a.wrap(function _callee11$(_context11) {
+      while (1) {
+        switch (_context11.prev = _context11.next) {
+          case 0:
+            _context11.next = 2;
+            return _this.contract.nominatedOwner().call({
+              _isConstant: true
+            });
+
+          case 2:
+            return _context11.abrupt("return", _context11.sent);
+
+          case 3:
+          case "end":
+            return _context11.stop();
+        }
+      }
+    }, _callee11);
+  }));
+  /**
+   * Call (no gas consumed, doesn't require signer)
+   * @param account {String<TrxAddress>}
+   * @returns BigNumber
+   **/
+
+  this.balanceOf =
+  /*#__PURE__*/
+  function () {
+    var _ref12 = asyncToGenerator_default()(
+    /*#__PURE__*/
+    regenerator_default.a.mark(function _callee12(account) {
+      return regenerator_default.a.wrap(function _callee12$(_context12) {
+        while (1) {
+          switch (_context12.prev = _context12.next) {
+            case 0:
+              _context12.next = 2;
+              return _this.contract.balanceOf(account).call({
+                _isConstant: true
+              });
+
+            case 2:
+              return _context12.abrupt("return", _context12.sent);
+
+            case 3:
+            case "end":
+              return _context12.stop();
+          }
+        }
+      }, _callee12);
+    }));
+
+    return function (_x15) {
+      return _ref12.apply(this, arguments);
+    };
+  }();
+  /**
+   * Transaction (consumes gas, requires signer)
+   * @param txParams {TxParams}
+  
+   **/
+
+
+  this.acceptOwnership =
+  /*#__PURE__*/
+  function () {
+    var _ref13 = asyncToGenerator_default()(
+    /*#__PURE__*/
+    regenerator_default.a.mark(function _callee13(txParams) {
+      var txHash;
+      return regenerator_default.a.wrap(function _callee13$(_context13) {
+        while (1) {
+          switch (_context13.prev = _context13.next) {
+            case 0:
+              txParams = txParams || {};
+              txParams = sLINK_objectSpread({
+                // fee limit in SUN
+                feeLimit: 50000000
+              }, txParams);
+              _context13.next = 4;
+              return _this.contract.acceptOwnership().send(txParams);
+
+            case 4:
+              txHash = _context13.sent;
+              return _context13.abrupt("return", {
+                hash: txHash
+              });
+
+            case 6:
+            case "end":
+              return _context13.stop();
+          }
+        }
+      }, _callee13);
+    }));
+
+    return function (_x16) {
+      return _ref13.apply(this, arguments);
+    };
+  }();
+  /**
+   * Transaction (consumes gas, requires signer)
+   * @param account {String<TrxAddress>}
+   * @param amount {BigNumber}
+   * @param txParams {TxParams}
+  
+   **/
+
+
+  this.issue =
+  /*#__PURE__*/
+  function () {
+    var _ref14 = asyncToGenerator_default()(
+    /*#__PURE__*/
+    regenerator_default.a.mark(function _callee14(account, amount, txParams) {
+      var txHash;
+      return regenerator_default.a.wrap(function _callee14$(_context14) {
+        while (1) {
+          switch (_context14.prev = _context14.next) {
+            case 0:
+              txParams = txParams || {};
+              txParams = sLINK_objectSpread({
+                // fee limit in SUN
+                feeLimit: 50000000
+              }, txParams);
+              _context14.next = 4;
+              return _this.contract.issue(account, amount).send(txParams);
+
+            case 4:
+              txHash = _context14.sent;
+              return _context14.abrupt("return", {
+                hash: txHash
+              });
+
+            case 6:
+            case "end":
+              return _context14.stop();
+          }
+        }
+      }, _callee14);
+    }));
+
+    return function (_x17, _x18, _x19) {
+      return _ref14.apply(this, arguments);
+    };
+  }();
+  /**
+   * Call (no gas consumed, doesn't require signer)
+   * @returns String<TrxAddress>
+   **/
+
+
+  this.owner =
+  /*#__PURE__*/
+  asyncToGenerator_default()(
+  /*#__PURE__*/
+  regenerator_default.a.mark(function _callee15() {
+    return regenerator_default.a.wrap(function _callee15$(_context15) {
+      while (1) {
+        switch (_context15.prev = _context15.next) {
+          case 0:
+            _context15.next = 2;
+            return _this.contract.owner().call({
+              _isConstant: true
+            });
+
+          case 2:
+            return _context15.abrupt("return", _context15.sent);
+
+          case 3:
+          case "end":
+            return _context15.stop();
+        }
+      }
+    }, _callee15);
+  }));
+  /**
+   * Transaction (consumes gas, requires signer)
+   * @param _synthetixProxy {String<TrxAddress>}
+   * @param txParams {TxParams}
+  
+   **/
+
+  this.setSynthetixProxy =
+  /*#__PURE__*/
+  function () {
+    var _ref16 = asyncToGenerator_default()(
+    /*#__PURE__*/
+    regenerator_default.a.mark(function _callee16(_synthetixProxy, txParams) {
+      var txHash;
+      return regenerator_default.a.wrap(function _callee16$(_context16) {
+        while (1) {
+          switch (_context16.prev = _context16.next) {
+            case 0:
+              txParams = txParams || {};
+              txParams = sLINK_objectSpread({
+                // fee limit in SUN
+                feeLimit: 50000000
+              }, txParams);
+              _context16.next = 4;
+              return _this.contract.setSynthetixProxy(_synthetixProxy).send(txParams);
+
+            case 4:
+              txHash = _context16.sent;
+              return _context16.abrupt("return", {
+                hash: txHash
+              });
+
+            case 6:
+            case "end":
+              return _context16.stop();
+          }
+        }
+      }, _callee16);
+    }));
+
+    return function (_x20, _x21) {
+      return _ref16.apply(this, arguments);
+    };
+  }();
+  /**
+   * Call (no gas consumed, doesn't require signer)
+   * @returns String
+   **/
+
+
+  this.symbol =
+  /*#__PURE__*/
+  asyncToGenerator_default()(
+  /*#__PURE__*/
+  regenerator_default.a.mark(function _callee17() {
+    return regenerator_default.a.wrap(function _callee17$(_context17) {
+      while (1) {
+        switch (_context17.prev = _context17.next) {
+          case 0:
+            _context17.next = 2;
+            return _this.contract.symbol().call({
+              _isConstant: true
+            });
+
+          case 2:
+            return _context17.abrupt("return", _context17.sent);
+
+          case 3:
+          case "end":
+            return _context17.stop();
+        }
+      }
+    }, _callee17);
+  }));
+  /**
+   * Transaction (consumes gas, requires signer)
+   * @param _proxy {String<TrxAddress>}
+   * @param txParams {TxParams}
+  
+   **/
+
+  this.setProxy =
+  /*#__PURE__*/
+  function () {
+    var _ref18 = asyncToGenerator_default()(
+    /*#__PURE__*/
+    regenerator_default.a.mark(function _callee18(_proxy, txParams) {
+      var txHash;
+      return regenerator_default.a.wrap(function _callee18$(_context18) {
+        while (1) {
+          switch (_context18.prev = _context18.next) {
+            case 0:
+              txParams = txParams || {};
+              txParams = sLINK_objectSpread({
+                // fee limit in SUN
+                feeLimit: 50000000
+              }, txParams);
+              _context18.next = 4;
+              return _this.contract.setProxy(_proxy).send(txParams);
+
+            case 4:
+              txHash = _context18.sent;
+              return _context18.abrupt("return", {
+                hash: txHash
+              });
+
+            case 6:
+            case "end":
+              return _context18.stop();
+          }
+        }
+      }, _callee18);
+    }));
+
+    return function (_x22, _x23) {
+      return _ref18.apply(this, arguments);
+    };
+  }();
+  /**
+   * Transaction (consumes gas, requires signer)
+   * @param txParams {TxParams}
+  
+   **/
+
+
+  this.selfDestruct =
+  /*#__PURE__*/
+  function () {
+    var _ref19 = asyncToGenerator_default()(
+    /*#__PURE__*/
+    regenerator_default.a.mark(function _callee19(txParams) {
+      var txHash;
+      return regenerator_default.a.wrap(function _callee19$(_context19) {
+        while (1) {
+          switch (_context19.prev = _context19.next) {
+            case 0:
+              txParams = txParams || {};
+              txParams = sLINK_objectSpread({
+                // fee limit in SUN
+                feeLimit: 50000000
+              }, txParams);
+              _context19.next = 4;
+              return _this.contract.selfDestruct().send(txParams);
+
+            case 4:
+              txHash = _context19.sent;
+              return _context19.abrupt("return", {
+                hash: txHash
+              });
+
+            case 6:
+            case "end":
+              return _context19.stop();
+          }
+        }
+      }, _callee19);
+    }));
+
+    return function (_x24) {
+      return _ref19.apply(this, arguments);
+    };
+  }();
+  /**
+   * Call (no gas consumed, doesn't require signer)
+   * @returns String<TrxAddress>
+   **/
+
+
+  this.integrationProxy =
+  /*#__PURE__*/
+  asyncToGenerator_default()(
+  /*#__PURE__*/
+  regenerator_default.a.mark(function _callee20() {
+    return regenerator_default.a.wrap(function _callee20$(_context20) {
+      while (1) {
+        switch (_context20.prev = _context20.next) {
+          case 0:
+            _context20.next = 2;
+            return _this.contract.integrationProxy().call({
+              _isConstant: true
+            });
+
+          case 2:
+            return _context20.abrupt("return", _context20.sent);
+
+          case 3:
+          case "end":
+            return _context20.stop();
+        }
+      }
+    }, _callee20);
+  }));
+  /**
+   * Transaction (consumes gas, requires signer)
+   * @param account {String<TrxAddress>}
+   * @param amount {BigNumber}
+   * @param txParams {TxParams}
+  
+   **/
+
+  this.burn =
+  /*#__PURE__*/
+  function () {
+    var _ref21 = asyncToGenerator_default()(
+    /*#__PURE__*/
+    regenerator_default.a.mark(function _callee21(account, amount, txParams) {
+      var txHash;
+      return regenerator_default.a.wrap(function _callee21$(_context21) {
+        while (1) {
+          switch (_context21.prev = _context21.next) {
+            case 0:
+              txParams = txParams || {};
+              txParams = sLINK_objectSpread({
+                // fee limit in SUN
+                feeLimit: 50000000
+              }, txParams);
+              _context21.next = 4;
+              return _this.contract.burn(account, amount).send(txParams);
+
+            case 4:
+              txHash = _context21.sent;
+              return _context21.abrupt("return", {
+                hash: txHash
+              });
+
+            case 6:
+            case "end":
+              return _context21.stop();
+          }
+        }
+      }, _callee21);
+    }));
+
+    return function (_x25, _x26, _x27) {
+      return _ref21.apply(this, arguments);
+    };
+  }();
+  /**
+   * Transaction (consumes gas, requires signer)
+   * @param _tokenState {String<TrxAddress>}
+   * @param txParams {TxParams}
+  
+   **/
+
+
+  this.setTokenState =
+  /*#__PURE__*/
+  function () {
+    var _ref22 = asyncToGenerator_default()(
+    /*#__PURE__*/
+    regenerator_default.a.mark(function _callee22(_tokenState, txParams) {
+      var txHash;
+      return regenerator_default.a.wrap(function _callee22$(_context22) {
+        while (1) {
+          switch (_context22.prev = _context22.next) {
+            case 0:
+              txParams = txParams || {};
+              txParams = sLINK_objectSpread({
+                // fee limit in SUN
+                feeLimit: 50000000
+              }, txParams);
+              _context22.next = 4;
+              return _this.contract.setTokenState(_tokenState).send(txParams);
+
+            case 4:
+              txHash = _context22.sent;
+              return _context22.abrupt("return", {
+                hash: txHash
+              });
+
+            case 6:
+            case "end":
+              return _context22.stop();
+          }
+        }
+      }, _callee22);
+    }));
+
+    return function (_x28, _x29) {
+      return _ref22.apply(this, arguments);
+    };
+  }();
+  /**
+   * Call (no gas consumed, doesn't require signer)
+   * @returns BigNumber
+   **/
+
+
+  this.SELFDESTRUCT_DELAY =
+  /*#__PURE__*/
+  asyncToGenerator_default()(
+  /*#__PURE__*/
+  regenerator_default.a.mark(function _callee23() {
+    return regenerator_default.a.wrap(function _callee23$(_context23) {
+      while (1) {
+        switch (_context23.prev = _context23.next) {
+          case 0:
+            _context23.next = 2;
+            return _this.contract.SELFDESTRUCT_DELAY().call({
+              _isConstant: true
+            });
+
+          case 2:
+            return _context23.abrupt("return", _context23.sent);
+
+          case 3:
+          case "end":
+            return _context23.stop();
+        }
+      }
+    }, _callee23);
+  }));
+  /**
+   * Override ERC20 transfer function in order to subtract the transaction fee and send it to the fee pool for SNX holders to claim.<br>
+   * Transaction (consumes gas, requires signer)
+   * @param to {String<TrxAddress>}
+   * @param value {BigNumber}
+   * @param txParams {TxParams}
+   * @returns boolean
+   **/
+
+  this.transfer =
+  /*#__PURE__*/
+  function () {
+    var _ref24 = asyncToGenerator_default()(
+    /*#__PURE__*/
+    regenerator_default.a.mark(function _callee24(to, value, txParams) {
+      var txHash;
+      return regenerator_default.a.wrap(function _callee24$(_context24) {
+        while (1) {
+          switch (_context24.prev = _context24.next) {
+            case 0:
+              txParams = txParams || {};
+              txParams = sLINK_objectSpread({
+                // fee limit in SUN
+                feeLimit: 50000000
+              }, txParams);
+              _context24.next = 4;
+              return _this.contract.transfer(to, value).send(txParams);
+
+            case 4:
+              txHash = _context24.sent;
+              return _context24.abrupt("return", {
+                hash: txHash
+              });
+
+            case 6:
+            case "end":
+              return _context24.stop();
+          }
+        }
+      }, _callee24);
+    }));
+
+    return function (_x30, _x31, _x32) {
+      return _ref24.apply(this, arguments);
+    };
+  }();
+  /**
+   * Call (no gas consumed, doesn't require signer)
+   * @returns boolean
+   **/
+
+
+  this.selfDestructInitiated =
+  /*#__PURE__*/
+  asyncToGenerator_default()(
+  /*#__PURE__*/
+  regenerator_default.a.mark(function _callee25() {
+    return regenerator_default.a.wrap(function _callee25$(_context25) {
+      while (1) {
+        switch (_context25.prev = _context25.next) {
+          case 0:
+            _context25.next = 2;
+            return _this.contract.selfDestructInitiated().call({
+              _isConstant: true
+            });
+
+          case 2:
+            return _context25.abrupt("return", _context25.sent);
+
+          case 3:
+          case "end":
+            return _context25.stop();
+        }
+      }
+    }, _callee25);
+  }));
+  /**
+   * Transaction (consumes gas, requires signer)
+   * @param sender {String<TrxAddress>}
+   * @param txParams {TxParams}
+  
+   **/
+
+  this.setMessageSender =
+  /*#__PURE__*/
+  function () {
+    var _ref26 = asyncToGenerator_default()(
+    /*#__PURE__*/
+    regenerator_default.a.mark(function _callee26(sender, txParams) {
+      var txHash;
+      return regenerator_default.a.wrap(function _callee26$(_context26) {
+        while (1) {
+          switch (_context26.prev = _context26.next) {
+            case 0:
+              txParams = txParams || {};
+              txParams = sLINK_objectSpread({
+                // fee limit in SUN
+                feeLimit: 50000000
+              }, txParams);
+              _context26.next = 4;
+              return _this.contract.setMessageSender(sender).send(txParams);
+
+            case 4:
+              txHash = _context26.sent;
+              return _context26.abrupt("return", {
+                hash: txHash
+              });
+
+            case 6:
+            case "end":
+              return _context26.stop();
+          }
+        }
+      }, _callee26);
+    }));
+
+    return function (_x33, _x34) {
+      return _ref26.apply(this, arguments);
+    };
+  }();
+  /**
+   * Transaction (consumes gas, requires signer)
+   * @param txParams {TxParams}
+  
+   **/
+
+
+  this.initiateSelfDestruct =
+  /*#__PURE__*/
+  function () {
+    var _ref27 = asyncToGenerator_default()(
+    /*#__PURE__*/
+    regenerator_default.a.mark(function _callee27(txParams) {
+      var txHash;
+      return regenerator_default.a.wrap(function _callee27$(_context27) {
+        while (1) {
+          switch (_context27.prev = _context27.next) {
+            case 0:
+              txParams = txParams || {};
+              txParams = sLINK_objectSpread({
+                // fee limit in SUN
+                feeLimit: 50000000
+              }, txParams);
+              _context27.next = 4;
+              return _this.contract.initiateSelfDestruct().send(txParams);
+
+            case 4:
+              txHash = _context27.sent;
+              return _context27.abrupt("return", {
+                hash: txHash
+              });
+
+            case 6:
+            case "end":
+              return _context27.stop();
+          }
+        }
+      }, _callee27);
+    }));
+
+    return function (_x35) {
+      return _ref27.apply(this, arguments);
+    };
+  }();
+  /**
+   * Call (no gas consumed, doesn't require signer)
+   * @returns String<TrxAddress>
+   **/
+
+
+  this.synthetixProxy =
+  /*#__PURE__*/
+  asyncToGenerator_default()(
+  /*#__PURE__*/
+  regenerator_default.a.mark(function _callee28() {
+    return regenerator_default.a.wrap(function _callee28$(_context28) {
+      while (1) {
+        switch (_context28.prev = _context28.next) {
+          case 0:
+            _context28.next = 2;
+            return _this.contract.synthetixProxy().call({
+              _isConstant: true
+            });
+
+          case 2:
+            return _context28.abrupt("return", _context28.sent);
+
+          case 3:
+          case "end":
+            return _context28.stop();
+        }
+      }
+    }, _callee28);
+  }));
+  /**
+   * Call (no gas consumed, doesn't require signer)
+   * @returns String<TrxAddress>
+   **/
+
+  this.selfDestructBeneficiary =
+  /*#__PURE__*/
+  asyncToGenerator_default()(
+  /*#__PURE__*/
+  regenerator_default.a.mark(function _callee29() {
+    return regenerator_default.a.wrap(function _callee29$(_context29) {
+      while (1) {
+        switch (_context29.prev = _context29.next) {
+          case 0:
+            _context29.next = 2;
+            return _this.contract.selfDestructBeneficiary().call({
+              _isConstant: true
+            });
+
+          case 2:
+            return _context29.abrupt("return", _context29.sent);
+
+          case 3:
+          case "end":
+            return _context29.stop();
+        }
+      }
+    }, _callee29);
+  }));
+  /**
+   * Call (no gas consumed, doesn't require signer)
+   * @returns String<TrxAddress>
+   **/
+
+  this.feePoolProxy =
+  /*#__PURE__*/
+  asyncToGenerator_default()(
+  /*#__PURE__*/
+  regenerator_default.a.mark(function _callee30() {
+    return regenerator_default.a.wrap(function _callee30$(_context30) {
+      while (1) {
+        switch (_context30.prev = _context30.next) {
+          case 0:
+            _context30.next = 2;
+            return _this.contract.feePoolProxy().call({
+              _isConstant: true
+            });
+
+          case 2:
+            return _context30.abrupt("return", _context30.sent);
+
+          case 3:
+          case "end":
+            return _context30.stop();
+        }
+      }
+    }, _callee30);
+  }));
+  /**
+   * Call (no gas consumed, doesn't require signer)
+   * @returns String<TrxAddress>
+   **/
+
+  this.messageSender =
+  /*#__PURE__*/
+  asyncToGenerator_default()(
+  /*#__PURE__*/
+  regenerator_default.a.mark(function _callee31() {
+    return regenerator_default.a.wrap(function _callee31$(_context31) {
+      while (1) {
+        switch (_context31.prev = _context31.next) {
+          case 0:
+            _context31.next = 2;
+            return _this.contract.messageSender().call({
+              _isConstant: true
+            });
+
+          case 2:
+            return _context31.abrupt("return", _context31.sent);
+
+          case 3:
+          case "end":
+            return _context31.stop();
+        }
+      }
+    }, _callee31);
+  }));
+  /**
+   * Transaction (consumes gas, requires signer)
+   * @param _feePoolProxy {String<TrxAddress>}
+   * @param txParams {TxParams}
+  
+   **/
+
+  this.setFeePoolProxy =
+  /*#__PURE__*/
+  function () {
+    var _ref32 = asyncToGenerator_default()(
+    /*#__PURE__*/
+    regenerator_default.a.mark(function _callee32(_feePoolProxy, txParams) {
+      var txHash;
+      return regenerator_default.a.wrap(function _callee32$(_context32) {
+        while (1) {
+          switch (_context32.prev = _context32.next) {
+            case 0:
+              txParams = txParams || {};
+              txParams = sLINK_objectSpread({
+                // fee limit in SUN
+                feeLimit: 50000000
+              }, txParams);
+              _context32.next = 4;
+              return _this.contract.setFeePoolProxy(_feePoolProxy).send(txParams);
+
+            case 4:
+              txHash = _context32.sent;
+              return _context32.abrupt("return", {
+                hash: txHash
+              });
+
+            case 6:
+            case "end":
+              return _context32.stop();
+          }
+        }
+      }, _callee32);
+    }));
+
+    return function (_x36, _x37) {
+      return _ref32.apply(this, arguments);
+    };
+  }();
+  /**
+   * Call (no gas consumed, doesn't require signer)
+   * @returns bytes32
+   **/
+
+
+  this.currencyKey =
+  /*#__PURE__*/
+  asyncToGenerator_default()(
+  /*#__PURE__*/
+  regenerator_default.a.mark(function _callee33() {
+    return regenerator_default.a.wrap(function _callee33$(_context33) {
+      while (1) {
+        switch (_context33.prev = _context33.next) {
+          case 0:
+            _context33.next = 2;
+            return _this.contract.currencyKey().call({
+              _isConstant: true
+            });
+
+          case 2:
+            return _context33.abrupt("return", _context33.sent);
+
+          case 3:
+          case "end":
+            return _context33.stop();
+        }
+      }
+    }, _callee33);
+  }));
+  /**
+   * Call (no gas consumed, doesn't require signer)
+   * @param owner {String<TrxAddress>}
+   * @param spender {String<TrxAddress>}
+   * @returns BigNumber
+   **/
+
+  this.allowance =
+  /*#__PURE__*/
+  function () {
+    var _ref34 = asyncToGenerator_default()(
+    /*#__PURE__*/
+    regenerator_default.a.mark(function _callee34(owner, spender) {
+      return regenerator_default.a.wrap(function _callee34$(_context34) {
+        while (1) {
+          switch (_context34.prev = _context34.next) {
+            case 0:
+              _context34.next = 2;
+              return _this.contract.allowance(owner, spender).call({
+                _isConstant: true
+              });
+
+            case 2:
+              return _context34.abrupt("return", _context34.sent);
+
+            case 3:
+            case "end":
+              return _context34.stop();
+          }
+        }
+      }, _callee34);
+    }));
+
+    return function (_x38, _x39) {
+      return _ref34.apply(this, arguments);
+    };
+  }();
+  /**
+   * Call (no gas consumed, doesn't require signer)
+   * @returns String<TrxAddress>
+   **/
+
+
+  this.tokenState =
+  /*#__PURE__*/
+  asyncToGenerator_default()(
+  /*#__PURE__*/
+  regenerator_default.a.mark(function _callee35() {
+    return regenerator_default.a.wrap(function _callee35$(_context35) {
+      while (1) {
+        switch (_context35.prev = _context35.next) {
+          case 0:
+            _context35.next = 2;
+            return _this.contract.tokenState().call({
+              _isConstant: true
+            });
+
+          case 2:
+            return _context35.abrupt("return", _context35.sent);
+
+          case 3:
+          case "end":
+            return _context35.stop();
+        }
+      }
+    }, _callee35);
+  }));
+  /**
+   * Call (no gas consumed, doesn't require signer)
+   * @returns String<TrxAddress>
+   **/
+
+  this.proxy =
+  /*#__PURE__*/
+  asyncToGenerator_default()(
+  /*#__PURE__*/
+  regenerator_default.a.mark(function _callee36() {
+    return regenerator_default.a.wrap(function _callee36$(_context36) {
+      while (1) {
+        switch (_context36.prev = _context36.next) {
+          case 0:
+            _context36.next = 2;
+            return _this.contract.proxy().call({
+              _isConstant: true
+            });
+
+          case 2:
+            return _context36.abrupt("return", _context36.sent);
+
+          case 3:
+          case "end":
+            return _context36.stop();
+        }
+      }
+    }, _callee36);
+  }));
+  /**
+   * Transaction (consumes gas, requires signer)
+   * @param amount {BigNumber}
+   * @param txParams {TxParams}
+  
+   **/
+
+  this.setTotalSupply =
+  /*#__PURE__*/
+  function () {
+    var _ref37 = asyncToGenerator_default()(
+    /*#__PURE__*/
+    regenerator_default.a.mark(function _callee37(amount, txParams) {
+      var txHash;
+      return regenerator_default.a.wrap(function _callee37$(_context37) {
+        while (1) {
+          switch (_context37.prev = _context37.next) {
+            case 0:
+              txParams = txParams || {};
+              txParams = sLINK_objectSpread({
+                // fee limit in SUN
+                feeLimit: 50000000
+              }, txParams);
+              _context37.next = 4;
+              return _this.contract.setTotalSupply(amount).send(txParams);
+
+            case 4:
+              txHash = _context37.sent;
+              return _context37.abrupt("return", {
+                hash: txHash
+              });
+
+            case 6:
+            case "end":
+              return _context37.stop();
+          }
+        }
+      }, _callee37);
+    }));
+
+    return function (_x40, _x41) {
+      return _ref37.apply(this, arguments);
+    };
+  }();
+}
+
+/* harmony default export */ var mainnet_sLINK = (sLINK);
 // CONCATENATED MODULE: ./src/contracts/mainnet/index.js
+
 
 
 
@@ -78669,7 +80966,8 @@ function iETH(contractSettings) {
   sTRX: mainnet_sTRX,
   iBTC: mainnet_iBTC,
   iTRX: mainnet_iTRX,
-  iETH: mainnet_iETH
+  iETH: mainnet_iETH,
+  sLINK: mainnet_sLINK
 });
 // CONCATENATED MODULE: ./src/contracts/shasta/Depot.js
 
