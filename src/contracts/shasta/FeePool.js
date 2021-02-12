@@ -23,7 +23,7 @@ function FeePool(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 50000000,
+      feeLimit: 1500000000,
       ...txParams,
     };
     const txHash = await this.contract.setFeePeriodDuration(_feePeriodDuration).send(txParams);
@@ -40,7 +40,7 @@ function FeePool(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 50000000,
+      feeLimit: 1500000000,
       ...txParams,
     };
     const txHash = await this.contract.setFeePoolState(_feePoolState).send(txParams);
@@ -86,7 +86,7 @@ function FeePool(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 50000000,
+      feeLimit: 1500000000,
       ...txParams,
     };
     const txHash = await this.contract.setIntegrationProxy(_integrationProxy).send(txParams);
@@ -103,7 +103,7 @@ function FeePool(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 50000000,
+      feeLimit: 1500000000,
       ...txParams,
     };
     const txHash = await this.contract.nominateNewOwner(_owner).send(txParams);
@@ -128,7 +128,7 @@ function FeePool(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 50000000,
+      feeLimit: 1500000000,
       ...txParams,
     };
     const txHash = await this.contract.setRewardsAuthority(_rewardsAuthority).send(txParams);
@@ -145,7 +145,7 @@ function FeePool(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 50000000,
+      feeLimit: 1500000000,
       ...txParams,
     };
     const txHash = await this.contract.setSelfDestructBeneficiary(_beneficiary).send(txParams);
@@ -170,7 +170,7 @@ function FeePool(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 50000000,
+      feeLimit: 1500000000,
       ...txParams,
     };
     const txHash = await this.contract.recordFeePaid(xdrAmount).send(txParams);
@@ -187,7 +187,7 @@ function FeePool(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 50000000,
+      feeLimit: 1500000000,
       ...txParams,
     };
     const txHash = await this.contract.setTargetThreshold(_percent).send(txParams);
@@ -203,7 +203,7 @@ function FeePool(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 50000000,
+      feeLimit: 1500000000,
       ...txParams,
     };
     const txHash = await this.contract.terminateSelfDestruct().send(txParams);
@@ -228,7 +228,7 @@ function FeePool(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 50000000,
+      feeLimit: 1500000000,
       ...txParams,
     };
     const txHash = await this.contract.closeCurrentFeePeriod().send(txParams);
@@ -254,7 +254,7 @@ function FeePool(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 50000000,
+      feeLimit: 1500000000,
       ...txParams,
     };
     const txHash = await this.contract.approveClaimOnBehalf(account).send(txParams);
@@ -287,7 +287,7 @@ function FeePool(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 50000000,
+      feeLimit: 1500000000,
       ...txParams,
     };
     const txHash = await this.contract.setExchangeFeeRate(_exchangeFeeRate).send(txParams);
@@ -313,7 +313,7 @@ function FeePool(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 50000000,
+      feeLimit: 1500000000,
       ...txParams,
     };
     const txHash = await this.contract.setDelegateApprovals(_delegates).send(txParams);
@@ -338,7 +338,7 @@ function FeePool(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 50000000,
+      feeLimit: 1500000000,
       ...txParams,
     };
     const txHash = await this.contract.claimOnBehalf(claimingForAddress).send(txParams);
@@ -355,7 +355,7 @@ function FeePool(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 50000000,
+      feeLimit: 1500000000,
       ...txParams,
     };
     const txHash = await this.contract.removeClaimOnBehalf(account).send(txParams);
@@ -387,7 +387,7 @@ function FeePool(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 50000000,
+      feeLimit: 1500000000,
       ...txParams,
     };
     const txHash = await this.contract.acceptOwnership().send(txParams);
@@ -406,7 +406,7 @@ function FeePool(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 50000000,
+      feeLimit: 1500000000,
       ...txParams,
     };
     const txHash = await this.contract
@@ -433,7 +433,7 @@ function FeePool(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 50000000,
+      feeLimit: 1500000000,
       ...txParams,
     };
     const txHash = await this.contract.setProxy(_proxy).send(txParams);
@@ -459,7 +459,7 @@ function FeePool(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 50000000,
+      feeLimit: 1500000000,
       ...txParams,
     };
     const txHash = await this.contract.selfDestruct().send(txParams);
@@ -525,7 +525,7 @@ function FeePool(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 50000000,
+      feeLimit: 1500000000,
       ...txParams,
     };
     const txHash = await this.contract
@@ -554,7 +554,7 @@ function FeePool(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 50000000,
+      feeLimit: 1500000000,
       ...txParams,
     };
     const txHash = await this.contract.appendVestingEntry(account, quantity).send(txParams);
@@ -588,7 +588,7 @@ function FeePool(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 50000000,
+      feeLimit: 1500000000,
       ...txParams,
     };
     const txHash = await this.contract.setMessageSender(sender).send(txParams);
@@ -604,7 +604,7 @@ function FeePool(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 50000000,
+      feeLimit: 1500000000,
       ...txParams,
     };
     const txHash = await this.contract.initiateSelfDestruct().send(txParams);
@@ -653,7 +653,7 @@ function FeePool(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 50000000,
+      feeLimit: 1500000000,
       ...txParams,
     };
     const txHash = await this.contract.claimFees().send(txParams);
@@ -760,7 +760,7 @@ function FeePool(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 50000000,
+      feeLimit: 1500000000,
       ...txParams,
     };
     const txHash = await this.contract.setRewardsToDistribute(amount).send(txParams);
@@ -777,7 +777,7 @@ function FeePool(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 50000000,
+      feeLimit: 1500000000,
       ...txParams,
     };
     const txHash = await this.contract.setSynthetix(_synthetix).send(txParams);

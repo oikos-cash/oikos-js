@@ -39,7 +39,7 @@ function ArbRewarder(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 50000000,
+      feeLimit: 1500000000,
       ...txParams,
     };
     const txHash = await this.contract.recoverETH(to_addr).send(txParams);
@@ -56,7 +56,7 @@ function ArbRewarder(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 50000000,
+      feeLimit: 1500000000,
       ...txParams,
     };
     const txHash = await this.contract.nominateNewOwner(_owner).send(txParams);
@@ -73,7 +73,7 @@ function ArbRewarder(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 50000000,
+      feeLimit: 1500000000,
       ...txParams,
     };
     const txHash = await this.contract.setPaused(_paused).send(txParams);
@@ -98,7 +98,7 @@ function ArbRewarder(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 50000000,
+      feeLimit: 1500000000,
       ...txParams,
     };
     const txHash = await this.contract.setSelfDestructBeneficiary(_beneficiary).send(txParams);
@@ -114,7 +114,7 @@ function ArbRewarder(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 50000000,
+      feeLimit: 1500000000,
       ...txParams,
     };
     const txHash = await this.contract.isArbable().send(txParams);
@@ -130,7 +130,7 @@ function ArbRewarder(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 50000000,
+      feeLimit: 1500000000,
       ...txParams,
     };
     const txHash = await this.contract.terminateSelfDestruct().send(txParams);
@@ -163,7 +163,7 @@ function ArbRewarder(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 50000000,
+      feeLimit: 1500000000,
       ...txParams,
     };
     const txHash = await this.contract.setExchangeRates(_exchangeRatesAddress).send(txParams);
@@ -182,7 +182,7 @@ function ArbRewarder(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 50000000,
+      feeLimit: 1500000000,
       ...txParams,
     };
     const txHash = await this.contract
@@ -225,7 +225,7 @@ function ArbRewarder(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 50000000,
+      feeLimit: 1500000000,
       ...txParams,
     };
     const txHash = await this.contract.setSynthAddress(_synthAddress).send(txParams);
@@ -241,7 +241,7 @@ function ArbRewarder(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 50000000,
+      feeLimit: 1500000000,
       ...txParams,
     };
     const txHash = await this.contract.acceptOwnership().send(txParams);
@@ -259,7 +259,7 @@ function ArbRewarder(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 50000000,
+      feeLimit: 1500000000,
       ...txParams,
     };
     const txHash = await this.contract.recoverERC20(erc20_addr, to_addr).send(txParams);
@@ -291,7 +291,7 @@ function ArbRewarder(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 50000000,
+      feeLimit: 1500000000,
       ...txParams,
     };
     const txHash = await this.contract.selfDestruct().send(txParams);
@@ -316,7 +316,7 @@ function ArbRewarder(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 50000000,
+      feeLimit: 1500000000,
       ...txParams,
     };
     const txHash = await this.contract.arbSynthRate().send(txParams);
@@ -341,7 +341,7 @@ function ArbRewarder(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 50000000,
+      feeLimit: 1500000000,
       ...txParams,
     };
     const txHash = await this.contract.setUniswapExchange(_uniswapAddress).send(txParams);
@@ -357,7 +357,7 @@ function ArbRewarder(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 50000000,
+      feeLimit: 1500000000,
       ...txParams,
     };
     const txHash = await this.contract.initiateSelfDestruct().send(txParams);
@@ -390,7 +390,7 @@ function ArbRewarder(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 50000000,
+      feeLimit: 1500000000,
       ...txParams,
     };
     const txHash = await this.contract.setSynthetix(_address).send(txParams);

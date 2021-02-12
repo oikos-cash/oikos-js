@@ -32,7 +32,7 @@ function ProxyERC20(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 50000000,
+      feeLimit: 1500000000,
       ...txParams,
     };
     const txHash = await this.contract.approve(spender, value).send(txParams);
@@ -49,7 +49,7 @@ function ProxyERC20(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 50000000,
+      feeLimit: 1500000000,
       ...txParams,
     };
     const txHash = await this.contract.nominateNewOwner(_owner).send(txParams);
@@ -76,7 +76,7 @@ function ProxyERC20(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 50000000,
+      feeLimit: 1500000000,
       ...txParams,
     };
     const txHash = await this.contract.transferFrom(from, to, value).send(txParams);
@@ -118,7 +118,7 @@ function ProxyERC20(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 50000000,
+      feeLimit: 1500000000,
       ...txParams,
     };
     const txHash = await this.contract.setTarget(_target).send(txParams);
@@ -134,7 +134,7 @@ function ProxyERC20(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 50000000,
+      feeLimit: 1500000000,
       ...txParams,
     };
     const txHash = await this.contract.acceptOwnership().send(txParams);
@@ -164,7 +164,7 @@ function ProxyERC20(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 50000000,
+      feeLimit: 1500000000,
       ...txParams,
     };
     const txHash = await this.contract
@@ -200,7 +200,7 @@ function ProxyERC20(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 50000000,
+      feeLimit: 1500000000,
       ...txParams,
     };
     const txHash = await this.contract.transfer(to, value).send(txParams);
@@ -217,7 +217,7 @@ function ProxyERC20(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 50000000,
+      feeLimit: 1500000000,
       ...txParams,
     };
     const txHash = await this.contract.setUseDELEGATECALL(value).send(txParams);

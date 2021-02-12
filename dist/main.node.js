@@ -47391,7 +47391,7 @@ function Depot_Depot(contractSettings) {
               txParams = txParams || {};
               txParams = Depot_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context.next = 4;
               return _this.contract.exchangeEtherForSNX().send(txParams);
@@ -47467,7 +47467,7 @@ function Depot_Depot(contractSettings) {
               txParams = txParams || {};
               txParams = Depot_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context3.next = 4;
               return _this.contract.exchangeEtherForSynthsAtRate(guaranteedRate).send(txParams);
@@ -47580,7 +47580,7 @@ function Depot_Depot(contractSettings) {
               txParams = txParams || {};
               txParams = Depot_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context6.next = 4;
               return _this.contract.exchangeSynthsForSynthetix(synthAmount).send(txParams);
@@ -47625,7 +47625,7 @@ function Depot_Depot(contractSettings) {
               txParams = txParams || {};
               txParams = Depot_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context7.next = 4;
               return _this.contract.nominateNewOwner(_owner).send(txParams);
@@ -47670,7 +47670,7 @@ function Depot_Depot(contractSettings) {
               txParams = txParams || {};
               txParams = Depot_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context8.next = 4;
               return _this.contract.setPaused(_paused).send(txParams);
@@ -47745,7 +47745,7 @@ function Depot_Depot(contractSettings) {
               txParams = txParams || {};
               txParams = Depot_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context10.next = 4;
               return _this.contract.exchangeEtherForSynths().send(txParams);
@@ -47790,7 +47790,7 @@ function Depot_Depot(contractSettings) {
               txParams = txParams || {};
               txParams = Depot_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context11.next = 4;
               return _this.contract.setSelfDestructBeneficiary(_beneficiary).send(txParams);
@@ -47894,7 +47894,7 @@ function Depot_Depot(contractSettings) {
               txParams = txParams || {};
               txParams = Depot_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context14.next = 4;
               return _this.contract.setPriceStalePeriod(_time).send(txParams);
@@ -47938,7 +47938,7 @@ function Depot_Depot(contractSettings) {
               txParams = txParams || {};
               txParams = Depot_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context15.next = 4;
               return _this.contract.terminateSelfDestruct().send(txParams);
@@ -47984,7 +47984,7 @@ function Depot_Depot(contractSettings) {
               txParams = txParams || {};
               txParams = Depot_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context16.next = 4;
               return _this.contract.setSynth(_synth).send(txParams);
@@ -48062,7 +48062,7 @@ function Depot_Depot(contractSettings) {
               txParams = txParams || {};
               txParams = Depot_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context18.next = 4;
               return _this.contract.updatePrices(newEthPrice, newSynthetixPrice, timeSent).send(txParams);
@@ -48225,7 +48225,7 @@ function Depot_Depot(contractSettings) {
               txParams = txParams || {};
               txParams = Depot_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context23.next = 4;
               return _this.contract.exchangeSynthsForSynthetixAtRate(synthAmount, guaranteedRate).send(txParams);
@@ -48300,7 +48300,7 @@ function Depot_Depot(contractSettings) {
               txParams = txParams || {};
               txParams = Depot_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context25.next = 4;
               return _this.contract.setFundsWallet(_fundsWallet).send(txParams);
@@ -48373,7 +48373,7 @@ function Depot_Depot(contractSettings) {
               txParams = txParams || {};
               txParams = Depot_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context27.next = 4;
               return _this.contract.acceptOwnership().send(txParams);
@@ -48419,7 +48419,7 @@ function Depot_Depot(contractSettings) {
               txParams = txParams || {};
               txParams = Depot_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context28.next = 4;
               return _this.contract.setOracle(_oracle).send(txParams);
@@ -48467,7 +48467,7 @@ function Depot_Depot(contractSettings) {
               txParams = txParams || {};
               txParams = Depot_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context29.next = 4;
               return _this.contract.exchangeEtherForSynthetixAtRate(guaranteedEtherRate, guaranteedSynthetixRate).send(txParams);
@@ -48541,7 +48541,7 @@ function Depot_Depot(contractSettings) {
               txParams = txParams || {};
               txParams = Depot_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context31.next = 4;
               return _this.contract.withdrawMyDepositedSynths().send(txParams);
@@ -48643,7 +48643,7 @@ function Depot_Depot(contractSettings) {
               txParams = txParams || {};
               txParams = Depot_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context34.next = 4;
               return _this.contract.selfDestruct().send(txParams);
@@ -48756,7 +48756,7 @@ function Depot_Depot(contractSettings) {
               txParams = txParams || {};
               txParams = Depot_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context37.next = 4;
               return _this.contract.setMinimumDepositAmount(_amount).send(txParams);
@@ -48924,7 +48924,7 @@ function Depot_Depot(contractSettings) {
               txParams = txParams || {};
               txParams = Depot_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context42.next = 4;
               return _this.contract.initiateSelfDestruct().send(txParams);
@@ -49074,7 +49074,7 @@ function Depot_Depot(contractSettings) {
               txParams = txParams || {};
               txParams = Depot_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context46.next = 4;
               return _this.contract.depositSynths(amount).send(txParams);
@@ -49120,7 +49120,7 @@ function Depot_Depot(contractSettings) {
               txParams = txParams || {};
               txParams = Depot_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context47.next = 4;
               return _this.contract.withdrawSynthetix(amount).send(txParams);
@@ -49253,7 +49253,7 @@ function Depot_Depot(contractSettings) {
               txParams = txParams || {};
               txParams = Depot_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context51.next = 4;
               return _this.contract.setSynthetix(_snxProxy).send(txParams);
@@ -49514,7 +49514,7 @@ function ExchangeRates_ExchangeRates(contractSettings) {
               txParams = txParams || {};
               txParams = ExchangeRates_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context4.next = 4;
               return _this.contract.nominateNewOwner(_owner).send(txParams);
@@ -49588,7 +49588,7 @@ function ExchangeRates_ExchangeRates(contractSettings) {
               txParams = txParams || {};
               txParams = ExchangeRates_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context6.next = 4;
               return _this.contract.setSelfDestructBeneficiary(_beneficiary).send(txParams);
@@ -49633,7 +49633,7 @@ function ExchangeRates_ExchangeRates(contractSettings) {
               txParams = txParams || {};
               txParams = ExchangeRates_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context7.next = 4;
               return _this.contract.removeAggregator(currencyKey).send(txParams);
@@ -49751,7 +49751,7 @@ function ExchangeRates_ExchangeRates(contractSettings) {
               txParams = txParams || {};
               txParams = ExchangeRates_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context10.next = 4;
               return _this.contract.terminateSelfDestruct().send(txParams);
@@ -49797,7 +49797,7 @@ function ExchangeRates_ExchangeRates(contractSettings) {
               txParams = txParams || {};
               txParams = ExchangeRates_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context11.next = 4;
               return _this.contract.addAggregator(currencyKey, aggregatorAddress).send(txParams);
@@ -49842,7 +49842,7 @@ function ExchangeRates_ExchangeRates(contractSettings) {
               txParams = txParams || {};
               txParams = ExchangeRates_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context12.next = 4;
               return _this.contract.deleteRate(currencyKey).send(txParams);
@@ -50065,7 +50065,7 @@ function ExchangeRates_ExchangeRates(contractSettings) {
               txParams = txParams || {};
               txParams = ExchangeRates_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context18.next = 4;
               return _this.contract.acceptOwnership().send(txParams);
@@ -50110,7 +50110,7 @@ function ExchangeRates_ExchangeRates(contractSettings) {
               txParams = txParams || {};
               txParams = ExchangeRates_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context19.next = 4;
               return _this.contract.setRateStalePeriod(_time).send(txParams);
@@ -50155,7 +50155,7 @@ function ExchangeRates_ExchangeRates(contractSettings) {
               txParams = txParams || {};
               txParams = ExchangeRates_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context20.next = 4;
               return _this.contract.setOracle(_oracle).send(txParams);
@@ -50294,7 +50294,7 @@ function ExchangeRates_ExchangeRates(contractSettings) {
               txParams = txParams || {};
               txParams = ExchangeRates_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context24.next = 4;
               return _this.contract.selfDestruct().send(txParams);
@@ -50484,7 +50484,7 @@ function ExchangeRates_ExchangeRates(contractSettings) {
               txParams = txParams || {};
               txParams = ExchangeRates_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context29.next = 4;
               return _this.contract.setInversePricing(currencyKey, entryPoint, upperLimit, lowerLimit, freeze, freezeAtUpperLimit).send(txParams);
@@ -50594,7 +50594,7 @@ function ExchangeRates_ExchangeRates(contractSettings) {
               txParams = txParams || {};
               txParams = ExchangeRates_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context32.next = 4;
               return _this.contract.initiateSelfDestruct().send(txParams);
@@ -50641,7 +50641,7 @@ function ExchangeRates_ExchangeRates(contractSettings) {
               txParams = txParams || {};
               txParams = ExchangeRates_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context33.next = 4;
               return _this.contract.updateRates(currencyKeys, newRates, timeSent).send(txParams);
@@ -50752,7 +50752,7 @@ function ExchangeRates_ExchangeRates(contractSettings) {
               txParams = txParams || {};
               txParams = ExchangeRates_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context36.next = 4;
               return _this.contract.removeInversePricing(currencyKey).send(txParams);
@@ -50897,7 +50897,7 @@ function FeePool_FeePool(contractSettings) {
               txParams = txParams || {};
               txParams = FeePool_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context.next = 4;
               return _this.contract.setFeePeriodDuration(_feePeriodDuration).send(txParams);
@@ -50942,7 +50942,7 @@ function FeePool_FeePool(contractSettings) {
               txParams = txParams || {};
               txParams = FeePool_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context2.next = 4;
               return _this.contract.setFeePoolState(_feePoolState).send(txParams);
@@ -51091,7 +51091,7 @@ function FeePool_FeePool(contractSettings) {
               txParams = txParams || {};
               txParams = FeePool_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context6.next = 4;
               return _this.contract.setIntegrationProxy(_integrationProxy).send(txParams);
@@ -51136,7 +51136,7 @@ function FeePool_FeePool(contractSettings) {
               txParams = txParams || {};
               txParams = FeePool_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context7.next = 4;
               return _this.contract.nominateNewOwner(_owner).send(txParams);
@@ -51210,7 +51210,7 @@ function FeePool_FeePool(contractSettings) {
               txParams = txParams || {};
               txParams = FeePool_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context9.next = 4;
               return _this.contract.setRewardsAuthority(_rewardsAuthority).send(txParams);
@@ -51255,7 +51255,7 @@ function FeePool_FeePool(contractSettings) {
               txParams = txParams || {};
               txParams = FeePool_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context10.next = 4;
               return _this.contract.setSelfDestructBeneficiary(_beneficiary).send(txParams);
@@ -51329,7 +51329,7 @@ function FeePool_FeePool(contractSettings) {
               txParams = txParams || {};
               txParams = FeePool_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context12.next = 4;
               return _this.contract.recordFeePaid(xdrAmount).send(txParams);
@@ -51374,7 +51374,7 @@ function FeePool_FeePool(contractSettings) {
               txParams = txParams || {};
               txParams = FeePool_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context13.next = 4;
               return _this.contract.setTargetThreshold(_percent).send(txParams);
@@ -51418,7 +51418,7 @@ function FeePool_FeePool(contractSettings) {
               txParams = txParams || {};
               txParams = FeePool_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context14.next = 4;
               return _this.contract.terminateSelfDestruct().send(txParams);
@@ -51499,7 +51499,7 @@ function FeePool_FeePool(contractSettings) {
               txParams = txParams || {};
               txParams = FeePool_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context16.next = 4;
               return _this.contract.closeCurrentFeePeriod().send(txParams);
@@ -51581,7 +51581,7 @@ function FeePool_FeePool(contractSettings) {
               txParams = txParams || {};
               txParams = FeePool_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context18.next = 4;
               return _this.contract.approveClaimOnBehalf(account).send(txParams);
@@ -51684,7 +51684,7 @@ function FeePool_FeePool(contractSettings) {
               txParams = txParams || {};
               txParams = FeePool_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context21.next = 4;
               return _this.contract.setExchangeFeeRate(_exchangeFeeRate).send(txParams);
@@ -51766,7 +51766,7 @@ function FeePool_FeePool(contractSettings) {
               txParams = txParams || {};
               txParams = FeePool_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context23.next = 4;
               return _this.contract.setDelegateApprovals(_delegates).send(txParams);
@@ -51840,7 +51840,7 @@ function FeePool_FeePool(contractSettings) {
               txParams = txParams || {};
               txParams = FeePool_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context25.next = 4;
               return _this.contract.claimOnBehalf(claimingForAddress).send(txParams);
@@ -51885,7 +51885,7 @@ function FeePool_FeePool(contractSettings) {
               txParams = txParams || {};
               txParams = FeePool_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context26.next = 4;
               return _this.contract.removeClaimOnBehalf(account).send(txParams);
@@ -51987,7 +51987,7 @@ function FeePool_FeePool(contractSettings) {
               txParams = txParams || {};
               txParams = FeePool_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context29.next = 4;
               return _this.contract.acceptOwnership().send(txParams);
@@ -52034,7 +52034,7 @@ function FeePool_FeePool(contractSettings) {
               txParams = txParams || {};
               txParams = FeePool_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context30.next = 4;
               return _this.contract.appendAccountIssuanceRecord(account, debtRatio, debtEntryIndex).send(txParams);
@@ -52108,7 +52108,7 @@ function FeePool_FeePool(contractSettings) {
               txParams = txParams || {};
               txParams = FeePool_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context32.next = 4;
               return _this.contract.setProxy(_proxy).send(txParams);
@@ -52190,7 +52190,7 @@ function FeePool_FeePool(contractSettings) {
               txParams = txParams || {};
               txParams = FeePool_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context34.next = 4;
               return _this.contract.selfDestruct().send(txParams);
@@ -52358,7 +52358,7 @@ function FeePool_FeePool(contractSettings) {
               txParams = txParams || {};
               txParams = FeePool_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context39.next = 4;
               return _this.contract.importFeePeriod(feePeriodIndex, feePeriodId, startingDebtIndex, startTime, feesToDistribute, feesClaimed, rewardsToDistribute, rewardsClaimed).send(txParams);
@@ -52404,7 +52404,7 @@ function FeePool_FeePool(contractSettings) {
               txParams = txParams || {};
               txParams = FeePool_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context40.next = 4;
               return _this.contract.appendVestingEntry(account, quantity).send(txParams);
@@ -52515,7 +52515,7 @@ function FeePool_FeePool(contractSettings) {
               txParams = txParams || {};
               txParams = FeePool_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context43.next = 4;
               return _this.contract.setMessageSender(sender).send(txParams);
@@ -52559,7 +52559,7 @@ function FeePool_FeePool(contractSettings) {
               txParams = txParams || {};
               txParams = FeePool_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context44.next = 4;
               return _this.contract.initiateSelfDestruct().send(txParams);
@@ -52727,7 +52727,7 @@ function FeePool_FeePool(contractSettings) {
               txParams = txParams || {};
               txParams = FeePool_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context49.next = 4;
               return _this.contract.claimFees().send(txParams);
@@ -53107,7 +53107,7 @@ function FeePool_FeePool(contractSettings) {
               txParams = txParams || {};
               txParams = FeePool_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context61.next = 4;
               return _this.contract.setRewardsToDistribute(amount).send(txParams);
@@ -53152,7 +53152,7 @@ function FeePool_FeePool(contractSettings) {
               txParams = txParams || {};
               txParams = FeePool_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context62.next = 4;
               return _this.contract.setSynthetix(_synthetix).send(txParams);
@@ -53253,7 +53253,7 @@ function ProxyERC20_ProxyERC20(contractSettings) {
               txParams = txParams || {};
               txParams = ProxyERC20_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context2.next = 4;
               return _this.contract.approve(spender, value).send(txParams);
@@ -53298,7 +53298,7 @@ function ProxyERC20_ProxyERC20(contractSettings) {
               txParams = txParams || {};
               txParams = ProxyERC20_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context3.next = 4;
               return _this.contract.nominateNewOwner(_owner).send(txParams);
@@ -53374,7 +53374,7 @@ function ProxyERC20_ProxyERC20(contractSettings) {
               txParams = txParams || {};
               txParams = ProxyERC20_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context5.next = 4;
               return _this.contract.transferFrom(from, to, value).send(txParams);
@@ -53514,7 +53514,7 @@ function ProxyERC20_ProxyERC20(contractSettings) {
               txParams = txParams || {};
               txParams = ProxyERC20_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context9.next = 4;
               return _this.contract.setTarget(_target).send(txParams);
@@ -53558,7 +53558,7 @@ function ProxyERC20_ProxyERC20(contractSettings) {
               txParams = txParams || {};
               txParams = ProxyERC20_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context10.next = 4;
               return _this.contract.acceptOwnership().send(txParams);
@@ -53637,7 +53637,7 @@ function ProxyERC20_ProxyERC20(contractSettings) {
               txParams = txParams || {};
               txParams = ProxyERC20_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context12.next = 4;
               return _this.contract._emit(callData, numTopics, topic1, topic2, topic3, topic4).send(txParams);
@@ -53741,7 +53741,7 @@ function ProxyERC20_ProxyERC20(contractSettings) {
               txParams = txParams || {};
               txParams = ProxyERC20_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context15.next = 4;
               return _this.contract.transfer(to, value).send(txParams);
@@ -53786,7 +53786,7 @@ function ProxyERC20_ProxyERC20(contractSettings) {
               txParams = txParams || {};
               txParams = ProxyERC20_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context16.next = 4;
               return _this.contract.setUseDELEGATECALL(value).send(txParams);
@@ -53954,7 +53954,7 @@ function Synth_Synth(contractSettings) {
               txParams = txParams || {};
               txParams = Synth_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context2.next = 4;
               return _this.contract.approve(spender, value).send(txParams);
@@ -53999,7 +53999,7 @@ function Synth_Synth(contractSettings) {
               txParams = txParams || {};
               txParams = Synth_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context3.next = 4;
               return _this.contract.setIntegrationProxy(_integrationProxy).send(txParams);
@@ -54044,7 +54044,7 @@ function Synth_Synth(contractSettings) {
               txParams = txParams || {};
               txParams = Synth_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context4.next = 4;
               return _this.contract.nominateNewOwner(_owner).send(txParams);
@@ -54147,7 +54147,7 @@ function Synth_Synth(contractSettings) {
               txParams = txParams || {};
               txParams = Synth_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context7.next = 4;
               return _this.contract.setSelfDestructBeneficiary(_beneficiary).send(txParams);
@@ -54195,7 +54195,7 @@ function Synth_Synth(contractSettings) {
               txParams = txParams || {};
               txParams = Synth_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context8.next = 4;
               return _this.contract.transferFrom(from, to, value).send(txParams);
@@ -54268,7 +54268,7 @@ function Synth_Synth(contractSettings) {
               txParams = txParams || {};
               txParams = Synth_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context10.next = 4;
               return _this.contract.terminateSelfDestruct().send(txParams);
@@ -54378,7 +54378,7 @@ function Synth_Synth(contractSettings) {
               txParams = txParams || {};
               txParams = Synth_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context13.next = 4;
               return _this.contract.acceptOwnership().send(txParams);
@@ -54424,7 +54424,7 @@ function Synth_Synth(contractSettings) {
               txParams = txParams || {};
               txParams = Synth_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context14.next = 4;
               return _this.contract.issue(account, amount).send(txParams);
@@ -54498,7 +54498,7 @@ function Synth_Synth(contractSettings) {
               txParams = txParams || {};
               txParams = Synth_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context16.next = 4;
               return _this.contract.setSynthetixProxy(_synthetixProxy).send(txParams);
@@ -54572,7 +54572,7 @@ function Synth_Synth(contractSettings) {
               txParams = txParams || {};
               txParams = Synth_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context18.next = 4;
               return _this.contract.setProxy(_proxy).send(txParams);
@@ -54616,7 +54616,7 @@ function Synth_Synth(contractSettings) {
               txParams = txParams || {};
               txParams = Synth_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context19.next = 4;
               return _this.contract.selfDestruct().send(txParams);
@@ -54691,7 +54691,7 @@ function Synth_Synth(contractSettings) {
               txParams = txParams || {};
               txParams = Synth_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context21.next = 4;
               return _this.contract.burn(account, amount).send(txParams);
@@ -54736,7 +54736,7 @@ function Synth_Synth(contractSettings) {
               txParams = txParams || {};
               txParams = Synth_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context22.next = 4;
               return _this.contract.setTokenState(_tokenState).send(txParams);
@@ -54812,7 +54812,7 @@ function Synth_Synth(contractSettings) {
               txParams = txParams || {};
               txParams = Synth_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context24.next = 4;
               return _this.contract.transfer(to, value).send(txParams);
@@ -54886,7 +54886,7 @@ function Synth_Synth(contractSettings) {
               txParams = txParams || {};
               txParams = Synth_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context26.next = 4;
               return _this.contract.setMessageSender(sender).send(txParams);
@@ -54930,7 +54930,7 @@ function Synth_Synth(contractSettings) {
               txParams = txParams || {};
               txParams = Synth_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context27.next = 4;
               return _this.contract.initiateSelfDestruct().send(txParams);
@@ -55091,7 +55091,7 @@ function Synth_Synth(contractSettings) {
               txParams = txParams || {};
               txParams = Synth_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context32.next = 4;
               return _this.contract.setFeePoolProxy(_feePoolProxy).send(txParams);
@@ -55261,7 +55261,7 @@ function Synth_Synth(contractSettings) {
               txParams = txParams || {};
               txParams = Synth_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context37.next = 4;
               return _this.contract.setTotalSupply(amount).send(txParams);
@@ -55361,7 +55361,7 @@ function Synthetix_Synthetix(contractSettings) {
               txParams = txParams || {};
               txParams = Synthetix_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context2.next = 4;
               return _this.contract.setGasPriceLimit(_gasPriceLimit).send(txParams);
@@ -55407,7 +55407,7 @@ function Synthetix_Synthetix(contractSettings) {
               txParams = txParams || {};
               txParams = Synthetix_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context3.next = 4;
               return _this.contract.approve(spender, value).send(txParams);
@@ -55453,7 +55453,7 @@ function Synthetix_Synthetix(contractSettings) {
               txParams = txParams || {};
               txParams = Synthetix_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context4.next = 4;
               return _this.contract.removeSynth(currencyKey).send(txParams);
@@ -55497,7 +55497,7 @@ function Synthetix_Synthetix(contractSettings) {
               txParams = txParams || {};
               txParams = Synthetix_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context5.next = 4;
               return _this.contract.mint().send(txParams);
@@ -55542,7 +55542,7 @@ function Synthetix_Synthetix(contractSettings) {
               txParams = txParams || {};
               txParams = Synthetix_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context6.next = 4;
               return _this.contract.setIntegrationProxy(_integrationProxy).send(txParams);
@@ -55587,7 +55587,7 @@ function Synthetix_Synthetix(contractSettings) {
               txParams = txParams || {};
               txParams = Synthetix_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context7.next = 4;
               return _this.contract.nominateNewOwner(_owner).send(txParams);
@@ -55727,7 +55727,7 @@ function Synthetix_Synthetix(contractSettings) {
               txParams = txParams || {};
               txParams = Synthetix_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context11.next = 4;
               return _this.contract.setFeePool(_feePool).send(txParams);
@@ -55810,7 +55810,7 @@ function Synthetix_Synthetix(contractSettings) {
               txParams = txParams || {};
               txParams = Synthetix_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context13.next = 4;
               return _this.contract.setGasLimitOracle(_gasLimitOracle).send(txParams);
@@ -55855,7 +55855,7 @@ function Synthetix_Synthetix(contractSettings) {
               txParams = txParams || {};
               txParams = Synthetix_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context14.next = 4;
               return _this.contract.setSelfDestructBeneficiary(_beneficiary).send(txParams);
@@ -55903,7 +55903,7 @@ function Synthetix_Synthetix(contractSettings) {
               txParams = txParams || {};
               txParams = Synthetix_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context15.next = 4;
               return _this.contract.transferFrom(from, to, value).send(txParams);
@@ -55949,7 +55949,7 @@ function Synthetix_Synthetix(contractSettings) {
               txParams = txParams || {};
               txParams = Synthetix_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context16.next = 4;
               return _this.contract.burnSynths(amount).send(txParams);
@@ -56059,7 +56059,7 @@ function Synthetix_Synthetix(contractSettings) {
               txParams = txParams || {};
               txParams = Synthetix_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context19.next = 4;
               return _this.contract.terminateSelfDestruct().send(txParams);
@@ -56192,7 +56192,7 @@ function Synthetix_Synthetix(contractSettings) {
               txParams = txParams || {};
               txParams = Synthetix_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context23.next = 4;
               return _this.contract.setExchangeRates(_exchangeRates).send(txParams);
@@ -56417,7 +56417,7 @@ function Synthetix_Synthetix(contractSettings) {
               txParams = txParams || {};
               txParams = Synthetix_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context29.next = 4;
               return _this.contract.acceptOwnership().send(txParams);
@@ -56577,7 +56577,7 @@ function Synthetix_Synthetix(contractSettings) {
               txParams = txParams || {};
               txParams = Synthetix_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context33.next = 4;
               return _this.contract.addSynth(synth).send(txParams);
@@ -56623,7 +56623,7 @@ function Synthetix_Synthetix(contractSettings) {
               txParams = txParams || {};
               txParams = Synthetix_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context34.next = 4;
               return _this.contract.issueSynths(amount).send(txParams);
@@ -56697,7 +56697,7 @@ function Synthetix_Synthetix(contractSettings) {
               txParams = txParams || {};
               txParams = Synthetix_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context36.next = 4;
               return _this.contract.setExchangeEnabled(_exchangeEnabled).send(txParams);
@@ -56800,7 +56800,7 @@ function Synthetix_Synthetix(contractSettings) {
               txParams = txParams || {};
               txParams = Synthetix_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context39.next = 4;
               return _this.contract.setProxy(_proxy).send(txParams);
@@ -56844,7 +56844,7 @@ function Synthetix_Synthetix(contractSettings) {
               txParams = txParams || {};
               txParams = Synthetix_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context40.next = 4;
               return _this.contract.selfDestruct().send(txParams);
@@ -56918,7 +56918,7 @@ function Synthetix_Synthetix(contractSettings) {
               txParams = txParams || {};
               txParams = Synthetix_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context42.next = 4;
               return _this.contract.setTokenState(_tokenState).send(txParams);
@@ -57138,7 +57138,7 @@ function Synthetix_Synthetix(contractSettings) {
               txParams = txParams || {};
               txParams = Synthetix_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context48.next = 4;
               return _this.contract.transfer(to, value).send(txParams);
@@ -57188,7 +57188,7 @@ function Synthetix_Synthetix(contractSettings) {
               txParams = txParams || {};
               txParams = Synthetix_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context49.next = 4;
               return _this.contract.synthInitiatedExchange(from, sourceCurrencyKey, sourceAmount, destinationCurrencyKey, destinationAddress).send(txParams);
@@ -57262,7 +57262,7 @@ function Synthetix_Synthetix(contractSettings) {
               txParams = txParams || {};
               txParams = Synthetix_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context51.next = 4;
               return _this.contract.issueMaxSynths().send(txParams);
@@ -57336,7 +57336,7 @@ function Synthetix_Synthetix(contractSettings) {
               txParams = txParams || {};
               txParams = Synthetix_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context53.next = 4;
               return _this.contract.setMessageSender(sender).send(txParams);
@@ -57380,7 +57380,7 @@ function Synthetix_Synthetix(contractSettings) {
               txParams = txParams || {};
               txParams = Synthetix_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context54.next = 4;
               return _this.contract.initiateSelfDestruct().send(txParams);
@@ -57483,7 +57483,7 @@ function Synthetix_Synthetix(contractSettings) {
               txParams = txParams || {};
               txParams = Synthetix_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context57.next = 4;
               return _this.contract.setProtectionCircuit(_protectionCircuitIsActivated).send(txParams);
@@ -57783,7 +57783,7 @@ function Synthetix_Synthetix(contractSettings) {
               txParams = txParams || {};
               txParams = Synthetix_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context66.next = 4;
               return _this.contract.exchange(sourceCurrencyKey, sourceAmount, destinationCurrencyKey).send(txParams);
@@ -57914,7 +57914,7 @@ function SynthetixEscrow_SynthetixEscrow(contractSettings) {
               txParams = txParams || {};
               txParams = SynthetixEscrow_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context.next = 4;
               return _this.contract.purgeAccount(account).send(txParams);
@@ -57959,7 +57959,7 @@ function SynthetixEscrow_SynthetixEscrow(contractSettings) {
               txParams = txParams || {};
               txParams = SynthetixEscrow_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context2.next = 4;
               return _this.contract.nominateNewOwner(_owner).send(txParams);
@@ -58045,7 +58045,7 @@ function SynthetixEscrow_SynthetixEscrow(contractSettings) {
               txParams = txParams || {};
               txParams = SynthetixEscrow_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context4.next = 4;
               return _this.contract.appendVestingEntry(account, time, quantity).send(txParams);
@@ -58203,7 +58203,7 @@ function SynthetixEscrow_SynthetixEscrow(contractSettings) {
               txParams = txParams || {};
               txParams = SynthetixEscrow_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context8.next = 4;
               return _this.contract.vest().send(txParams);
@@ -58420,7 +58420,7 @@ function SynthetixEscrow_SynthetixEscrow(contractSettings) {
               txParams = txParams || {};
               txParams = SynthetixEscrow_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context14.next = 4;
               return _this.contract.acceptOwnership().send(txParams);
@@ -58603,7 +58603,7 @@ function SynthetixEscrow_SynthetixEscrow(contractSettings) {
               txParams = txParams || {};
               txParams = SynthetixEscrow_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context19.next = 4;
               return _this.contract.addVestingSchedule(account, times, quantities).send(txParams);
@@ -58688,7 +58688,7 @@ function SynthetixEscrow_SynthetixEscrow(contractSettings) {
               txParams = txParams || {};
               txParams = SynthetixEscrow_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context21.next = 4;
               return _this.contract.withdrawSynthetix(quantity).send(txParams);
@@ -58772,7 +58772,7 @@ function SynthetixEscrow_SynthetixEscrow(contractSettings) {
               txParams = txParams || {};
               txParams = SynthetixEscrow_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context23.next = 4;
               return _this.contract.setSynthetix(_synthetix).send(txParams);
@@ -58843,7 +58843,7 @@ function SynthetixState_SynthetixState(contractSettings) {
               txParams = txParams || {};
               txParams = SynthetixState_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context.next = 4;
               return _this.contract.setIssuanceRatio(_issuanceRatio).send(txParams);
@@ -58925,7 +58925,7 @@ function SynthetixState_SynthetixState(contractSettings) {
               txParams = txParams || {};
               txParams = SynthetixState_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context3.next = 4;
               return _this.contract.nominateNewOwner(_owner).send(txParams);
@@ -58998,7 +58998,7 @@ function SynthetixState_SynthetixState(contractSettings) {
               txParams = txParams || {};
               txParams = SynthetixState_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context5.next = 4;
               return _this.contract.incrementTotalIssuerCount().send(txParams);
@@ -59043,7 +59043,7 @@ function SynthetixState_SynthetixState(contractSettings) {
               txParams = txParams || {};
               txParams = SynthetixState_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context6.next = 4;
               return _this.contract.appendDebtLedgerValue(value).send(txParams);
@@ -59118,7 +59118,7 @@ function SynthetixState_SynthetixState(contractSettings) {
               txParams = txParams || {};
               txParams = SynthetixState_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context8.next = 4;
               return _this.contract.setPreferredCurrency(account, currencyKey).send(txParams);
@@ -59163,7 +59163,7 @@ function SynthetixState_SynthetixState(contractSettings) {
               txParams = txParams || {};
               txParams = SynthetixState_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context9.next = 4;
               return _this.contract.setAssociatedContract(_associatedContract).send(txParams);
@@ -59236,7 +59236,7 @@ function SynthetixState_SynthetixState(contractSettings) {
               txParams = txParams || {};
               txParams = SynthetixState_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context11.next = 4;
               return _this.contract.acceptOwnership().send(txParams);
@@ -59377,7 +59377,7 @@ function SynthetixState_SynthetixState(contractSettings) {
               txParams = txParams || {};
               txParams = SynthetixState_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context15.next = 4;
               return _this.contract.importIssuerData(accounts, sUSDAmounts).send(txParams);
@@ -59423,7 +59423,7 @@ function SynthetixState_SynthetixState(contractSettings) {
               txParams = txParams || {};
               txParams = SynthetixState_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context16.next = 4;
               return _this.contract.setCurrentIssuanceData(account, initialDebtOwnership).send(txParams);
@@ -59497,7 +59497,7 @@ function SynthetixState_SynthetixState(contractSettings) {
               txParams = txParams || {};
               txParams = SynthetixState_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context18.next = 4;
               return _this.contract.clearIssuanceData(account).send(txParams);
@@ -59607,7 +59607,7 @@ function SynthetixState_SynthetixState(contractSettings) {
               txParams = txParams || {};
               txParams = SynthetixState_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context21.next = 4;
               return _this.contract.decrementTotalIssuerCount().send(txParams);
@@ -59745,7 +59745,7 @@ function RewardEscrow_RewardEscrow(contractSettings) {
               txParams = txParams || {};
               txParams = RewardEscrow_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context.next = 4;
               return _this.contract.nominateNewOwner(_owner).send(txParams);
@@ -59790,7 +59790,7 @@ function RewardEscrow_RewardEscrow(contractSettings) {
               txParams = txParams || {};
               txParams = RewardEscrow_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context2.next = 4;
               return _this.contract.setFeePool(_feePool).send(txParams);
@@ -60056,7 +60056,7 @@ function RewardEscrow_RewardEscrow(contractSettings) {
               txParams = txParams || {};
               txParams = RewardEscrow_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context9.next = 4;
               return _this.contract.vest().send(txParams);
@@ -60300,7 +60300,7 @@ function RewardEscrow_RewardEscrow(contractSettings) {
               txParams = txParams || {};
               txParams = RewardEscrow_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context16.next = 4;
               return _this.contract.acceptOwnership().send(txParams);
@@ -60479,7 +60479,7 @@ function RewardEscrow_RewardEscrow(contractSettings) {
               txParams = txParams || {};
               txParams = RewardEscrow_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context21.next = 4;
               return _this.contract.appendVestingEntry(account, quantity).send(txParams);
@@ -60629,7 +60629,7 @@ function RewardEscrow_RewardEscrow(contractSettings) {
               txParams = txParams || {};
               txParams = RewardEscrow_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context25.next = 4;
               return _this.contract.setSynthetix(_synthetix).send(txParams);
@@ -60700,7 +60700,7 @@ function DappMaintenance_DappMaintenance(contractSettings) {
               txParams = txParams || {};
               txParams = DappMaintenance_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context.next = 4;
               return _this.contract.setMaintenanceModeMintr(isPaused).send(txParams);
@@ -60745,7 +60745,7 @@ function DappMaintenance_DappMaintenance(contractSettings) {
               txParams = txParams || {};
               txParams = DappMaintenance_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context2.next = 4;
               return _this.contract.nominateNewOwner(_owner).send(txParams);
@@ -60790,7 +60790,7 @@ function DappMaintenance_DappMaintenance(contractSettings) {
               txParams = txParams || {};
               txParams = DappMaintenance_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context3.next = 4;
               return _this.contract.setMaintenanceModeAll(isPaused).send(txParams);
@@ -60892,7 +60892,7 @@ function DappMaintenance_DappMaintenance(contractSettings) {
               txParams = txParams || {};
               txParams = DappMaintenance_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context6.next = 4;
               return _this.contract.acceptOwnership().send(txParams);
@@ -60995,7 +60995,7 @@ function DappMaintenance_DappMaintenance(contractSettings) {
               txParams = txParams || {};
               txParams = DappMaintenance_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context9.next = 4;
               return _this.contract.setMaintenanceModeSX(isPaused).send(txParams);
@@ -61124,7 +61124,7 @@ function ArbRewarder_ArbRewarder(contractSettings) {
               txParams = txParams || {};
               txParams = ArbRewarder_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context3.next = 4;
               return _this.contract.recoverETH(to_addr).send(txParams);
@@ -61169,7 +61169,7 @@ function ArbRewarder_ArbRewarder(contractSettings) {
               txParams = txParams || {};
               txParams = ArbRewarder_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context4.next = 4;
               return _this.contract.nominateNewOwner(_owner).send(txParams);
@@ -61214,7 +61214,7 @@ function ArbRewarder_ArbRewarder(contractSettings) {
               txParams = txParams || {};
               txParams = ArbRewarder_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context5.next = 4;
               return _this.contract.setPaused(_paused).send(txParams);
@@ -61288,7 +61288,7 @@ function ArbRewarder_ArbRewarder(contractSettings) {
               txParams = txParams || {};
               txParams = ArbRewarder_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context7.next = 4;
               return _this.contract.setSelfDestructBeneficiary(_beneficiary).send(txParams);
@@ -61332,7 +61332,7 @@ function ArbRewarder_ArbRewarder(contractSettings) {
               txParams = txParams || {};
               txParams = ArbRewarder_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context8.next = 4;
               return _this.contract.isArbable().send(txParams);
@@ -61376,7 +61376,7 @@ function ArbRewarder_ArbRewarder(contractSettings) {
               txParams = txParams || {};
               txParams = ArbRewarder_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context9.next = 4;
               return _this.contract.terminateSelfDestruct().send(txParams);
@@ -61479,7 +61479,7 @@ function ArbRewarder_ArbRewarder(contractSettings) {
               txParams = txParams || {};
               txParams = ArbRewarder_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context12.next = 4;
               return _this.contract.setExchangeRates(_exchangeRatesAddress).send(txParams);
@@ -61526,7 +61526,7 @@ function ArbRewarder_ArbRewarder(contractSettings) {
               txParams = txParams || {};
               txParams = ArbRewarder_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context13.next = 4;
               return _this.contract.setParams(_acceptable_slippage, _max_delay, _off_peg_min).send(txParams);
@@ -61658,7 +61658,7 @@ function ArbRewarder_ArbRewarder(contractSettings) {
               txParams = txParams || {};
               txParams = ArbRewarder_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context17.next = 4;
               return _this.contract.setSynthAddress(_synthAddress).send(txParams);
@@ -61702,7 +61702,7 @@ function ArbRewarder_ArbRewarder(contractSettings) {
               txParams = txParams || {};
               txParams = ArbRewarder_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context18.next = 4;
               return _this.contract.acceptOwnership().send(txParams);
@@ -61748,7 +61748,7 @@ function ArbRewarder_ArbRewarder(contractSettings) {
               txParams = txParams || {};
               txParams = ArbRewarder_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context19.next = 4;
               return _this.contract.recoverERC20(erc20_addr, to_addr).send(txParams);
@@ -61850,7 +61850,7 @@ function ArbRewarder_ArbRewarder(contractSettings) {
               txParams = txParams || {};
               txParams = ArbRewarder_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context22.next = 4;
               return _this.contract.selfDestruct().send(txParams);
@@ -61924,7 +61924,7 @@ function ArbRewarder_ArbRewarder(contractSettings) {
               txParams = txParams || {};
               txParams = ArbRewarder_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context24.next = 4;
               return _this.contract.arbSynthRate().send(txParams);
@@ -61998,7 +61998,7 @@ function ArbRewarder_ArbRewarder(contractSettings) {
               txParams = txParams || {};
               txParams = ArbRewarder_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context26.next = 4;
               return _this.contract.setUniswapExchange(_uniswapAddress).send(txParams);
@@ -62042,7 +62042,7 @@ function ArbRewarder_ArbRewarder(contractSettings) {
               txParams = txParams || {};
               txParams = ArbRewarder_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context27.next = 4;
               return _this.contract.initiateSelfDestruct().send(txParams);
@@ -62145,7 +62145,7 @@ function ArbRewarder_ArbRewarder(contractSettings) {
               txParams = txParams || {};
               txParams = ArbRewarder_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context30.next = 4;
               return _this.contract.setSynthetix(_address).send(txParams);
@@ -62246,7 +62246,7 @@ function ODR(contractSettings) {
               txParams = txParams || {};
               txParams = ODR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context2.next = 4;
               return _this.contract.approve(spender, value).send(txParams);
@@ -62291,7 +62291,7 @@ function ODR(contractSettings) {
               txParams = txParams || {};
               txParams = ODR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context3.next = 4;
               return _this.contract.setIntegrationProxy(_integrationProxy).send(txParams);
@@ -62336,7 +62336,7 @@ function ODR(contractSettings) {
               txParams = txParams || {};
               txParams = ODR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context4.next = 4;
               return _this.contract.nominateNewOwner(_owner).send(txParams);
@@ -62439,7 +62439,7 @@ function ODR(contractSettings) {
               txParams = txParams || {};
               txParams = ODR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context7.next = 4;
               return _this.contract.setSelfDestructBeneficiary(_beneficiary).send(txParams);
@@ -62487,7 +62487,7 @@ function ODR(contractSettings) {
               txParams = txParams || {};
               txParams = ODR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context8.next = 4;
               return _this.contract.transferFrom(from, to, value).send(txParams);
@@ -62560,7 +62560,7 @@ function ODR(contractSettings) {
               txParams = txParams || {};
               txParams = ODR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context10.next = 4;
               return _this.contract.terminateSelfDestruct().send(txParams);
@@ -62670,7 +62670,7 @@ function ODR(contractSettings) {
               txParams = txParams || {};
               txParams = ODR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context13.next = 4;
               return _this.contract.acceptOwnership().send(txParams);
@@ -62716,7 +62716,7 @@ function ODR(contractSettings) {
               txParams = txParams || {};
               txParams = ODR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context14.next = 4;
               return _this.contract.issue(account, amount).send(txParams);
@@ -62790,7 +62790,7 @@ function ODR(contractSettings) {
               txParams = txParams || {};
               txParams = ODR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context16.next = 4;
               return _this.contract.setSynthetixProxy(_synthetixProxy).send(txParams);
@@ -62864,7 +62864,7 @@ function ODR(contractSettings) {
               txParams = txParams || {};
               txParams = ODR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context18.next = 4;
               return _this.contract.setProxy(_proxy).send(txParams);
@@ -62908,7 +62908,7 @@ function ODR(contractSettings) {
               txParams = txParams || {};
               txParams = ODR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context19.next = 4;
               return _this.contract.selfDestruct().send(txParams);
@@ -62983,7 +62983,7 @@ function ODR(contractSettings) {
               txParams = txParams || {};
               txParams = ODR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context21.next = 4;
               return _this.contract.burn(account, amount).send(txParams);
@@ -63028,7 +63028,7 @@ function ODR(contractSettings) {
               txParams = txParams || {};
               txParams = ODR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context22.next = 4;
               return _this.contract.setTokenState(_tokenState).send(txParams);
@@ -63104,7 +63104,7 @@ function ODR(contractSettings) {
               txParams = txParams || {};
               txParams = ODR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context24.next = 4;
               return _this.contract.transfer(to, value).send(txParams);
@@ -63178,7 +63178,7 @@ function ODR(contractSettings) {
               txParams = txParams || {};
               txParams = ODR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context26.next = 4;
               return _this.contract.setMessageSender(sender).send(txParams);
@@ -63222,7 +63222,7 @@ function ODR(contractSettings) {
               txParams = txParams || {};
               txParams = ODR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context27.next = 4;
               return _this.contract.initiateSelfDestruct().send(txParams);
@@ -63383,7 +63383,7 @@ function ODR(contractSettings) {
               txParams = txParams || {};
               txParams = ODR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context32.next = 4;
               return _this.contract.setFeePoolProxy(_feePoolProxy).send(txParams);
@@ -63553,7 +63553,7 @@ function ODR(contractSettings) {
               txParams = txParams || {};
               txParams = ODR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context37.next = 4;
               return _this.contract.setTotalSupply(amount).send(txParams);
@@ -63654,7 +63654,7 @@ function sEUR(contractSettings) {
               txParams = txParams || {};
               txParams = sEUR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context2.next = 4;
               return _this.contract.approve(spender, value).send(txParams);
@@ -63699,7 +63699,7 @@ function sEUR(contractSettings) {
               txParams = txParams || {};
               txParams = sEUR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context3.next = 4;
               return _this.contract.setIntegrationProxy(_integrationProxy).send(txParams);
@@ -63744,7 +63744,7 @@ function sEUR(contractSettings) {
               txParams = txParams || {};
               txParams = sEUR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context4.next = 4;
               return _this.contract.nominateNewOwner(_owner).send(txParams);
@@ -63847,7 +63847,7 @@ function sEUR(contractSettings) {
               txParams = txParams || {};
               txParams = sEUR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context7.next = 4;
               return _this.contract.setSelfDestructBeneficiary(_beneficiary).send(txParams);
@@ -63895,7 +63895,7 @@ function sEUR(contractSettings) {
               txParams = txParams || {};
               txParams = sEUR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context8.next = 4;
               return _this.contract.transferFrom(from, to, value).send(txParams);
@@ -63968,7 +63968,7 @@ function sEUR(contractSettings) {
               txParams = txParams || {};
               txParams = sEUR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context10.next = 4;
               return _this.contract.terminateSelfDestruct().send(txParams);
@@ -64078,7 +64078,7 @@ function sEUR(contractSettings) {
               txParams = txParams || {};
               txParams = sEUR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context13.next = 4;
               return _this.contract.acceptOwnership().send(txParams);
@@ -64124,7 +64124,7 @@ function sEUR(contractSettings) {
               txParams = txParams || {};
               txParams = sEUR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context14.next = 4;
               return _this.contract.issue(account, amount).send(txParams);
@@ -64198,7 +64198,7 @@ function sEUR(contractSettings) {
               txParams = txParams || {};
               txParams = sEUR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context16.next = 4;
               return _this.contract.setSynthetixProxy(_synthetixProxy).send(txParams);
@@ -64272,7 +64272,7 @@ function sEUR(contractSettings) {
               txParams = txParams || {};
               txParams = sEUR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context18.next = 4;
               return _this.contract.setProxy(_proxy).send(txParams);
@@ -64316,7 +64316,7 @@ function sEUR(contractSettings) {
               txParams = txParams || {};
               txParams = sEUR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context19.next = 4;
               return _this.contract.selfDestruct().send(txParams);
@@ -64391,7 +64391,7 @@ function sEUR(contractSettings) {
               txParams = txParams || {};
               txParams = sEUR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context21.next = 4;
               return _this.contract.burn(account, amount).send(txParams);
@@ -64436,7 +64436,7 @@ function sEUR(contractSettings) {
               txParams = txParams || {};
               txParams = sEUR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context22.next = 4;
               return _this.contract.setTokenState(_tokenState).send(txParams);
@@ -64512,7 +64512,7 @@ function sEUR(contractSettings) {
               txParams = txParams || {};
               txParams = sEUR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context24.next = 4;
               return _this.contract.transfer(to, value).send(txParams);
@@ -64586,7 +64586,7 @@ function sEUR(contractSettings) {
               txParams = txParams || {};
               txParams = sEUR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context26.next = 4;
               return _this.contract.setMessageSender(sender).send(txParams);
@@ -64630,7 +64630,7 @@ function sEUR(contractSettings) {
               txParams = txParams || {};
               txParams = sEUR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context27.next = 4;
               return _this.contract.initiateSelfDestruct().send(txParams);
@@ -64791,7 +64791,7 @@ function sEUR(contractSettings) {
               txParams = txParams || {};
               txParams = sEUR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context32.next = 4;
               return _this.contract.setFeePoolProxy(_feePoolProxy).send(txParams);
@@ -64961,7 +64961,7 @@ function sEUR(contractSettings) {
               txParams = txParams || {};
               txParams = sEUR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context37.next = 4;
               return _this.contract.setTotalSupply(amount).send(txParams);
@@ -65062,7 +65062,7 @@ function sUSD(contractSettings) {
               txParams = txParams || {};
               txParams = sUSD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context2.next = 4;
               return _this.contract.approve(spender, value).send(txParams);
@@ -65107,7 +65107,7 @@ function sUSD(contractSettings) {
               txParams = txParams || {};
               txParams = sUSD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context3.next = 4;
               return _this.contract.setIntegrationProxy(_integrationProxy).send(txParams);
@@ -65152,7 +65152,7 @@ function sUSD(contractSettings) {
               txParams = txParams || {};
               txParams = sUSD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context4.next = 4;
               return _this.contract.nominateNewOwner(_owner).send(txParams);
@@ -65255,7 +65255,7 @@ function sUSD(contractSettings) {
               txParams = txParams || {};
               txParams = sUSD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context7.next = 4;
               return _this.contract.setSelfDestructBeneficiary(_beneficiary).send(txParams);
@@ -65303,7 +65303,7 @@ function sUSD(contractSettings) {
               txParams = txParams || {};
               txParams = sUSD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context8.next = 4;
               return _this.contract.transferFrom(from, to, value).send(txParams);
@@ -65376,7 +65376,7 @@ function sUSD(contractSettings) {
               txParams = txParams || {};
               txParams = sUSD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context10.next = 4;
               return _this.contract.terminateSelfDestruct().send(txParams);
@@ -65486,7 +65486,7 @@ function sUSD(contractSettings) {
               txParams = txParams || {};
               txParams = sUSD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context13.next = 4;
               return _this.contract.acceptOwnership().send(txParams);
@@ -65532,7 +65532,7 @@ function sUSD(contractSettings) {
               txParams = txParams || {};
               txParams = sUSD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context14.next = 4;
               return _this.contract.issue(account, amount).send(txParams);
@@ -65606,7 +65606,7 @@ function sUSD(contractSettings) {
               txParams = txParams || {};
               txParams = sUSD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context16.next = 4;
               return _this.contract.setSynthetixProxy(_synthetixProxy).send(txParams);
@@ -65680,7 +65680,7 @@ function sUSD(contractSettings) {
               txParams = txParams || {};
               txParams = sUSD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context18.next = 4;
               return _this.contract.setProxy(_proxy).send(txParams);
@@ -65724,7 +65724,7 @@ function sUSD(contractSettings) {
               txParams = txParams || {};
               txParams = sUSD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context19.next = 4;
               return _this.contract.selfDestruct().send(txParams);
@@ -65799,7 +65799,7 @@ function sUSD(contractSettings) {
               txParams = txParams || {};
               txParams = sUSD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context21.next = 4;
               return _this.contract.burn(account, amount).send(txParams);
@@ -65844,7 +65844,7 @@ function sUSD(contractSettings) {
               txParams = txParams || {};
               txParams = sUSD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context22.next = 4;
               return _this.contract.setTokenState(_tokenState).send(txParams);
@@ -65920,7 +65920,7 @@ function sUSD(contractSettings) {
               txParams = txParams || {};
               txParams = sUSD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context24.next = 4;
               return _this.contract.transfer(to, value).send(txParams);
@@ -65994,7 +65994,7 @@ function sUSD(contractSettings) {
               txParams = txParams || {};
               txParams = sUSD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context26.next = 4;
               return _this.contract.setMessageSender(sender).send(txParams);
@@ -66038,7 +66038,7 @@ function sUSD(contractSettings) {
               txParams = txParams || {};
               txParams = sUSD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context27.next = 4;
               return _this.contract.initiateSelfDestruct().send(txParams);
@@ -66199,7 +66199,7 @@ function sUSD(contractSettings) {
               txParams = txParams || {};
               txParams = sUSD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context32.next = 4;
               return _this.contract.setFeePoolProxy(_feePoolProxy).send(txParams);
@@ -66369,7 +66369,7 @@ function sUSD(contractSettings) {
               txParams = txParams || {};
               txParams = sUSD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context37.next = 4;
               return _this.contract.setTotalSupply(amount).send(txParams);
@@ -66470,7 +66470,7 @@ function sAUD(contractSettings) {
               txParams = txParams || {};
               txParams = sAUD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context2.next = 4;
               return _this.contract.approve(spender, value).send(txParams);
@@ -66515,7 +66515,7 @@ function sAUD(contractSettings) {
               txParams = txParams || {};
               txParams = sAUD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context3.next = 4;
               return _this.contract.setIntegrationProxy(_integrationProxy).send(txParams);
@@ -66560,7 +66560,7 @@ function sAUD(contractSettings) {
               txParams = txParams || {};
               txParams = sAUD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context4.next = 4;
               return _this.contract.nominateNewOwner(_owner).send(txParams);
@@ -66663,7 +66663,7 @@ function sAUD(contractSettings) {
               txParams = txParams || {};
               txParams = sAUD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context7.next = 4;
               return _this.contract.setSelfDestructBeneficiary(_beneficiary).send(txParams);
@@ -66711,7 +66711,7 @@ function sAUD(contractSettings) {
               txParams = txParams || {};
               txParams = sAUD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context8.next = 4;
               return _this.contract.transferFrom(from, to, value).send(txParams);
@@ -66784,7 +66784,7 @@ function sAUD(contractSettings) {
               txParams = txParams || {};
               txParams = sAUD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context10.next = 4;
               return _this.contract.terminateSelfDestruct().send(txParams);
@@ -66894,7 +66894,7 @@ function sAUD(contractSettings) {
               txParams = txParams || {};
               txParams = sAUD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context13.next = 4;
               return _this.contract.acceptOwnership().send(txParams);
@@ -66940,7 +66940,7 @@ function sAUD(contractSettings) {
               txParams = txParams || {};
               txParams = sAUD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context14.next = 4;
               return _this.contract.issue(account, amount).send(txParams);
@@ -67014,7 +67014,7 @@ function sAUD(contractSettings) {
               txParams = txParams || {};
               txParams = sAUD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context16.next = 4;
               return _this.contract.setSynthetixProxy(_synthetixProxy).send(txParams);
@@ -67088,7 +67088,7 @@ function sAUD(contractSettings) {
               txParams = txParams || {};
               txParams = sAUD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context18.next = 4;
               return _this.contract.setProxy(_proxy).send(txParams);
@@ -67132,7 +67132,7 @@ function sAUD(contractSettings) {
               txParams = txParams || {};
               txParams = sAUD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context19.next = 4;
               return _this.contract.selfDestruct().send(txParams);
@@ -67207,7 +67207,7 @@ function sAUD(contractSettings) {
               txParams = txParams || {};
               txParams = sAUD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context21.next = 4;
               return _this.contract.burn(account, amount).send(txParams);
@@ -67252,7 +67252,7 @@ function sAUD(contractSettings) {
               txParams = txParams || {};
               txParams = sAUD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context22.next = 4;
               return _this.contract.setTokenState(_tokenState).send(txParams);
@@ -67328,7 +67328,7 @@ function sAUD(contractSettings) {
               txParams = txParams || {};
               txParams = sAUD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context24.next = 4;
               return _this.contract.transfer(to, value).send(txParams);
@@ -67402,7 +67402,7 @@ function sAUD(contractSettings) {
               txParams = txParams || {};
               txParams = sAUD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context26.next = 4;
               return _this.contract.setMessageSender(sender).send(txParams);
@@ -67446,7 +67446,7 @@ function sAUD(contractSettings) {
               txParams = txParams || {};
               txParams = sAUD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context27.next = 4;
               return _this.contract.initiateSelfDestruct().send(txParams);
@@ -67607,7 +67607,7 @@ function sAUD(contractSettings) {
               txParams = txParams || {};
               txParams = sAUD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context32.next = 4;
               return _this.contract.setFeePoolProxy(_feePoolProxy).send(txParams);
@@ -67777,7 +67777,7 @@ function sAUD(contractSettings) {
               txParams = txParams || {};
               txParams = sAUD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context37.next = 4;
               return _this.contract.setTotalSupply(amount).send(txParams);
@@ -67878,7 +67878,7 @@ function sGBP(contractSettings) {
               txParams = txParams || {};
               txParams = sGBP_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context2.next = 4;
               return _this.contract.approve(spender, value).send(txParams);
@@ -67923,7 +67923,7 @@ function sGBP(contractSettings) {
               txParams = txParams || {};
               txParams = sGBP_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context3.next = 4;
               return _this.contract.setIntegrationProxy(_integrationProxy).send(txParams);
@@ -67968,7 +67968,7 @@ function sGBP(contractSettings) {
               txParams = txParams || {};
               txParams = sGBP_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context4.next = 4;
               return _this.contract.nominateNewOwner(_owner).send(txParams);
@@ -68071,7 +68071,7 @@ function sGBP(contractSettings) {
               txParams = txParams || {};
               txParams = sGBP_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context7.next = 4;
               return _this.contract.setSelfDestructBeneficiary(_beneficiary).send(txParams);
@@ -68119,7 +68119,7 @@ function sGBP(contractSettings) {
               txParams = txParams || {};
               txParams = sGBP_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context8.next = 4;
               return _this.contract.transferFrom(from, to, value).send(txParams);
@@ -68192,7 +68192,7 @@ function sGBP(contractSettings) {
               txParams = txParams || {};
               txParams = sGBP_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context10.next = 4;
               return _this.contract.terminateSelfDestruct().send(txParams);
@@ -68302,7 +68302,7 @@ function sGBP(contractSettings) {
               txParams = txParams || {};
               txParams = sGBP_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context13.next = 4;
               return _this.contract.acceptOwnership().send(txParams);
@@ -68348,7 +68348,7 @@ function sGBP(contractSettings) {
               txParams = txParams || {};
               txParams = sGBP_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context14.next = 4;
               return _this.contract.issue(account, amount).send(txParams);
@@ -68422,7 +68422,7 @@ function sGBP(contractSettings) {
               txParams = txParams || {};
               txParams = sGBP_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context16.next = 4;
               return _this.contract.setSynthetixProxy(_synthetixProxy).send(txParams);
@@ -68496,7 +68496,7 @@ function sGBP(contractSettings) {
               txParams = txParams || {};
               txParams = sGBP_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context18.next = 4;
               return _this.contract.setProxy(_proxy).send(txParams);
@@ -68540,7 +68540,7 @@ function sGBP(contractSettings) {
               txParams = txParams || {};
               txParams = sGBP_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context19.next = 4;
               return _this.contract.selfDestruct().send(txParams);
@@ -68615,7 +68615,7 @@ function sGBP(contractSettings) {
               txParams = txParams || {};
               txParams = sGBP_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context21.next = 4;
               return _this.contract.burn(account, amount).send(txParams);
@@ -68660,7 +68660,7 @@ function sGBP(contractSettings) {
               txParams = txParams || {};
               txParams = sGBP_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context22.next = 4;
               return _this.contract.setTokenState(_tokenState).send(txParams);
@@ -68736,7 +68736,7 @@ function sGBP(contractSettings) {
               txParams = txParams || {};
               txParams = sGBP_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context24.next = 4;
               return _this.contract.transfer(to, value).send(txParams);
@@ -68810,7 +68810,7 @@ function sGBP(contractSettings) {
               txParams = txParams || {};
               txParams = sGBP_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context26.next = 4;
               return _this.contract.setMessageSender(sender).send(txParams);
@@ -68854,7 +68854,7 @@ function sGBP(contractSettings) {
               txParams = txParams || {};
               txParams = sGBP_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context27.next = 4;
               return _this.contract.initiateSelfDestruct().send(txParams);
@@ -69015,7 +69015,7 @@ function sGBP(contractSettings) {
               txParams = txParams || {};
               txParams = sGBP_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context32.next = 4;
               return _this.contract.setFeePoolProxy(_feePoolProxy).send(txParams);
@@ -69185,7 +69185,7 @@ function sGBP(contractSettings) {
               txParams = txParams || {};
               txParams = sGBP_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context37.next = 4;
               return _this.contract.setTotalSupply(amount).send(txParams);
@@ -69286,7 +69286,7 @@ function sCHF(contractSettings) {
               txParams = txParams || {};
               txParams = sCHF_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context2.next = 4;
               return _this.contract.approve(spender, value).send(txParams);
@@ -69331,7 +69331,7 @@ function sCHF(contractSettings) {
               txParams = txParams || {};
               txParams = sCHF_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context3.next = 4;
               return _this.contract.setIntegrationProxy(_integrationProxy).send(txParams);
@@ -69376,7 +69376,7 @@ function sCHF(contractSettings) {
               txParams = txParams || {};
               txParams = sCHF_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context4.next = 4;
               return _this.contract.nominateNewOwner(_owner).send(txParams);
@@ -69479,7 +69479,7 @@ function sCHF(contractSettings) {
               txParams = txParams || {};
               txParams = sCHF_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context7.next = 4;
               return _this.contract.setSelfDestructBeneficiary(_beneficiary).send(txParams);
@@ -69527,7 +69527,7 @@ function sCHF(contractSettings) {
               txParams = txParams || {};
               txParams = sCHF_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context8.next = 4;
               return _this.contract.transferFrom(from, to, value).send(txParams);
@@ -69600,7 +69600,7 @@ function sCHF(contractSettings) {
               txParams = txParams || {};
               txParams = sCHF_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context10.next = 4;
               return _this.contract.terminateSelfDestruct().send(txParams);
@@ -69710,7 +69710,7 @@ function sCHF(contractSettings) {
               txParams = txParams || {};
               txParams = sCHF_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context13.next = 4;
               return _this.contract.acceptOwnership().send(txParams);
@@ -69756,7 +69756,7 @@ function sCHF(contractSettings) {
               txParams = txParams || {};
               txParams = sCHF_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context14.next = 4;
               return _this.contract.issue(account, amount).send(txParams);
@@ -69830,7 +69830,7 @@ function sCHF(contractSettings) {
               txParams = txParams || {};
               txParams = sCHF_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context16.next = 4;
               return _this.contract.setSynthetixProxy(_synthetixProxy).send(txParams);
@@ -69904,7 +69904,7 @@ function sCHF(contractSettings) {
               txParams = txParams || {};
               txParams = sCHF_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context18.next = 4;
               return _this.contract.setProxy(_proxy).send(txParams);
@@ -69948,7 +69948,7 @@ function sCHF(contractSettings) {
               txParams = txParams || {};
               txParams = sCHF_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context19.next = 4;
               return _this.contract.selfDestruct().send(txParams);
@@ -70023,7 +70023,7 @@ function sCHF(contractSettings) {
               txParams = txParams || {};
               txParams = sCHF_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context21.next = 4;
               return _this.contract.burn(account, amount).send(txParams);
@@ -70068,7 +70068,7 @@ function sCHF(contractSettings) {
               txParams = txParams || {};
               txParams = sCHF_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context22.next = 4;
               return _this.contract.setTokenState(_tokenState).send(txParams);
@@ -70144,7 +70144,7 @@ function sCHF(contractSettings) {
               txParams = txParams || {};
               txParams = sCHF_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context24.next = 4;
               return _this.contract.transfer(to, value).send(txParams);
@@ -70218,7 +70218,7 @@ function sCHF(contractSettings) {
               txParams = txParams || {};
               txParams = sCHF_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context26.next = 4;
               return _this.contract.setMessageSender(sender).send(txParams);
@@ -70262,7 +70262,7 @@ function sCHF(contractSettings) {
               txParams = txParams || {};
               txParams = sCHF_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context27.next = 4;
               return _this.contract.initiateSelfDestruct().send(txParams);
@@ -70423,7 +70423,7 @@ function sCHF(contractSettings) {
               txParams = txParams || {};
               txParams = sCHF_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context32.next = 4;
               return _this.contract.setFeePoolProxy(_feePoolProxy).send(txParams);
@@ -70593,7 +70593,7 @@ function sCHF(contractSettings) {
               txParams = txParams || {};
               txParams = sCHF_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context37.next = 4;
               return _this.contract.setTotalSupply(amount).send(txParams);
@@ -70694,7 +70694,7 @@ function sBTC(contractSettings) {
               txParams = txParams || {};
               txParams = sBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context2.next = 4;
               return _this.contract.approve(spender, value).send(txParams);
@@ -70739,7 +70739,7 @@ function sBTC(contractSettings) {
               txParams = txParams || {};
               txParams = sBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context3.next = 4;
               return _this.contract.setIntegrationProxy(_integrationProxy).send(txParams);
@@ -70784,7 +70784,7 @@ function sBTC(contractSettings) {
               txParams = txParams || {};
               txParams = sBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context4.next = 4;
               return _this.contract.nominateNewOwner(_owner).send(txParams);
@@ -70887,7 +70887,7 @@ function sBTC(contractSettings) {
               txParams = txParams || {};
               txParams = sBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context7.next = 4;
               return _this.contract.setSelfDestructBeneficiary(_beneficiary).send(txParams);
@@ -70935,7 +70935,7 @@ function sBTC(contractSettings) {
               txParams = txParams || {};
               txParams = sBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context8.next = 4;
               return _this.contract.transferFrom(from, to, value).send(txParams);
@@ -71008,7 +71008,7 @@ function sBTC(contractSettings) {
               txParams = txParams || {};
               txParams = sBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context10.next = 4;
               return _this.contract.terminateSelfDestruct().send(txParams);
@@ -71118,7 +71118,7 @@ function sBTC(contractSettings) {
               txParams = txParams || {};
               txParams = sBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context13.next = 4;
               return _this.contract.acceptOwnership().send(txParams);
@@ -71164,7 +71164,7 @@ function sBTC(contractSettings) {
               txParams = txParams || {};
               txParams = sBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context14.next = 4;
               return _this.contract.issue(account, amount).send(txParams);
@@ -71238,7 +71238,7 @@ function sBTC(contractSettings) {
               txParams = txParams || {};
               txParams = sBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context16.next = 4;
               return _this.contract.setSynthetixProxy(_synthetixProxy).send(txParams);
@@ -71312,7 +71312,7 @@ function sBTC(contractSettings) {
               txParams = txParams || {};
               txParams = sBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context18.next = 4;
               return _this.contract.setProxy(_proxy).send(txParams);
@@ -71356,7 +71356,7 @@ function sBTC(contractSettings) {
               txParams = txParams || {};
               txParams = sBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context19.next = 4;
               return _this.contract.selfDestruct().send(txParams);
@@ -71431,7 +71431,7 @@ function sBTC(contractSettings) {
               txParams = txParams || {};
               txParams = sBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context21.next = 4;
               return _this.contract.burn(account, amount).send(txParams);
@@ -71476,7 +71476,7 @@ function sBTC(contractSettings) {
               txParams = txParams || {};
               txParams = sBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context22.next = 4;
               return _this.contract.setTokenState(_tokenState).send(txParams);
@@ -71552,7 +71552,7 @@ function sBTC(contractSettings) {
               txParams = txParams || {};
               txParams = sBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context24.next = 4;
               return _this.contract.transfer(to, value).send(txParams);
@@ -71626,7 +71626,7 @@ function sBTC(contractSettings) {
               txParams = txParams || {};
               txParams = sBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context26.next = 4;
               return _this.contract.setMessageSender(sender).send(txParams);
@@ -71670,7 +71670,7 @@ function sBTC(contractSettings) {
               txParams = txParams || {};
               txParams = sBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context27.next = 4;
               return _this.contract.initiateSelfDestruct().send(txParams);
@@ -71831,7 +71831,7 @@ function sBTC(contractSettings) {
               txParams = txParams || {};
               txParams = sBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context32.next = 4;
               return _this.contract.setFeePoolProxy(_feePoolProxy).send(txParams);
@@ -72001,7 +72001,7 @@ function sBTC(contractSettings) {
               txParams = txParams || {};
               txParams = sBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context37.next = 4;
               return _this.contract.setTotalSupply(amount).send(txParams);
@@ -72102,7 +72102,7 @@ function sETH(contractSettings) {
               txParams = txParams || {};
               txParams = sETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context2.next = 4;
               return _this.contract.approve(spender, value).send(txParams);
@@ -72147,7 +72147,7 @@ function sETH(contractSettings) {
               txParams = txParams || {};
               txParams = sETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context3.next = 4;
               return _this.contract.setIntegrationProxy(_integrationProxy).send(txParams);
@@ -72192,7 +72192,7 @@ function sETH(contractSettings) {
               txParams = txParams || {};
               txParams = sETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context4.next = 4;
               return _this.contract.nominateNewOwner(_owner).send(txParams);
@@ -72295,7 +72295,7 @@ function sETH(contractSettings) {
               txParams = txParams || {};
               txParams = sETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context7.next = 4;
               return _this.contract.setSelfDestructBeneficiary(_beneficiary).send(txParams);
@@ -72343,7 +72343,7 @@ function sETH(contractSettings) {
               txParams = txParams || {};
               txParams = sETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context8.next = 4;
               return _this.contract.transferFrom(from, to, value).send(txParams);
@@ -72416,7 +72416,7 @@ function sETH(contractSettings) {
               txParams = txParams || {};
               txParams = sETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context10.next = 4;
               return _this.contract.terminateSelfDestruct().send(txParams);
@@ -72526,7 +72526,7 @@ function sETH(contractSettings) {
               txParams = txParams || {};
               txParams = sETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context13.next = 4;
               return _this.contract.acceptOwnership().send(txParams);
@@ -72572,7 +72572,7 @@ function sETH(contractSettings) {
               txParams = txParams || {};
               txParams = sETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context14.next = 4;
               return _this.contract.issue(account, amount).send(txParams);
@@ -72646,7 +72646,7 @@ function sETH(contractSettings) {
               txParams = txParams || {};
               txParams = sETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context16.next = 4;
               return _this.contract.setSynthetixProxy(_synthetixProxy).send(txParams);
@@ -72720,7 +72720,7 @@ function sETH(contractSettings) {
               txParams = txParams || {};
               txParams = sETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context18.next = 4;
               return _this.contract.setProxy(_proxy).send(txParams);
@@ -72764,7 +72764,7 @@ function sETH(contractSettings) {
               txParams = txParams || {};
               txParams = sETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context19.next = 4;
               return _this.contract.selfDestruct().send(txParams);
@@ -72839,7 +72839,7 @@ function sETH(contractSettings) {
               txParams = txParams || {};
               txParams = sETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context21.next = 4;
               return _this.contract.burn(account, amount).send(txParams);
@@ -72884,7 +72884,7 @@ function sETH(contractSettings) {
               txParams = txParams || {};
               txParams = sETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context22.next = 4;
               return _this.contract.setTokenState(_tokenState).send(txParams);
@@ -72960,7 +72960,7 @@ function sETH(contractSettings) {
               txParams = txParams || {};
               txParams = sETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context24.next = 4;
               return _this.contract.transfer(to, value).send(txParams);
@@ -73034,7 +73034,7 @@ function sETH(contractSettings) {
               txParams = txParams || {};
               txParams = sETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context26.next = 4;
               return _this.contract.setMessageSender(sender).send(txParams);
@@ -73078,7 +73078,7 @@ function sETH(contractSettings) {
               txParams = txParams || {};
               txParams = sETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context27.next = 4;
               return _this.contract.initiateSelfDestruct().send(txParams);
@@ -73239,7 +73239,7 @@ function sETH(contractSettings) {
               txParams = txParams || {};
               txParams = sETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context32.next = 4;
               return _this.contract.setFeePoolProxy(_feePoolProxy).send(txParams);
@@ -73409,7 +73409,7 @@ function sETH(contractSettings) {
               txParams = txParams || {};
               txParams = sETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context37.next = 4;
               return _this.contract.setTotalSupply(amount).send(txParams);
@@ -73510,7 +73510,7 @@ function sTRX(contractSettings) {
               txParams = txParams || {};
               txParams = sTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context2.next = 4;
               return _this.contract.approve(spender, value).send(txParams);
@@ -73555,7 +73555,7 @@ function sTRX(contractSettings) {
               txParams = txParams || {};
               txParams = sTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context3.next = 4;
               return _this.contract.setIntegrationProxy(_integrationProxy).send(txParams);
@@ -73600,7 +73600,7 @@ function sTRX(contractSettings) {
               txParams = txParams || {};
               txParams = sTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context4.next = 4;
               return _this.contract.nominateNewOwner(_owner).send(txParams);
@@ -73703,7 +73703,7 @@ function sTRX(contractSettings) {
               txParams = txParams || {};
               txParams = sTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context7.next = 4;
               return _this.contract.setSelfDestructBeneficiary(_beneficiary).send(txParams);
@@ -73751,7 +73751,7 @@ function sTRX(contractSettings) {
               txParams = txParams || {};
               txParams = sTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context8.next = 4;
               return _this.contract.transferFrom(from, to, value).send(txParams);
@@ -73824,7 +73824,7 @@ function sTRX(contractSettings) {
               txParams = txParams || {};
               txParams = sTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context10.next = 4;
               return _this.contract.terminateSelfDestruct().send(txParams);
@@ -73934,7 +73934,7 @@ function sTRX(contractSettings) {
               txParams = txParams || {};
               txParams = sTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context13.next = 4;
               return _this.contract.acceptOwnership().send(txParams);
@@ -73980,7 +73980,7 @@ function sTRX(contractSettings) {
               txParams = txParams || {};
               txParams = sTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context14.next = 4;
               return _this.contract.issue(account, amount).send(txParams);
@@ -74054,7 +74054,7 @@ function sTRX(contractSettings) {
               txParams = txParams || {};
               txParams = sTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context16.next = 4;
               return _this.contract.setSynthetixProxy(_synthetixProxy).send(txParams);
@@ -74128,7 +74128,7 @@ function sTRX(contractSettings) {
               txParams = txParams || {};
               txParams = sTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context18.next = 4;
               return _this.contract.setProxy(_proxy).send(txParams);
@@ -74172,7 +74172,7 @@ function sTRX(contractSettings) {
               txParams = txParams || {};
               txParams = sTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context19.next = 4;
               return _this.contract.selfDestruct().send(txParams);
@@ -74247,7 +74247,7 @@ function sTRX(contractSettings) {
               txParams = txParams || {};
               txParams = sTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context21.next = 4;
               return _this.contract.burn(account, amount).send(txParams);
@@ -74292,7 +74292,7 @@ function sTRX(contractSettings) {
               txParams = txParams || {};
               txParams = sTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context22.next = 4;
               return _this.contract.setTokenState(_tokenState).send(txParams);
@@ -74368,7 +74368,7 @@ function sTRX(contractSettings) {
               txParams = txParams || {};
               txParams = sTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context24.next = 4;
               return _this.contract.transfer(to, value).send(txParams);
@@ -74442,7 +74442,7 @@ function sTRX(contractSettings) {
               txParams = txParams || {};
               txParams = sTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context26.next = 4;
               return _this.contract.setMessageSender(sender).send(txParams);
@@ -74486,7 +74486,7 @@ function sTRX(contractSettings) {
               txParams = txParams || {};
               txParams = sTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context27.next = 4;
               return _this.contract.initiateSelfDestruct().send(txParams);
@@ -74647,7 +74647,7 @@ function sTRX(contractSettings) {
               txParams = txParams || {};
               txParams = sTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context32.next = 4;
               return _this.contract.setFeePoolProxy(_feePoolProxy).send(txParams);
@@ -74817,7 +74817,7 @@ function sTRX(contractSettings) {
               txParams = txParams || {};
               txParams = sTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context37.next = 4;
               return _this.contract.setTotalSupply(amount).send(txParams);
@@ -74921,7 +74921,7 @@ function iBTC(contractSettings) {
               txParams = txParams || {};
               txParams = iBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context2.next = 4;
               return _this.contract.approve(spender, value).send(txParams);
@@ -74966,7 +74966,7 @@ function iBTC(contractSettings) {
               txParams = txParams || {};
               txParams = iBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context3.next = 4;
               return _this.contract.setIntegrationProxy(_integrationProxy).send(txParams);
@@ -75011,7 +75011,7 @@ function iBTC(contractSettings) {
               txParams = txParams || {};
               txParams = iBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context4.next = 4;
               return _this.contract.nominateNewOwner(_owner).send(txParams);
@@ -75114,7 +75114,7 @@ function iBTC(contractSettings) {
               txParams = txParams || {};
               txParams = iBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context7.next = 4;
               return _this.contract.setSelfDestructBeneficiary(_beneficiary).send(txParams);
@@ -75161,7 +75161,7 @@ function iBTC(contractSettings) {
               txParams = txParams || {};
               txParams = iBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context8.next = 4;
               return _this.contract.transferFrom(from, to, value).send(txParams);
@@ -75234,7 +75234,7 @@ function iBTC(contractSettings) {
               txParams = txParams || {};
               txParams = iBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context10.next = 4;
               return _this.contract.terminateSelfDestruct().send(txParams);
@@ -75337,7 +75337,7 @@ function iBTC(contractSettings) {
               txParams = txParams || {};
               txParams = iBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context13.next = 4;
               return _this.contract.setExchangeRates(_exchangeRates).send(txParams);
@@ -75418,7 +75418,7 @@ function iBTC(contractSettings) {
               txParams = txParams || {};
               txParams = iBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context15.next = 4;
               return _this.contract.acceptOwnership().send(txParams);
@@ -75493,7 +75493,7 @@ function iBTC(contractSettings) {
               txParams = txParams || {};
               txParams = iBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context17.next = 4;
               return _this.contract.issue(account, amount).send(txParams);
@@ -75567,7 +75567,7 @@ function iBTC(contractSettings) {
               txParams = txParams || {};
               txParams = iBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context19.next = 4;
               return _this.contract.setSynthetixProxy(_synthetixProxy).send(txParams);
@@ -75641,7 +75641,7 @@ function iBTC(contractSettings) {
               txParams = txParams || {};
               txParams = iBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context21.next = 4;
               return _this.contract.setProxy(_proxy).send(txParams);
@@ -75685,7 +75685,7 @@ function iBTC(contractSettings) {
               txParams = txParams || {};
               txParams = iBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context22.next = 4;
               return _this.contract.selfDestruct().send(txParams);
@@ -75760,7 +75760,7 @@ function iBTC(contractSettings) {
               txParams = txParams || {};
               txParams = iBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context24.next = 4;
               return _this.contract.burn(account, amount).send(txParams);
@@ -75805,7 +75805,7 @@ function iBTC(contractSettings) {
               txParams = txParams || {};
               txParams = iBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context25.next = 4;
               return _this.contract.setTokenState(_tokenState).send(txParams);
@@ -75880,7 +75880,7 @@ function iBTC(contractSettings) {
               txParams = txParams || {};
               txParams = iBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context27.next = 4;
               return _this.contract.transfer(to, value).send(txParams);
@@ -75925,7 +75925,7 @@ function iBTC(contractSettings) {
               txParams = txParams || {};
               txParams = iBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context28.next = 4;
               return _this.contract.purge(addresses).send(txParams);
@@ -75999,7 +75999,7 @@ function iBTC(contractSettings) {
               txParams = txParams || {};
               txParams = iBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context30.next = 4;
               return _this.contract.setMessageSender(sender).send(txParams);
@@ -76043,7 +76043,7 @@ function iBTC(contractSettings) {
               txParams = txParams || {};
               txParams = iBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context31.next = 4;
               return _this.contract.initiateSelfDestruct().send(txParams);
@@ -76204,7 +76204,7 @@ function iBTC(contractSettings) {
               txParams = txParams || {};
               txParams = iBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context36.next = 4;
               return _this.contract.setFeePoolProxy(_feePoolProxy).send(txParams);
@@ -76374,7 +76374,7 @@ function iBTC(contractSettings) {
               txParams = txParams || {};
               txParams = iBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context41.next = 4;
               return _this.contract.setTotalSupply(amount).send(txParams);
@@ -76475,7 +76475,7 @@ function iTRX(contractSettings) {
               txParams = txParams || {};
               txParams = iTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context2.next = 4;
               return _this.contract.approve(spender, value).send(txParams);
@@ -76520,7 +76520,7 @@ function iTRX(contractSettings) {
               txParams = txParams || {};
               txParams = iTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context3.next = 4;
               return _this.contract.setIntegrationProxy(_integrationProxy).send(txParams);
@@ -76565,7 +76565,7 @@ function iTRX(contractSettings) {
               txParams = txParams || {};
               txParams = iTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context4.next = 4;
               return _this.contract.nominateNewOwner(_owner).send(txParams);
@@ -76668,7 +76668,7 @@ function iTRX(contractSettings) {
               txParams = txParams || {};
               txParams = iTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context7.next = 4;
               return _this.contract.setSelfDestructBeneficiary(_beneficiary).send(txParams);
@@ -76715,7 +76715,7 @@ function iTRX(contractSettings) {
               txParams = txParams || {};
               txParams = iTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context8.next = 4;
               return _this.contract.transferFrom(from, to, value).send(txParams);
@@ -76788,7 +76788,7 @@ function iTRX(contractSettings) {
               txParams = txParams || {};
               txParams = iTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context10.next = 4;
               return _this.contract.terminateSelfDestruct().send(txParams);
@@ -76891,7 +76891,7 @@ function iTRX(contractSettings) {
               txParams = txParams || {};
               txParams = iTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context13.next = 4;
               return _this.contract.setExchangeRates(_exchangeRates).send(txParams);
@@ -76972,7 +76972,7 @@ function iTRX(contractSettings) {
               txParams = txParams || {};
               txParams = iTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context15.next = 4;
               return _this.contract.acceptOwnership().send(txParams);
@@ -77047,7 +77047,7 @@ function iTRX(contractSettings) {
               txParams = txParams || {};
               txParams = iTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context17.next = 4;
               return _this.contract.issue(account, amount).send(txParams);
@@ -77121,7 +77121,7 @@ function iTRX(contractSettings) {
               txParams = txParams || {};
               txParams = iTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context19.next = 4;
               return _this.contract.setSynthetixProxy(_synthetixProxy).send(txParams);
@@ -77195,7 +77195,7 @@ function iTRX(contractSettings) {
               txParams = txParams || {};
               txParams = iTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context21.next = 4;
               return _this.contract.setProxy(_proxy).send(txParams);
@@ -77239,7 +77239,7 @@ function iTRX(contractSettings) {
               txParams = txParams || {};
               txParams = iTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context22.next = 4;
               return _this.contract.selfDestruct().send(txParams);
@@ -77314,7 +77314,7 @@ function iTRX(contractSettings) {
               txParams = txParams || {};
               txParams = iTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context24.next = 4;
               return _this.contract.burn(account, amount).send(txParams);
@@ -77359,7 +77359,7 @@ function iTRX(contractSettings) {
               txParams = txParams || {};
               txParams = iTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context25.next = 4;
               return _this.contract.setTokenState(_tokenState).send(txParams);
@@ -77434,7 +77434,7 @@ function iTRX(contractSettings) {
               txParams = txParams || {};
               txParams = iTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context27.next = 4;
               return _this.contract.transfer(to, value).send(txParams);
@@ -77479,7 +77479,7 @@ function iTRX(contractSettings) {
               txParams = txParams || {};
               txParams = iTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context28.next = 4;
               return _this.contract.purge(addresses).send(txParams);
@@ -77553,7 +77553,7 @@ function iTRX(contractSettings) {
               txParams = txParams || {};
               txParams = iTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context30.next = 4;
               return _this.contract.setMessageSender(sender).send(txParams);
@@ -77597,7 +77597,7 @@ function iTRX(contractSettings) {
               txParams = txParams || {};
               txParams = iTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context31.next = 4;
               return _this.contract.initiateSelfDestruct().send(txParams);
@@ -77758,7 +77758,7 @@ function iTRX(contractSettings) {
               txParams = txParams || {};
               txParams = iTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context36.next = 4;
               return _this.contract.setFeePoolProxy(_feePoolProxy).send(txParams);
@@ -77928,7 +77928,7 @@ function iTRX(contractSettings) {
               txParams = txParams || {};
               txParams = iTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context41.next = 4;
               return _this.contract.setTotalSupply(amount).send(txParams);
@@ -78029,7 +78029,7 @@ function iETH(contractSettings) {
               txParams = txParams || {};
               txParams = iETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context2.next = 4;
               return _this.contract.approve(spender, value).send(txParams);
@@ -78074,7 +78074,7 @@ function iETH(contractSettings) {
               txParams = txParams || {};
               txParams = iETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context3.next = 4;
               return _this.contract.setIntegrationProxy(_integrationProxy).send(txParams);
@@ -78119,7 +78119,7 @@ function iETH(contractSettings) {
               txParams = txParams || {};
               txParams = iETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context4.next = 4;
               return _this.contract.nominateNewOwner(_owner).send(txParams);
@@ -78222,7 +78222,7 @@ function iETH(contractSettings) {
               txParams = txParams || {};
               txParams = iETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context7.next = 4;
               return _this.contract.setSelfDestructBeneficiary(_beneficiary).send(txParams);
@@ -78269,7 +78269,7 @@ function iETH(contractSettings) {
               txParams = txParams || {};
               txParams = iETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context8.next = 4;
               return _this.contract.transferFrom(from, to, value).send(txParams);
@@ -78342,7 +78342,7 @@ function iETH(contractSettings) {
               txParams = txParams || {};
               txParams = iETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context10.next = 4;
               return _this.contract.terminateSelfDestruct().send(txParams);
@@ -78445,7 +78445,7 @@ function iETH(contractSettings) {
               txParams = txParams || {};
               txParams = iETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context13.next = 4;
               return _this.contract.setExchangeRates(_exchangeRates).send(txParams);
@@ -78526,7 +78526,7 @@ function iETH(contractSettings) {
               txParams = txParams || {};
               txParams = iETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context15.next = 4;
               return _this.contract.acceptOwnership().send(txParams);
@@ -78601,7 +78601,7 @@ function iETH(contractSettings) {
               txParams = txParams || {};
               txParams = iETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context17.next = 4;
               return _this.contract.issue(account, amount).send(txParams);
@@ -78675,7 +78675,7 @@ function iETH(contractSettings) {
               txParams = txParams || {};
               txParams = iETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context19.next = 4;
               return _this.contract.setSynthetixProxy(_synthetixProxy).send(txParams);
@@ -78749,7 +78749,7 @@ function iETH(contractSettings) {
               txParams = txParams || {};
               txParams = iETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context21.next = 4;
               return _this.contract.setProxy(_proxy).send(txParams);
@@ -78793,7 +78793,7 @@ function iETH(contractSettings) {
               txParams = txParams || {};
               txParams = iETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context22.next = 4;
               return _this.contract.selfDestruct().send(txParams);
@@ -78868,7 +78868,7 @@ function iETH(contractSettings) {
               txParams = txParams || {};
               txParams = iETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context24.next = 4;
               return _this.contract.burn(account, amount).send(txParams);
@@ -78913,7 +78913,7 @@ function iETH(contractSettings) {
               txParams = txParams || {};
               txParams = iETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context25.next = 4;
               return _this.contract.setTokenState(_tokenState).send(txParams);
@@ -78988,7 +78988,7 @@ function iETH(contractSettings) {
               txParams = txParams || {};
               txParams = iETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context27.next = 4;
               return _this.contract.transfer(to, value).send(txParams);
@@ -79033,7 +79033,7 @@ function iETH(contractSettings) {
               txParams = txParams || {};
               txParams = iETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context28.next = 4;
               return _this.contract.purge(addresses).send(txParams);
@@ -79107,7 +79107,7 @@ function iETH(contractSettings) {
               txParams = txParams || {};
               txParams = iETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context30.next = 4;
               return _this.contract.setMessageSender(sender).send(txParams);
@@ -79151,7 +79151,7 @@ function iETH(contractSettings) {
               txParams = txParams || {};
               txParams = iETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context31.next = 4;
               return _this.contract.initiateSelfDestruct().send(txParams);
@@ -79312,7 +79312,7 @@ function iETH(contractSettings) {
               txParams = txParams || {};
               txParams = iETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context36.next = 4;
               return _this.contract.setFeePoolProxy(_feePoolProxy).send(txParams);
@@ -79482,7 +79482,7 @@ function iETH(contractSettings) {
               txParams = txParams || {};
               txParams = iETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context41.next = 4;
               return _this.contract.setTotalSupply(amount).send(txParams);
@@ -79583,7 +79583,7 @@ function sLINK(contractSettings) {
               txParams = txParams || {};
               txParams = sLINK_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context2.next = 4;
               return _this.contract.approve(spender, value).send(txParams);
@@ -79628,7 +79628,7 @@ function sLINK(contractSettings) {
               txParams = txParams || {};
               txParams = sLINK_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context3.next = 4;
               return _this.contract.setIntegrationProxy(_integrationProxy).send(txParams);
@@ -79673,7 +79673,7 @@ function sLINK(contractSettings) {
               txParams = txParams || {};
               txParams = sLINK_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context4.next = 4;
               return _this.contract.nominateNewOwner(_owner).send(txParams);
@@ -79776,7 +79776,7 @@ function sLINK(contractSettings) {
               txParams = txParams || {};
               txParams = sLINK_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context7.next = 4;
               return _this.contract.setSelfDestructBeneficiary(_beneficiary).send(txParams);
@@ -79824,7 +79824,7 @@ function sLINK(contractSettings) {
               txParams = txParams || {};
               txParams = sLINK_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context8.next = 4;
               return _this.contract.transferFrom(from, to, value).send(txParams);
@@ -79897,7 +79897,7 @@ function sLINK(contractSettings) {
               txParams = txParams || {};
               txParams = sLINK_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context10.next = 4;
               return _this.contract.terminateSelfDestruct().send(txParams);
@@ -80007,7 +80007,7 @@ function sLINK(contractSettings) {
               txParams = txParams || {};
               txParams = sLINK_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context13.next = 4;
               return _this.contract.acceptOwnership().send(txParams);
@@ -80053,7 +80053,7 @@ function sLINK(contractSettings) {
               txParams = txParams || {};
               txParams = sLINK_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context14.next = 4;
               return _this.contract.issue(account, amount).send(txParams);
@@ -80127,7 +80127,7 @@ function sLINK(contractSettings) {
               txParams = txParams || {};
               txParams = sLINK_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context16.next = 4;
               return _this.contract.setSynthetixProxy(_synthetixProxy).send(txParams);
@@ -80201,7 +80201,7 @@ function sLINK(contractSettings) {
               txParams = txParams || {};
               txParams = sLINK_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context18.next = 4;
               return _this.contract.setProxy(_proxy).send(txParams);
@@ -80245,7 +80245,7 @@ function sLINK(contractSettings) {
               txParams = txParams || {};
               txParams = sLINK_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context19.next = 4;
               return _this.contract.selfDestruct().send(txParams);
@@ -80320,7 +80320,7 @@ function sLINK(contractSettings) {
               txParams = txParams || {};
               txParams = sLINK_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context21.next = 4;
               return _this.contract.burn(account, amount).send(txParams);
@@ -80365,7 +80365,7 @@ function sLINK(contractSettings) {
               txParams = txParams || {};
               txParams = sLINK_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context22.next = 4;
               return _this.contract.setTokenState(_tokenState).send(txParams);
@@ -80441,7 +80441,7 @@ function sLINK(contractSettings) {
               txParams = txParams || {};
               txParams = sLINK_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context24.next = 4;
               return _this.contract.transfer(to, value).send(txParams);
@@ -80515,7 +80515,7 @@ function sLINK(contractSettings) {
               txParams = txParams || {};
               txParams = sLINK_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context26.next = 4;
               return _this.contract.setMessageSender(sender).send(txParams);
@@ -80559,7 +80559,7 @@ function sLINK(contractSettings) {
               txParams = txParams || {};
               txParams = sLINK_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context27.next = 4;
               return _this.contract.initiateSelfDestruct().send(txParams);
@@ -80720,7 +80720,7 @@ function sLINK(contractSettings) {
               txParams = txParams || {};
               txParams = sLINK_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context32.next = 4;
               return _this.contract.setFeePoolProxy(_feePoolProxy).send(txParams);
@@ -80890,7 +80890,7 @@ function sLINK(contractSettings) {
               txParams = txParams || {};
               txParams = sLINK_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context37.next = 4;
               return _this.contract.setTotalSupply(amount).send(txParams);
@@ -81014,7 +81014,7 @@ function shasta_Depot_Depot(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Depot_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context.next = 4;
               return _this.contract.exchangeEtherForSNX().send(txParams);
@@ -81090,7 +81090,7 @@ function shasta_Depot_Depot(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Depot_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context3.next = 4;
               return _this.contract.exchangeEtherForSynthsAtRate(guaranteedRate).send(txParams);
@@ -81203,7 +81203,7 @@ function shasta_Depot_Depot(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Depot_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context6.next = 4;
               return _this.contract.exchangeSynthsForSynthetix(synthAmount).send(txParams);
@@ -81248,7 +81248,7 @@ function shasta_Depot_Depot(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Depot_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context7.next = 4;
               return _this.contract.nominateNewOwner(_owner).send(txParams);
@@ -81293,7 +81293,7 @@ function shasta_Depot_Depot(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Depot_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context8.next = 4;
               return _this.contract.setPaused(_paused).send(txParams);
@@ -81368,7 +81368,7 @@ function shasta_Depot_Depot(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Depot_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context10.next = 4;
               return _this.contract.exchangeEtherForSynths().send(txParams);
@@ -81413,7 +81413,7 @@ function shasta_Depot_Depot(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Depot_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context11.next = 4;
               return _this.contract.setSelfDestructBeneficiary(_beneficiary).send(txParams);
@@ -81517,7 +81517,7 @@ function shasta_Depot_Depot(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Depot_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context14.next = 4;
               return _this.contract.setPriceStalePeriod(_time).send(txParams);
@@ -81561,7 +81561,7 @@ function shasta_Depot_Depot(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Depot_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context15.next = 4;
               return _this.contract.terminateSelfDestruct().send(txParams);
@@ -81607,7 +81607,7 @@ function shasta_Depot_Depot(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Depot_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context16.next = 4;
               return _this.contract.setSynth(_synth).send(txParams);
@@ -81685,7 +81685,7 @@ function shasta_Depot_Depot(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Depot_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context18.next = 4;
               return _this.contract.updatePrices(newEthPrice, newSynthetixPrice, timeSent).send(txParams);
@@ -81848,7 +81848,7 @@ function shasta_Depot_Depot(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Depot_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context23.next = 4;
               return _this.contract.exchangeSynthsForSynthetixAtRate(synthAmount, guaranteedRate).send(txParams);
@@ -81923,7 +81923,7 @@ function shasta_Depot_Depot(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Depot_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context25.next = 4;
               return _this.contract.setFundsWallet(_fundsWallet).send(txParams);
@@ -81996,7 +81996,7 @@ function shasta_Depot_Depot(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Depot_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context27.next = 4;
               return _this.contract.acceptOwnership().send(txParams);
@@ -82042,7 +82042,7 @@ function shasta_Depot_Depot(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Depot_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context28.next = 4;
               return _this.contract.setOracle(_oracle).send(txParams);
@@ -82090,7 +82090,7 @@ function shasta_Depot_Depot(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Depot_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context29.next = 4;
               return _this.contract.exchangeEtherForSynthetixAtRate(guaranteedEtherRate, guaranteedSynthetixRate).send(txParams);
@@ -82164,7 +82164,7 @@ function shasta_Depot_Depot(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Depot_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context31.next = 4;
               return _this.contract.withdrawMyDepositedSynths().send(txParams);
@@ -82266,7 +82266,7 @@ function shasta_Depot_Depot(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Depot_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context34.next = 4;
               return _this.contract.selfDestruct().send(txParams);
@@ -82379,7 +82379,7 @@ function shasta_Depot_Depot(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Depot_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context37.next = 4;
               return _this.contract.setMinimumDepositAmount(_amount).send(txParams);
@@ -82547,7 +82547,7 @@ function shasta_Depot_Depot(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Depot_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context42.next = 4;
               return _this.contract.initiateSelfDestruct().send(txParams);
@@ -82697,7 +82697,7 @@ function shasta_Depot_Depot(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Depot_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context46.next = 4;
               return _this.contract.depositSynths(amount).send(txParams);
@@ -82743,7 +82743,7 @@ function shasta_Depot_Depot(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Depot_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context47.next = 4;
               return _this.contract.withdrawSynthetix(amount).send(txParams);
@@ -82876,7 +82876,7 @@ function shasta_Depot_Depot(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Depot_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context51.next = 4;
               return _this.contract.setSynthetix(_snxProxy).send(txParams);
@@ -83137,7 +83137,7 @@ function shasta_ExchangeRates_ExchangeRates(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_ExchangeRates_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context4.next = 4;
               return _this.contract.nominateNewOwner(_owner).send(txParams);
@@ -83211,7 +83211,7 @@ function shasta_ExchangeRates_ExchangeRates(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_ExchangeRates_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context6.next = 4;
               return _this.contract.setSelfDestructBeneficiary(_beneficiary).send(txParams);
@@ -83256,7 +83256,7 @@ function shasta_ExchangeRates_ExchangeRates(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_ExchangeRates_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context7.next = 4;
               return _this.contract.removeAggregator(currencyKey).send(txParams);
@@ -83374,7 +83374,7 @@ function shasta_ExchangeRates_ExchangeRates(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_ExchangeRates_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context10.next = 4;
               return _this.contract.terminateSelfDestruct().send(txParams);
@@ -83420,7 +83420,7 @@ function shasta_ExchangeRates_ExchangeRates(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_ExchangeRates_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context11.next = 4;
               return _this.contract.addAggregator(currencyKey, aggregatorAddress).send(txParams);
@@ -83465,7 +83465,7 @@ function shasta_ExchangeRates_ExchangeRates(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_ExchangeRates_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context12.next = 4;
               return _this.contract.deleteRate(currencyKey).send(txParams);
@@ -83688,7 +83688,7 @@ function shasta_ExchangeRates_ExchangeRates(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_ExchangeRates_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context18.next = 4;
               return _this.contract.acceptOwnership().send(txParams);
@@ -83733,7 +83733,7 @@ function shasta_ExchangeRates_ExchangeRates(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_ExchangeRates_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context19.next = 4;
               return _this.contract.setRateStalePeriod(_time).send(txParams);
@@ -83778,7 +83778,7 @@ function shasta_ExchangeRates_ExchangeRates(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_ExchangeRates_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context20.next = 4;
               return _this.contract.setOracle(_oracle).send(txParams);
@@ -83917,7 +83917,7 @@ function shasta_ExchangeRates_ExchangeRates(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_ExchangeRates_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context24.next = 4;
               return _this.contract.selfDestruct().send(txParams);
@@ -84107,7 +84107,7 @@ function shasta_ExchangeRates_ExchangeRates(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_ExchangeRates_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context29.next = 4;
               return _this.contract.setInversePricing(currencyKey, entryPoint, upperLimit, lowerLimit, freeze, freezeAtUpperLimit).send(txParams);
@@ -84217,7 +84217,7 @@ function shasta_ExchangeRates_ExchangeRates(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_ExchangeRates_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context32.next = 4;
               return _this.contract.initiateSelfDestruct().send(txParams);
@@ -84264,7 +84264,7 @@ function shasta_ExchangeRates_ExchangeRates(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_ExchangeRates_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context33.next = 4;
               return _this.contract.updateRates(currencyKeys, newRates, timeSent).send(txParams);
@@ -84375,7 +84375,7 @@ function shasta_ExchangeRates_ExchangeRates(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_ExchangeRates_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context36.next = 4;
               return _this.contract.removeInversePricing(currencyKey).send(txParams);
@@ -84520,7 +84520,7 @@ function shasta_FeePool_FeePool(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_FeePool_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context.next = 4;
               return _this.contract.setFeePeriodDuration(_feePeriodDuration).send(txParams);
@@ -84565,7 +84565,7 @@ function shasta_FeePool_FeePool(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_FeePool_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context2.next = 4;
               return _this.contract.setFeePoolState(_feePoolState).send(txParams);
@@ -84714,7 +84714,7 @@ function shasta_FeePool_FeePool(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_FeePool_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context6.next = 4;
               return _this.contract.setIntegrationProxy(_integrationProxy).send(txParams);
@@ -84759,7 +84759,7 @@ function shasta_FeePool_FeePool(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_FeePool_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context7.next = 4;
               return _this.contract.nominateNewOwner(_owner).send(txParams);
@@ -84833,7 +84833,7 @@ function shasta_FeePool_FeePool(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_FeePool_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context9.next = 4;
               return _this.contract.setRewardsAuthority(_rewardsAuthority).send(txParams);
@@ -84878,7 +84878,7 @@ function shasta_FeePool_FeePool(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_FeePool_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context10.next = 4;
               return _this.contract.setSelfDestructBeneficiary(_beneficiary).send(txParams);
@@ -84952,7 +84952,7 @@ function shasta_FeePool_FeePool(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_FeePool_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context12.next = 4;
               return _this.contract.recordFeePaid(xdrAmount).send(txParams);
@@ -84997,7 +84997,7 @@ function shasta_FeePool_FeePool(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_FeePool_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context13.next = 4;
               return _this.contract.setTargetThreshold(_percent).send(txParams);
@@ -85041,7 +85041,7 @@ function shasta_FeePool_FeePool(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_FeePool_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context14.next = 4;
               return _this.contract.terminateSelfDestruct().send(txParams);
@@ -85122,7 +85122,7 @@ function shasta_FeePool_FeePool(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_FeePool_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context16.next = 4;
               return _this.contract.closeCurrentFeePeriod().send(txParams);
@@ -85204,7 +85204,7 @@ function shasta_FeePool_FeePool(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_FeePool_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context18.next = 4;
               return _this.contract.approveClaimOnBehalf(account).send(txParams);
@@ -85307,7 +85307,7 @@ function shasta_FeePool_FeePool(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_FeePool_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context21.next = 4;
               return _this.contract.setExchangeFeeRate(_exchangeFeeRate).send(txParams);
@@ -85389,7 +85389,7 @@ function shasta_FeePool_FeePool(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_FeePool_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context23.next = 4;
               return _this.contract.setDelegateApprovals(_delegates).send(txParams);
@@ -85463,7 +85463,7 @@ function shasta_FeePool_FeePool(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_FeePool_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context25.next = 4;
               return _this.contract.claimOnBehalf(claimingForAddress).send(txParams);
@@ -85508,7 +85508,7 @@ function shasta_FeePool_FeePool(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_FeePool_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context26.next = 4;
               return _this.contract.removeClaimOnBehalf(account).send(txParams);
@@ -85610,7 +85610,7 @@ function shasta_FeePool_FeePool(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_FeePool_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context29.next = 4;
               return _this.contract.acceptOwnership().send(txParams);
@@ -85657,7 +85657,7 @@ function shasta_FeePool_FeePool(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_FeePool_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context30.next = 4;
               return _this.contract.appendAccountIssuanceRecord(account, debtRatio, debtEntryIndex).send(txParams);
@@ -85731,7 +85731,7 @@ function shasta_FeePool_FeePool(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_FeePool_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context32.next = 4;
               return _this.contract.setProxy(_proxy).send(txParams);
@@ -85813,7 +85813,7 @@ function shasta_FeePool_FeePool(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_FeePool_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context34.next = 4;
               return _this.contract.selfDestruct().send(txParams);
@@ -85981,7 +85981,7 @@ function shasta_FeePool_FeePool(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_FeePool_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context39.next = 4;
               return _this.contract.importFeePeriod(feePeriodIndex, feePeriodId, startingDebtIndex, startTime, feesToDistribute, feesClaimed, rewardsToDistribute, rewardsClaimed).send(txParams);
@@ -86027,7 +86027,7 @@ function shasta_FeePool_FeePool(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_FeePool_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context40.next = 4;
               return _this.contract.appendVestingEntry(account, quantity).send(txParams);
@@ -86138,7 +86138,7 @@ function shasta_FeePool_FeePool(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_FeePool_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context43.next = 4;
               return _this.contract.setMessageSender(sender).send(txParams);
@@ -86182,7 +86182,7 @@ function shasta_FeePool_FeePool(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_FeePool_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context44.next = 4;
               return _this.contract.initiateSelfDestruct().send(txParams);
@@ -86350,7 +86350,7 @@ function shasta_FeePool_FeePool(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_FeePool_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context49.next = 4;
               return _this.contract.claimFees().send(txParams);
@@ -86730,7 +86730,7 @@ function shasta_FeePool_FeePool(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_FeePool_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context61.next = 4;
               return _this.contract.setRewardsToDistribute(amount).send(txParams);
@@ -86775,7 +86775,7 @@ function shasta_FeePool_FeePool(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_FeePool_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context62.next = 4;
               return _this.contract.setSynthetix(_synthetix).send(txParams);
@@ -86876,7 +86876,7 @@ function shasta_ProxyERC20_ProxyERC20(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_ProxyERC20_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context2.next = 4;
               return _this.contract.approve(spender, value).send(txParams);
@@ -86921,7 +86921,7 @@ function shasta_ProxyERC20_ProxyERC20(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_ProxyERC20_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context3.next = 4;
               return _this.contract.nominateNewOwner(_owner).send(txParams);
@@ -86997,7 +86997,7 @@ function shasta_ProxyERC20_ProxyERC20(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_ProxyERC20_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context5.next = 4;
               return _this.contract.transferFrom(from, to, value).send(txParams);
@@ -87137,7 +87137,7 @@ function shasta_ProxyERC20_ProxyERC20(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_ProxyERC20_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context9.next = 4;
               return _this.contract.setTarget(_target).send(txParams);
@@ -87181,7 +87181,7 @@ function shasta_ProxyERC20_ProxyERC20(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_ProxyERC20_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context10.next = 4;
               return _this.contract.acceptOwnership().send(txParams);
@@ -87260,7 +87260,7 @@ function shasta_ProxyERC20_ProxyERC20(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_ProxyERC20_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context12.next = 4;
               return _this.contract._emit(callData, numTopics, topic1, topic2, topic3, topic4).send(txParams);
@@ -87364,7 +87364,7 @@ function shasta_ProxyERC20_ProxyERC20(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_ProxyERC20_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context15.next = 4;
               return _this.contract.transfer(to, value).send(txParams);
@@ -87409,7 +87409,7 @@ function shasta_ProxyERC20_ProxyERC20(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_ProxyERC20_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context16.next = 4;
               return _this.contract.setUseDELEGATECALL(value).send(txParams);
@@ -87577,7 +87577,7 @@ function shasta_Synth_Synth(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Synth_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context2.next = 4;
               return _this.contract.approve(spender, value).send(txParams);
@@ -87622,7 +87622,7 @@ function shasta_Synth_Synth(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Synth_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context3.next = 4;
               return _this.contract.setIntegrationProxy(_integrationProxy).send(txParams);
@@ -87667,7 +87667,7 @@ function shasta_Synth_Synth(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Synth_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context4.next = 4;
               return _this.contract.nominateNewOwner(_owner).send(txParams);
@@ -87770,7 +87770,7 @@ function shasta_Synth_Synth(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Synth_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context7.next = 4;
               return _this.contract.setSelfDestructBeneficiary(_beneficiary).send(txParams);
@@ -87818,7 +87818,7 @@ function shasta_Synth_Synth(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Synth_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context8.next = 4;
               return _this.contract.transferFrom(from, to, value).send(txParams);
@@ -87891,7 +87891,7 @@ function shasta_Synth_Synth(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Synth_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context10.next = 4;
               return _this.contract.terminateSelfDestruct().send(txParams);
@@ -88001,7 +88001,7 @@ function shasta_Synth_Synth(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Synth_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context13.next = 4;
               return _this.contract.acceptOwnership().send(txParams);
@@ -88047,7 +88047,7 @@ function shasta_Synth_Synth(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Synth_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context14.next = 4;
               return _this.contract.issue(account, amount).send(txParams);
@@ -88121,7 +88121,7 @@ function shasta_Synth_Synth(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Synth_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context16.next = 4;
               return _this.contract.setSynthetixProxy(_synthetixProxy).send(txParams);
@@ -88195,7 +88195,7 @@ function shasta_Synth_Synth(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Synth_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context18.next = 4;
               return _this.contract.setProxy(_proxy).send(txParams);
@@ -88239,7 +88239,7 @@ function shasta_Synth_Synth(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Synth_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context19.next = 4;
               return _this.contract.selfDestruct().send(txParams);
@@ -88314,7 +88314,7 @@ function shasta_Synth_Synth(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Synth_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context21.next = 4;
               return _this.contract.burn(account, amount).send(txParams);
@@ -88359,7 +88359,7 @@ function shasta_Synth_Synth(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Synth_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context22.next = 4;
               return _this.contract.setTokenState(_tokenState).send(txParams);
@@ -88435,7 +88435,7 @@ function shasta_Synth_Synth(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Synth_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context24.next = 4;
               return _this.contract.transfer(to, value).send(txParams);
@@ -88509,7 +88509,7 @@ function shasta_Synth_Synth(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Synth_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context26.next = 4;
               return _this.contract.setMessageSender(sender).send(txParams);
@@ -88553,7 +88553,7 @@ function shasta_Synth_Synth(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Synth_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context27.next = 4;
               return _this.contract.initiateSelfDestruct().send(txParams);
@@ -88714,7 +88714,7 @@ function shasta_Synth_Synth(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Synth_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context32.next = 4;
               return _this.contract.setFeePoolProxy(_feePoolProxy).send(txParams);
@@ -88884,7 +88884,7 @@ function shasta_Synth_Synth(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Synth_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context37.next = 4;
               return _this.contract.setTotalSupply(amount).send(txParams);
@@ -88984,7 +88984,7 @@ function shasta_Synthetix_Synthetix(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Synthetix_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context2.next = 4;
               return _this.contract.setGasPriceLimit(_gasPriceLimit).send(txParams);
@@ -89030,7 +89030,7 @@ function shasta_Synthetix_Synthetix(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Synthetix_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context3.next = 4;
               return _this.contract.approve(spender, value).send(txParams);
@@ -89076,7 +89076,7 @@ function shasta_Synthetix_Synthetix(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Synthetix_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context4.next = 4;
               return _this.contract.removeSynth(currencyKey).send(txParams);
@@ -89120,7 +89120,7 @@ function shasta_Synthetix_Synthetix(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Synthetix_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context5.next = 4;
               return _this.contract.mint().send(txParams);
@@ -89165,7 +89165,7 @@ function shasta_Synthetix_Synthetix(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Synthetix_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context6.next = 4;
               return _this.contract.setIntegrationProxy(_integrationProxy).send(txParams);
@@ -89210,7 +89210,7 @@ function shasta_Synthetix_Synthetix(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Synthetix_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context7.next = 4;
               return _this.contract.nominateNewOwner(_owner).send(txParams);
@@ -89350,7 +89350,7 @@ function shasta_Synthetix_Synthetix(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Synthetix_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context11.next = 4;
               return _this.contract.setFeePool(_feePool).send(txParams);
@@ -89433,7 +89433,7 @@ function shasta_Synthetix_Synthetix(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Synthetix_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context13.next = 4;
               return _this.contract.setGasLimitOracle(_gasLimitOracle).send(txParams);
@@ -89478,7 +89478,7 @@ function shasta_Synthetix_Synthetix(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Synthetix_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context14.next = 4;
               return _this.contract.setSelfDestructBeneficiary(_beneficiary).send(txParams);
@@ -89526,7 +89526,7 @@ function shasta_Synthetix_Synthetix(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Synthetix_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context15.next = 4;
               return _this.contract.transferFrom(from, to, value).send(txParams);
@@ -89572,7 +89572,7 @@ function shasta_Synthetix_Synthetix(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Synthetix_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context16.next = 4;
               return _this.contract.burnSynths(amount).send(txParams);
@@ -89682,7 +89682,7 @@ function shasta_Synthetix_Synthetix(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Synthetix_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context19.next = 4;
               return _this.contract.terminateSelfDestruct().send(txParams);
@@ -89815,7 +89815,7 @@ function shasta_Synthetix_Synthetix(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Synthetix_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context23.next = 4;
               return _this.contract.setExchangeRates(_exchangeRates).send(txParams);
@@ -90040,7 +90040,7 @@ function shasta_Synthetix_Synthetix(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Synthetix_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context29.next = 4;
               return _this.contract.acceptOwnership().send(txParams);
@@ -90200,7 +90200,7 @@ function shasta_Synthetix_Synthetix(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Synthetix_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context33.next = 4;
               return _this.contract.addSynth(synth).send(txParams);
@@ -90246,7 +90246,7 @@ function shasta_Synthetix_Synthetix(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Synthetix_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context34.next = 4;
               return _this.contract.issueSynths(amount).send(txParams);
@@ -90320,7 +90320,7 @@ function shasta_Synthetix_Synthetix(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Synthetix_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context36.next = 4;
               return _this.contract.setExchangeEnabled(_exchangeEnabled).send(txParams);
@@ -90423,7 +90423,7 @@ function shasta_Synthetix_Synthetix(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Synthetix_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context39.next = 4;
               return _this.contract.setProxy(_proxy).send(txParams);
@@ -90467,7 +90467,7 @@ function shasta_Synthetix_Synthetix(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Synthetix_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context40.next = 4;
               return _this.contract.selfDestruct().send(txParams);
@@ -90541,7 +90541,7 @@ function shasta_Synthetix_Synthetix(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Synthetix_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context42.next = 4;
               return _this.contract.setTokenState(_tokenState).send(txParams);
@@ -90761,7 +90761,7 @@ function shasta_Synthetix_Synthetix(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Synthetix_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context48.next = 4;
               return _this.contract.transfer(to, value).send(txParams);
@@ -90811,7 +90811,7 @@ function shasta_Synthetix_Synthetix(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Synthetix_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context49.next = 4;
               return _this.contract.synthInitiatedExchange(from, sourceCurrencyKey, sourceAmount, destinationCurrencyKey, destinationAddress).send(txParams);
@@ -90885,7 +90885,7 @@ function shasta_Synthetix_Synthetix(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Synthetix_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context51.next = 4;
               return _this.contract.issueMaxSynths().send(txParams);
@@ -90959,7 +90959,7 @@ function shasta_Synthetix_Synthetix(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Synthetix_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context53.next = 4;
               return _this.contract.setMessageSender(sender).send(txParams);
@@ -91003,7 +91003,7 @@ function shasta_Synthetix_Synthetix(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Synthetix_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context54.next = 4;
               return _this.contract.initiateSelfDestruct().send(txParams);
@@ -91106,7 +91106,7 @@ function shasta_Synthetix_Synthetix(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Synthetix_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context57.next = 4;
               return _this.contract.setProtectionCircuit(_protectionCircuitIsActivated).send(txParams);
@@ -91406,7 +91406,7 @@ function shasta_Synthetix_Synthetix(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_Synthetix_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context66.next = 4;
               return _this.contract.exchange(sourceCurrencyKey, sourceAmount, destinationCurrencyKey).send(txParams);
@@ -91537,7 +91537,7 @@ function shasta_SynthetixEscrow_SynthetixEscrow(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_SynthetixEscrow_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context.next = 4;
               return _this.contract.purgeAccount(account).send(txParams);
@@ -91582,7 +91582,7 @@ function shasta_SynthetixEscrow_SynthetixEscrow(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_SynthetixEscrow_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context2.next = 4;
               return _this.contract.nominateNewOwner(_owner).send(txParams);
@@ -91668,7 +91668,7 @@ function shasta_SynthetixEscrow_SynthetixEscrow(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_SynthetixEscrow_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context4.next = 4;
               return _this.contract.appendVestingEntry(account, time, quantity).send(txParams);
@@ -91826,7 +91826,7 @@ function shasta_SynthetixEscrow_SynthetixEscrow(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_SynthetixEscrow_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context8.next = 4;
               return _this.contract.vest().send(txParams);
@@ -92043,7 +92043,7 @@ function shasta_SynthetixEscrow_SynthetixEscrow(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_SynthetixEscrow_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context14.next = 4;
               return _this.contract.acceptOwnership().send(txParams);
@@ -92226,7 +92226,7 @@ function shasta_SynthetixEscrow_SynthetixEscrow(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_SynthetixEscrow_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context19.next = 4;
               return _this.contract.addVestingSchedule(account, times, quantities).send(txParams);
@@ -92311,7 +92311,7 @@ function shasta_SynthetixEscrow_SynthetixEscrow(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_SynthetixEscrow_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context21.next = 4;
               return _this.contract.withdrawSynthetix(quantity).send(txParams);
@@ -92395,7 +92395,7 @@ function shasta_SynthetixEscrow_SynthetixEscrow(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_SynthetixEscrow_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context23.next = 4;
               return _this.contract.setSynthetix(_synthetix).send(txParams);
@@ -92466,7 +92466,7 @@ function shasta_SynthetixState_SynthetixState(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_SynthetixState_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context.next = 4;
               return _this.contract.setIssuanceRatio(_issuanceRatio).send(txParams);
@@ -92548,7 +92548,7 @@ function shasta_SynthetixState_SynthetixState(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_SynthetixState_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context3.next = 4;
               return _this.contract.nominateNewOwner(_owner).send(txParams);
@@ -92621,7 +92621,7 @@ function shasta_SynthetixState_SynthetixState(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_SynthetixState_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context5.next = 4;
               return _this.contract.incrementTotalIssuerCount().send(txParams);
@@ -92666,7 +92666,7 @@ function shasta_SynthetixState_SynthetixState(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_SynthetixState_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context6.next = 4;
               return _this.contract.appendDebtLedgerValue(value).send(txParams);
@@ -92741,7 +92741,7 @@ function shasta_SynthetixState_SynthetixState(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_SynthetixState_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context8.next = 4;
               return _this.contract.setPreferredCurrency(account, currencyKey).send(txParams);
@@ -92786,7 +92786,7 @@ function shasta_SynthetixState_SynthetixState(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_SynthetixState_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context9.next = 4;
               return _this.contract.setAssociatedContract(_associatedContract).send(txParams);
@@ -92859,7 +92859,7 @@ function shasta_SynthetixState_SynthetixState(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_SynthetixState_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context11.next = 4;
               return _this.contract.acceptOwnership().send(txParams);
@@ -93000,7 +93000,7 @@ function shasta_SynthetixState_SynthetixState(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_SynthetixState_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context15.next = 4;
               return _this.contract.importIssuerData(accounts, sUSDAmounts).send(txParams);
@@ -93046,7 +93046,7 @@ function shasta_SynthetixState_SynthetixState(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_SynthetixState_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context16.next = 4;
               return _this.contract.setCurrentIssuanceData(account, initialDebtOwnership).send(txParams);
@@ -93120,7 +93120,7 @@ function shasta_SynthetixState_SynthetixState(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_SynthetixState_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context18.next = 4;
               return _this.contract.clearIssuanceData(account).send(txParams);
@@ -93230,7 +93230,7 @@ function shasta_SynthetixState_SynthetixState(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_SynthetixState_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context21.next = 4;
               return _this.contract.decrementTotalIssuerCount().send(txParams);
@@ -93368,7 +93368,7 @@ function shasta_RewardEscrow_RewardEscrow(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_RewardEscrow_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context.next = 4;
               return _this.contract.nominateNewOwner(_owner).send(txParams);
@@ -93413,7 +93413,7 @@ function shasta_RewardEscrow_RewardEscrow(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_RewardEscrow_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context2.next = 4;
               return _this.contract.setFeePool(_feePool).send(txParams);
@@ -93679,7 +93679,7 @@ function shasta_RewardEscrow_RewardEscrow(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_RewardEscrow_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context9.next = 4;
               return _this.contract.vest().send(txParams);
@@ -93923,7 +93923,7 @@ function shasta_RewardEscrow_RewardEscrow(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_RewardEscrow_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context16.next = 4;
               return _this.contract.acceptOwnership().send(txParams);
@@ -94102,7 +94102,7 @@ function shasta_RewardEscrow_RewardEscrow(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_RewardEscrow_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context21.next = 4;
               return _this.contract.appendVestingEntry(account, quantity).send(txParams);
@@ -94252,7 +94252,7 @@ function shasta_RewardEscrow_RewardEscrow(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_RewardEscrow_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context25.next = 4;
               return _this.contract.setSynthetix(_synthetix).send(txParams);
@@ -94323,7 +94323,7 @@ function shasta_DappMaintenance_DappMaintenance(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_DappMaintenance_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context.next = 4;
               return _this.contract.setMaintenanceModeMintr(isPaused).send(txParams);
@@ -94368,7 +94368,7 @@ function shasta_DappMaintenance_DappMaintenance(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_DappMaintenance_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context2.next = 4;
               return _this.contract.nominateNewOwner(_owner).send(txParams);
@@ -94413,7 +94413,7 @@ function shasta_DappMaintenance_DappMaintenance(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_DappMaintenance_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context3.next = 4;
               return _this.contract.setMaintenanceModeAll(isPaused).send(txParams);
@@ -94515,7 +94515,7 @@ function shasta_DappMaintenance_DappMaintenance(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_DappMaintenance_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context6.next = 4;
               return _this.contract.acceptOwnership().send(txParams);
@@ -94618,7 +94618,7 @@ function shasta_DappMaintenance_DappMaintenance(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_DappMaintenance_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context9.next = 4;
               return _this.contract.setMaintenanceModeSX(isPaused).send(txParams);
@@ -94747,7 +94747,7 @@ function shasta_ArbRewarder_ArbRewarder(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_ArbRewarder_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context3.next = 4;
               return _this.contract.recoverETH(to_addr).send(txParams);
@@ -94792,7 +94792,7 @@ function shasta_ArbRewarder_ArbRewarder(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_ArbRewarder_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context4.next = 4;
               return _this.contract.nominateNewOwner(_owner).send(txParams);
@@ -94837,7 +94837,7 @@ function shasta_ArbRewarder_ArbRewarder(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_ArbRewarder_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context5.next = 4;
               return _this.contract.setPaused(_paused).send(txParams);
@@ -94911,7 +94911,7 @@ function shasta_ArbRewarder_ArbRewarder(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_ArbRewarder_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context7.next = 4;
               return _this.contract.setSelfDestructBeneficiary(_beneficiary).send(txParams);
@@ -94955,7 +94955,7 @@ function shasta_ArbRewarder_ArbRewarder(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_ArbRewarder_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context8.next = 4;
               return _this.contract.isArbable().send(txParams);
@@ -94999,7 +94999,7 @@ function shasta_ArbRewarder_ArbRewarder(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_ArbRewarder_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context9.next = 4;
               return _this.contract.terminateSelfDestruct().send(txParams);
@@ -95102,7 +95102,7 @@ function shasta_ArbRewarder_ArbRewarder(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_ArbRewarder_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context12.next = 4;
               return _this.contract.setExchangeRates(_exchangeRatesAddress).send(txParams);
@@ -95149,7 +95149,7 @@ function shasta_ArbRewarder_ArbRewarder(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_ArbRewarder_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context13.next = 4;
               return _this.contract.setParams(_acceptable_slippage, _max_delay, _off_peg_min).send(txParams);
@@ -95281,7 +95281,7 @@ function shasta_ArbRewarder_ArbRewarder(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_ArbRewarder_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context17.next = 4;
               return _this.contract.setSynthAddress(_synthAddress).send(txParams);
@@ -95325,7 +95325,7 @@ function shasta_ArbRewarder_ArbRewarder(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_ArbRewarder_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context18.next = 4;
               return _this.contract.acceptOwnership().send(txParams);
@@ -95371,7 +95371,7 @@ function shasta_ArbRewarder_ArbRewarder(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_ArbRewarder_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context19.next = 4;
               return _this.contract.recoverERC20(erc20_addr, to_addr).send(txParams);
@@ -95473,7 +95473,7 @@ function shasta_ArbRewarder_ArbRewarder(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_ArbRewarder_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context22.next = 4;
               return _this.contract.selfDestruct().send(txParams);
@@ -95547,7 +95547,7 @@ function shasta_ArbRewarder_ArbRewarder(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_ArbRewarder_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context24.next = 4;
               return _this.contract.arbSynthRate().send(txParams);
@@ -95621,7 +95621,7 @@ function shasta_ArbRewarder_ArbRewarder(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_ArbRewarder_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context26.next = 4;
               return _this.contract.setUniswapExchange(_uniswapAddress).send(txParams);
@@ -95665,7 +95665,7 @@ function shasta_ArbRewarder_ArbRewarder(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_ArbRewarder_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context27.next = 4;
               return _this.contract.initiateSelfDestruct().send(txParams);
@@ -95768,7 +95768,7 @@ function shasta_ArbRewarder_ArbRewarder(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_ArbRewarder_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context30.next = 4;
               return _this.contract.setSynthetix(_address).send(txParams);
@@ -95869,7 +95869,7 @@ function ODR_ODR(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_ODR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context2.next = 4;
               return _this.contract.approve(spender, value).send(txParams);
@@ -95914,7 +95914,7 @@ function ODR_ODR(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_ODR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context3.next = 4;
               return _this.contract.setIntegrationProxy(_integrationProxy).send(txParams);
@@ -95959,7 +95959,7 @@ function ODR_ODR(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_ODR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context4.next = 4;
               return _this.contract.nominateNewOwner(_owner).send(txParams);
@@ -96062,7 +96062,7 @@ function ODR_ODR(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_ODR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context7.next = 4;
               return _this.contract.setSelfDestructBeneficiary(_beneficiary).send(txParams);
@@ -96110,7 +96110,7 @@ function ODR_ODR(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_ODR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context8.next = 4;
               return _this.contract.transferFrom(from, to, value).send(txParams);
@@ -96183,7 +96183,7 @@ function ODR_ODR(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_ODR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context10.next = 4;
               return _this.contract.terminateSelfDestruct().send(txParams);
@@ -96293,7 +96293,7 @@ function ODR_ODR(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_ODR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context13.next = 4;
               return _this.contract.acceptOwnership().send(txParams);
@@ -96339,7 +96339,7 @@ function ODR_ODR(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_ODR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context14.next = 4;
               return _this.contract.issue(account, amount).send(txParams);
@@ -96413,7 +96413,7 @@ function ODR_ODR(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_ODR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context16.next = 4;
               return _this.contract.setSynthetixProxy(_synthetixProxy).send(txParams);
@@ -96487,7 +96487,7 @@ function ODR_ODR(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_ODR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context18.next = 4;
               return _this.contract.setProxy(_proxy).send(txParams);
@@ -96531,7 +96531,7 @@ function ODR_ODR(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_ODR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context19.next = 4;
               return _this.contract.selfDestruct().send(txParams);
@@ -96606,7 +96606,7 @@ function ODR_ODR(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_ODR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context21.next = 4;
               return _this.contract.burn(account, amount).send(txParams);
@@ -96651,7 +96651,7 @@ function ODR_ODR(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_ODR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context22.next = 4;
               return _this.contract.setTokenState(_tokenState).send(txParams);
@@ -96727,7 +96727,7 @@ function ODR_ODR(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_ODR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context24.next = 4;
               return _this.contract.transfer(to, value).send(txParams);
@@ -96801,7 +96801,7 @@ function ODR_ODR(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_ODR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context26.next = 4;
               return _this.contract.setMessageSender(sender).send(txParams);
@@ -96845,7 +96845,7 @@ function ODR_ODR(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_ODR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context27.next = 4;
               return _this.contract.initiateSelfDestruct().send(txParams);
@@ -97006,7 +97006,7 @@ function ODR_ODR(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_ODR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context32.next = 4;
               return _this.contract.setFeePoolProxy(_feePoolProxy).send(txParams);
@@ -97176,7 +97176,7 @@ function ODR_ODR(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_ODR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context37.next = 4;
               return _this.contract.setTotalSupply(amount).send(txParams);
@@ -97277,7 +97277,7 @@ function sEUR_sEUR(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sEUR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context2.next = 4;
               return _this.contract.approve(spender, value).send(txParams);
@@ -97322,7 +97322,7 @@ function sEUR_sEUR(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sEUR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context3.next = 4;
               return _this.contract.setIntegrationProxy(_integrationProxy).send(txParams);
@@ -97367,7 +97367,7 @@ function sEUR_sEUR(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sEUR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context4.next = 4;
               return _this.contract.nominateNewOwner(_owner).send(txParams);
@@ -97470,7 +97470,7 @@ function sEUR_sEUR(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sEUR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context7.next = 4;
               return _this.contract.setSelfDestructBeneficiary(_beneficiary).send(txParams);
@@ -97518,7 +97518,7 @@ function sEUR_sEUR(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sEUR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context8.next = 4;
               return _this.contract.transferFrom(from, to, value).send(txParams);
@@ -97591,7 +97591,7 @@ function sEUR_sEUR(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sEUR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context10.next = 4;
               return _this.contract.terminateSelfDestruct().send(txParams);
@@ -97701,7 +97701,7 @@ function sEUR_sEUR(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sEUR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context13.next = 4;
               return _this.contract.acceptOwnership().send(txParams);
@@ -97747,7 +97747,7 @@ function sEUR_sEUR(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sEUR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context14.next = 4;
               return _this.contract.issue(account, amount).send(txParams);
@@ -97821,7 +97821,7 @@ function sEUR_sEUR(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sEUR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context16.next = 4;
               return _this.contract.setSynthetixProxy(_synthetixProxy).send(txParams);
@@ -97895,7 +97895,7 @@ function sEUR_sEUR(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sEUR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context18.next = 4;
               return _this.contract.setProxy(_proxy).send(txParams);
@@ -97939,7 +97939,7 @@ function sEUR_sEUR(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sEUR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context19.next = 4;
               return _this.contract.selfDestruct().send(txParams);
@@ -98014,7 +98014,7 @@ function sEUR_sEUR(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sEUR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context21.next = 4;
               return _this.contract.burn(account, amount).send(txParams);
@@ -98059,7 +98059,7 @@ function sEUR_sEUR(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sEUR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context22.next = 4;
               return _this.contract.setTokenState(_tokenState).send(txParams);
@@ -98135,7 +98135,7 @@ function sEUR_sEUR(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sEUR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context24.next = 4;
               return _this.contract.transfer(to, value).send(txParams);
@@ -98209,7 +98209,7 @@ function sEUR_sEUR(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sEUR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context26.next = 4;
               return _this.contract.setMessageSender(sender).send(txParams);
@@ -98253,7 +98253,7 @@ function sEUR_sEUR(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sEUR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context27.next = 4;
               return _this.contract.initiateSelfDestruct().send(txParams);
@@ -98414,7 +98414,7 @@ function sEUR_sEUR(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sEUR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context32.next = 4;
               return _this.contract.setFeePoolProxy(_feePoolProxy).send(txParams);
@@ -98584,7 +98584,7 @@ function sEUR_sEUR(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sEUR_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context37.next = 4;
               return _this.contract.setTotalSupply(amount).send(txParams);
@@ -98685,7 +98685,7 @@ function sUSD_sUSD(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sUSD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context2.next = 4;
               return _this.contract.approve(spender, value).send(txParams);
@@ -98730,7 +98730,7 @@ function sUSD_sUSD(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sUSD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context3.next = 4;
               return _this.contract.setIntegrationProxy(_integrationProxy).send(txParams);
@@ -98775,7 +98775,7 @@ function sUSD_sUSD(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sUSD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context4.next = 4;
               return _this.contract.nominateNewOwner(_owner).send(txParams);
@@ -98878,7 +98878,7 @@ function sUSD_sUSD(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sUSD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context7.next = 4;
               return _this.contract.setSelfDestructBeneficiary(_beneficiary).send(txParams);
@@ -98926,7 +98926,7 @@ function sUSD_sUSD(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sUSD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context8.next = 4;
               return _this.contract.transferFrom(from, to, value).send(txParams);
@@ -98999,7 +98999,7 @@ function sUSD_sUSD(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sUSD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context10.next = 4;
               return _this.contract.terminateSelfDestruct().send(txParams);
@@ -99109,7 +99109,7 @@ function sUSD_sUSD(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sUSD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context13.next = 4;
               return _this.contract.acceptOwnership().send(txParams);
@@ -99155,7 +99155,7 @@ function sUSD_sUSD(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sUSD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context14.next = 4;
               return _this.contract.issue(account, amount).send(txParams);
@@ -99229,7 +99229,7 @@ function sUSD_sUSD(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sUSD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context16.next = 4;
               return _this.contract.setSynthetixProxy(_synthetixProxy).send(txParams);
@@ -99303,7 +99303,7 @@ function sUSD_sUSD(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sUSD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context18.next = 4;
               return _this.contract.setProxy(_proxy).send(txParams);
@@ -99347,7 +99347,7 @@ function sUSD_sUSD(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sUSD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context19.next = 4;
               return _this.contract.selfDestruct().send(txParams);
@@ -99422,7 +99422,7 @@ function sUSD_sUSD(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sUSD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context21.next = 4;
               return _this.contract.burn(account, amount).send(txParams);
@@ -99467,7 +99467,7 @@ function sUSD_sUSD(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sUSD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context22.next = 4;
               return _this.contract.setTokenState(_tokenState).send(txParams);
@@ -99543,7 +99543,7 @@ function sUSD_sUSD(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sUSD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context24.next = 4;
               return _this.contract.transfer(to, value).send(txParams);
@@ -99617,7 +99617,7 @@ function sUSD_sUSD(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sUSD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context26.next = 4;
               return _this.contract.setMessageSender(sender).send(txParams);
@@ -99661,7 +99661,7 @@ function sUSD_sUSD(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sUSD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context27.next = 4;
               return _this.contract.initiateSelfDestruct().send(txParams);
@@ -99822,7 +99822,7 @@ function sUSD_sUSD(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sUSD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context32.next = 4;
               return _this.contract.setFeePoolProxy(_feePoolProxy).send(txParams);
@@ -99992,7 +99992,7 @@ function sUSD_sUSD(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sUSD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context37.next = 4;
               return _this.contract.setTotalSupply(amount).send(txParams);
@@ -100093,7 +100093,7 @@ function sAUD_sAUD(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sAUD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context2.next = 4;
               return _this.contract.approve(spender, value).send(txParams);
@@ -100138,7 +100138,7 @@ function sAUD_sAUD(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sAUD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context3.next = 4;
               return _this.contract.setIntegrationProxy(_integrationProxy).send(txParams);
@@ -100183,7 +100183,7 @@ function sAUD_sAUD(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sAUD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context4.next = 4;
               return _this.contract.nominateNewOwner(_owner).send(txParams);
@@ -100286,7 +100286,7 @@ function sAUD_sAUD(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sAUD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context7.next = 4;
               return _this.contract.setSelfDestructBeneficiary(_beneficiary).send(txParams);
@@ -100334,7 +100334,7 @@ function sAUD_sAUD(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sAUD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context8.next = 4;
               return _this.contract.transferFrom(from, to, value).send(txParams);
@@ -100407,7 +100407,7 @@ function sAUD_sAUD(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sAUD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context10.next = 4;
               return _this.contract.terminateSelfDestruct().send(txParams);
@@ -100517,7 +100517,7 @@ function sAUD_sAUD(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sAUD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context13.next = 4;
               return _this.contract.acceptOwnership().send(txParams);
@@ -100563,7 +100563,7 @@ function sAUD_sAUD(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sAUD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context14.next = 4;
               return _this.contract.issue(account, amount).send(txParams);
@@ -100637,7 +100637,7 @@ function sAUD_sAUD(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sAUD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context16.next = 4;
               return _this.contract.setSynthetixProxy(_synthetixProxy).send(txParams);
@@ -100711,7 +100711,7 @@ function sAUD_sAUD(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sAUD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context18.next = 4;
               return _this.contract.setProxy(_proxy).send(txParams);
@@ -100755,7 +100755,7 @@ function sAUD_sAUD(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sAUD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context19.next = 4;
               return _this.contract.selfDestruct().send(txParams);
@@ -100830,7 +100830,7 @@ function sAUD_sAUD(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sAUD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context21.next = 4;
               return _this.contract.burn(account, amount).send(txParams);
@@ -100875,7 +100875,7 @@ function sAUD_sAUD(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sAUD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context22.next = 4;
               return _this.contract.setTokenState(_tokenState).send(txParams);
@@ -100951,7 +100951,7 @@ function sAUD_sAUD(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sAUD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context24.next = 4;
               return _this.contract.transfer(to, value).send(txParams);
@@ -101025,7 +101025,7 @@ function sAUD_sAUD(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sAUD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context26.next = 4;
               return _this.contract.setMessageSender(sender).send(txParams);
@@ -101069,7 +101069,7 @@ function sAUD_sAUD(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sAUD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context27.next = 4;
               return _this.contract.initiateSelfDestruct().send(txParams);
@@ -101230,7 +101230,7 @@ function sAUD_sAUD(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sAUD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context32.next = 4;
               return _this.contract.setFeePoolProxy(_feePoolProxy).send(txParams);
@@ -101400,7 +101400,7 @@ function sAUD_sAUD(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sAUD_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context37.next = 4;
               return _this.contract.setTotalSupply(amount).send(txParams);
@@ -101501,7 +101501,7 @@ function sGBP_sGBP(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sGBP_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context2.next = 4;
               return _this.contract.approve(spender, value).send(txParams);
@@ -101546,7 +101546,7 @@ function sGBP_sGBP(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sGBP_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context3.next = 4;
               return _this.contract.setIntegrationProxy(_integrationProxy).send(txParams);
@@ -101591,7 +101591,7 @@ function sGBP_sGBP(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sGBP_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context4.next = 4;
               return _this.contract.nominateNewOwner(_owner).send(txParams);
@@ -101694,7 +101694,7 @@ function sGBP_sGBP(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sGBP_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context7.next = 4;
               return _this.contract.setSelfDestructBeneficiary(_beneficiary).send(txParams);
@@ -101742,7 +101742,7 @@ function sGBP_sGBP(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sGBP_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context8.next = 4;
               return _this.contract.transferFrom(from, to, value).send(txParams);
@@ -101815,7 +101815,7 @@ function sGBP_sGBP(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sGBP_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context10.next = 4;
               return _this.contract.terminateSelfDestruct().send(txParams);
@@ -101925,7 +101925,7 @@ function sGBP_sGBP(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sGBP_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context13.next = 4;
               return _this.contract.acceptOwnership().send(txParams);
@@ -101971,7 +101971,7 @@ function sGBP_sGBP(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sGBP_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context14.next = 4;
               return _this.contract.issue(account, amount).send(txParams);
@@ -102045,7 +102045,7 @@ function sGBP_sGBP(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sGBP_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context16.next = 4;
               return _this.contract.setSynthetixProxy(_synthetixProxy).send(txParams);
@@ -102119,7 +102119,7 @@ function sGBP_sGBP(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sGBP_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context18.next = 4;
               return _this.contract.setProxy(_proxy).send(txParams);
@@ -102163,7 +102163,7 @@ function sGBP_sGBP(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sGBP_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context19.next = 4;
               return _this.contract.selfDestruct().send(txParams);
@@ -102238,7 +102238,7 @@ function sGBP_sGBP(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sGBP_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context21.next = 4;
               return _this.contract.burn(account, amount).send(txParams);
@@ -102283,7 +102283,7 @@ function sGBP_sGBP(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sGBP_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context22.next = 4;
               return _this.contract.setTokenState(_tokenState).send(txParams);
@@ -102359,7 +102359,7 @@ function sGBP_sGBP(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sGBP_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context24.next = 4;
               return _this.contract.transfer(to, value).send(txParams);
@@ -102433,7 +102433,7 @@ function sGBP_sGBP(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sGBP_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context26.next = 4;
               return _this.contract.setMessageSender(sender).send(txParams);
@@ -102477,7 +102477,7 @@ function sGBP_sGBP(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sGBP_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context27.next = 4;
               return _this.contract.initiateSelfDestruct().send(txParams);
@@ -102638,7 +102638,7 @@ function sGBP_sGBP(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sGBP_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context32.next = 4;
               return _this.contract.setFeePoolProxy(_feePoolProxy).send(txParams);
@@ -102808,7 +102808,7 @@ function sGBP_sGBP(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sGBP_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context37.next = 4;
               return _this.contract.setTotalSupply(amount).send(txParams);
@@ -102909,7 +102909,7 @@ function sCHF_sCHF(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sCHF_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context2.next = 4;
               return _this.contract.approve(spender, value).send(txParams);
@@ -102954,7 +102954,7 @@ function sCHF_sCHF(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sCHF_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context3.next = 4;
               return _this.contract.setIntegrationProxy(_integrationProxy).send(txParams);
@@ -102999,7 +102999,7 @@ function sCHF_sCHF(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sCHF_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context4.next = 4;
               return _this.contract.nominateNewOwner(_owner).send(txParams);
@@ -103102,7 +103102,7 @@ function sCHF_sCHF(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sCHF_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context7.next = 4;
               return _this.contract.setSelfDestructBeneficiary(_beneficiary).send(txParams);
@@ -103150,7 +103150,7 @@ function sCHF_sCHF(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sCHF_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context8.next = 4;
               return _this.contract.transferFrom(from, to, value).send(txParams);
@@ -103223,7 +103223,7 @@ function sCHF_sCHF(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sCHF_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context10.next = 4;
               return _this.contract.terminateSelfDestruct().send(txParams);
@@ -103333,7 +103333,7 @@ function sCHF_sCHF(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sCHF_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context13.next = 4;
               return _this.contract.acceptOwnership().send(txParams);
@@ -103379,7 +103379,7 @@ function sCHF_sCHF(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sCHF_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context14.next = 4;
               return _this.contract.issue(account, amount).send(txParams);
@@ -103453,7 +103453,7 @@ function sCHF_sCHF(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sCHF_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context16.next = 4;
               return _this.contract.setSynthetixProxy(_synthetixProxy).send(txParams);
@@ -103527,7 +103527,7 @@ function sCHF_sCHF(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sCHF_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context18.next = 4;
               return _this.contract.setProxy(_proxy).send(txParams);
@@ -103571,7 +103571,7 @@ function sCHF_sCHF(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sCHF_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context19.next = 4;
               return _this.contract.selfDestruct().send(txParams);
@@ -103646,7 +103646,7 @@ function sCHF_sCHF(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sCHF_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context21.next = 4;
               return _this.contract.burn(account, amount).send(txParams);
@@ -103691,7 +103691,7 @@ function sCHF_sCHF(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sCHF_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context22.next = 4;
               return _this.contract.setTokenState(_tokenState).send(txParams);
@@ -103767,7 +103767,7 @@ function sCHF_sCHF(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sCHF_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context24.next = 4;
               return _this.contract.transfer(to, value).send(txParams);
@@ -103841,7 +103841,7 @@ function sCHF_sCHF(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sCHF_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context26.next = 4;
               return _this.contract.setMessageSender(sender).send(txParams);
@@ -103885,7 +103885,7 @@ function sCHF_sCHF(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sCHF_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context27.next = 4;
               return _this.contract.initiateSelfDestruct().send(txParams);
@@ -104046,7 +104046,7 @@ function sCHF_sCHF(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sCHF_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context32.next = 4;
               return _this.contract.setFeePoolProxy(_feePoolProxy).send(txParams);
@@ -104216,7 +104216,7 @@ function sCHF_sCHF(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sCHF_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context37.next = 4;
               return _this.contract.setTotalSupply(amount).send(txParams);
@@ -104317,7 +104317,7 @@ function sBTC_sBTC(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context2.next = 4;
               return _this.contract.approve(spender, value).send(txParams);
@@ -104362,7 +104362,7 @@ function sBTC_sBTC(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context3.next = 4;
               return _this.contract.setIntegrationProxy(_integrationProxy).send(txParams);
@@ -104407,7 +104407,7 @@ function sBTC_sBTC(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context4.next = 4;
               return _this.contract.nominateNewOwner(_owner).send(txParams);
@@ -104510,7 +104510,7 @@ function sBTC_sBTC(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context7.next = 4;
               return _this.contract.setSelfDestructBeneficiary(_beneficiary).send(txParams);
@@ -104558,7 +104558,7 @@ function sBTC_sBTC(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context8.next = 4;
               return _this.contract.transferFrom(from, to, value).send(txParams);
@@ -104631,7 +104631,7 @@ function sBTC_sBTC(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context10.next = 4;
               return _this.contract.terminateSelfDestruct().send(txParams);
@@ -104741,7 +104741,7 @@ function sBTC_sBTC(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context13.next = 4;
               return _this.contract.acceptOwnership().send(txParams);
@@ -104787,7 +104787,7 @@ function sBTC_sBTC(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context14.next = 4;
               return _this.contract.issue(account, amount).send(txParams);
@@ -104861,7 +104861,7 @@ function sBTC_sBTC(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context16.next = 4;
               return _this.contract.setSynthetixProxy(_synthetixProxy).send(txParams);
@@ -104935,7 +104935,7 @@ function sBTC_sBTC(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context18.next = 4;
               return _this.contract.setProxy(_proxy).send(txParams);
@@ -104979,7 +104979,7 @@ function sBTC_sBTC(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context19.next = 4;
               return _this.contract.selfDestruct().send(txParams);
@@ -105054,7 +105054,7 @@ function sBTC_sBTC(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context21.next = 4;
               return _this.contract.burn(account, amount).send(txParams);
@@ -105099,7 +105099,7 @@ function sBTC_sBTC(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context22.next = 4;
               return _this.contract.setTokenState(_tokenState).send(txParams);
@@ -105175,7 +105175,7 @@ function sBTC_sBTC(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context24.next = 4;
               return _this.contract.transfer(to, value).send(txParams);
@@ -105249,7 +105249,7 @@ function sBTC_sBTC(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context26.next = 4;
               return _this.contract.setMessageSender(sender).send(txParams);
@@ -105293,7 +105293,7 @@ function sBTC_sBTC(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context27.next = 4;
               return _this.contract.initiateSelfDestruct().send(txParams);
@@ -105454,7 +105454,7 @@ function sBTC_sBTC(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context32.next = 4;
               return _this.contract.setFeePoolProxy(_feePoolProxy).send(txParams);
@@ -105624,7 +105624,7 @@ function sBTC_sBTC(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context37.next = 4;
               return _this.contract.setTotalSupply(amount).send(txParams);
@@ -105725,7 +105725,7 @@ function sETH_sETH(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context2.next = 4;
               return _this.contract.approve(spender, value).send(txParams);
@@ -105770,7 +105770,7 @@ function sETH_sETH(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context3.next = 4;
               return _this.contract.setIntegrationProxy(_integrationProxy).send(txParams);
@@ -105815,7 +105815,7 @@ function sETH_sETH(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context4.next = 4;
               return _this.contract.nominateNewOwner(_owner).send(txParams);
@@ -105918,7 +105918,7 @@ function sETH_sETH(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context7.next = 4;
               return _this.contract.setSelfDestructBeneficiary(_beneficiary).send(txParams);
@@ -105966,7 +105966,7 @@ function sETH_sETH(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context8.next = 4;
               return _this.contract.transferFrom(from, to, value).send(txParams);
@@ -106039,7 +106039,7 @@ function sETH_sETH(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context10.next = 4;
               return _this.contract.terminateSelfDestruct().send(txParams);
@@ -106149,7 +106149,7 @@ function sETH_sETH(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context13.next = 4;
               return _this.contract.acceptOwnership().send(txParams);
@@ -106195,7 +106195,7 @@ function sETH_sETH(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context14.next = 4;
               return _this.contract.issue(account, amount).send(txParams);
@@ -106269,7 +106269,7 @@ function sETH_sETH(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context16.next = 4;
               return _this.contract.setSynthetixProxy(_synthetixProxy).send(txParams);
@@ -106343,7 +106343,7 @@ function sETH_sETH(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context18.next = 4;
               return _this.contract.setProxy(_proxy).send(txParams);
@@ -106387,7 +106387,7 @@ function sETH_sETH(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context19.next = 4;
               return _this.contract.selfDestruct().send(txParams);
@@ -106462,7 +106462,7 @@ function sETH_sETH(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context21.next = 4;
               return _this.contract.burn(account, amount).send(txParams);
@@ -106507,7 +106507,7 @@ function sETH_sETH(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context22.next = 4;
               return _this.contract.setTokenState(_tokenState).send(txParams);
@@ -106583,7 +106583,7 @@ function sETH_sETH(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context24.next = 4;
               return _this.contract.transfer(to, value).send(txParams);
@@ -106657,7 +106657,7 @@ function sETH_sETH(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context26.next = 4;
               return _this.contract.setMessageSender(sender).send(txParams);
@@ -106701,7 +106701,7 @@ function sETH_sETH(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context27.next = 4;
               return _this.contract.initiateSelfDestruct().send(txParams);
@@ -106862,7 +106862,7 @@ function sETH_sETH(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context32.next = 4;
               return _this.contract.setFeePoolProxy(_feePoolProxy).send(txParams);
@@ -107032,7 +107032,7 @@ function sETH_sETH(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context37.next = 4;
               return _this.contract.setTotalSupply(amount).send(txParams);
@@ -107133,7 +107133,7 @@ function sTRX_sTRX(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context2.next = 4;
               return _this.contract.approve(spender, value).send(txParams);
@@ -107178,7 +107178,7 @@ function sTRX_sTRX(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context3.next = 4;
               return _this.contract.setIntegrationProxy(_integrationProxy).send(txParams);
@@ -107223,7 +107223,7 @@ function sTRX_sTRX(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context4.next = 4;
               return _this.contract.nominateNewOwner(_owner).send(txParams);
@@ -107326,7 +107326,7 @@ function sTRX_sTRX(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context7.next = 4;
               return _this.contract.setSelfDestructBeneficiary(_beneficiary).send(txParams);
@@ -107374,7 +107374,7 @@ function sTRX_sTRX(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context8.next = 4;
               return _this.contract.transferFrom(from, to, value).send(txParams);
@@ -107447,7 +107447,7 @@ function sTRX_sTRX(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context10.next = 4;
               return _this.contract.terminateSelfDestruct().send(txParams);
@@ -107557,7 +107557,7 @@ function sTRX_sTRX(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context13.next = 4;
               return _this.contract.acceptOwnership().send(txParams);
@@ -107603,7 +107603,7 @@ function sTRX_sTRX(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context14.next = 4;
               return _this.contract.issue(account, amount).send(txParams);
@@ -107677,7 +107677,7 @@ function sTRX_sTRX(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context16.next = 4;
               return _this.contract.setSynthetixProxy(_synthetixProxy).send(txParams);
@@ -107751,7 +107751,7 @@ function sTRX_sTRX(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context18.next = 4;
               return _this.contract.setProxy(_proxy).send(txParams);
@@ -107795,7 +107795,7 @@ function sTRX_sTRX(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context19.next = 4;
               return _this.contract.selfDestruct().send(txParams);
@@ -107870,7 +107870,7 @@ function sTRX_sTRX(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context21.next = 4;
               return _this.contract.burn(account, amount).send(txParams);
@@ -107915,7 +107915,7 @@ function sTRX_sTRX(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context22.next = 4;
               return _this.contract.setTokenState(_tokenState).send(txParams);
@@ -107991,7 +107991,7 @@ function sTRX_sTRX(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context24.next = 4;
               return _this.contract.transfer(to, value).send(txParams);
@@ -108065,7 +108065,7 @@ function sTRX_sTRX(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context26.next = 4;
               return _this.contract.setMessageSender(sender).send(txParams);
@@ -108109,7 +108109,7 @@ function sTRX_sTRX(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context27.next = 4;
               return _this.contract.initiateSelfDestruct().send(txParams);
@@ -108270,7 +108270,7 @@ function sTRX_sTRX(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context32.next = 4;
               return _this.contract.setFeePoolProxy(_feePoolProxy).send(txParams);
@@ -108440,7 +108440,7 @@ function sTRX_sTRX(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_sTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context37.next = 4;
               return _this.contract.setTotalSupply(amount).send(txParams);
@@ -108544,7 +108544,7 @@ function iBTC_iBTC(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_iBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context2.next = 4;
               return _this.contract.approve(spender, value).send(txParams);
@@ -108589,7 +108589,7 @@ function iBTC_iBTC(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_iBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context3.next = 4;
               return _this.contract.setIntegrationProxy(_integrationProxy).send(txParams);
@@ -108634,7 +108634,7 @@ function iBTC_iBTC(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_iBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context4.next = 4;
               return _this.contract.nominateNewOwner(_owner).send(txParams);
@@ -108737,7 +108737,7 @@ function iBTC_iBTC(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_iBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context7.next = 4;
               return _this.contract.setSelfDestructBeneficiary(_beneficiary).send(txParams);
@@ -108784,7 +108784,7 @@ function iBTC_iBTC(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_iBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context8.next = 4;
               return _this.contract.transferFrom(from, to, value).send(txParams);
@@ -108857,7 +108857,7 @@ function iBTC_iBTC(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_iBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context10.next = 4;
               return _this.contract.terminateSelfDestruct().send(txParams);
@@ -108960,7 +108960,7 @@ function iBTC_iBTC(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_iBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context13.next = 4;
               return _this.contract.setExchangeRates(_exchangeRates).send(txParams);
@@ -109041,7 +109041,7 @@ function iBTC_iBTC(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_iBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context15.next = 4;
               return _this.contract.acceptOwnership().send(txParams);
@@ -109116,7 +109116,7 @@ function iBTC_iBTC(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_iBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context17.next = 4;
               return _this.contract.issue(account, amount).send(txParams);
@@ -109190,7 +109190,7 @@ function iBTC_iBTC(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_iBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context19.next = 4;
               return _this.contract.setSynthetixProxy(_synthetixProxy).send(txParams);
@@ -109264,7 +109264,7 @@ function iBTC_iBTC(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_iBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context21.next = 4;
               return _this.contract.setProxy(_proxy).send(txParams);
@@ -109308,7 +109308,7 @@ function iBTC_iBTC(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_iBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context22.next = 4;
               return _this.contract.selfDestruct().send(txParams);
@@ -109383,7 +109383,7 @@ function iBTC_iBTC(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_iBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context24.next = 4;
               return _this.contract.burn(account, amount).send(txParams);
@@ -109428,7 +109428,7 @@ function iBTC_iBTC(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_iBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context25.next = 4;
               return _this.contract.setTokenState(_tokenState).send(txParams);
@@ -109503,7 +109503,7 @@ function iBTC_iBTC(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_iBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context27.next = 4;
               return _this.contract.transfer(to, value).send(txParams);
@@ -109548,7 +109548,7 @@ function iBTC_iBTC(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_iBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context28.next = 4;
               return _this.contract.purge(addresses).send(txParams);
@@ -109622,7 +109622,7 @@ function iBTC_iBTC(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_iBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context30.next = 4;
               return _this.contract.setMessageSender(sender).send(txParams);
@@ -109666,7 +109666,7 @@ function iBTC_iBTC(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_iBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context31.next = 4;
               return _this.contract.initiateSelfDestruct().send(txParams);
@@ -109827,7 +109827,7 @@ function iBTC_iBTC(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_iBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context36.next = 4;
               return _this.contract.setFeePoolProxy(_feePoolProxy).send(txParams);
@@ -109997,7 +109997,7 @@ function iBTC_iBTC(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_iBTC_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context41.next = 4;
               return _this.contract.setTotalSupply(amount).send(txParams);
@@ -110098,7 +110098,7 @@ function iTRX_iTRX(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_iTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context2.next = 4;
               return _this.contract.approve(spender, value).send(txParams);
@@ -110143,7 +110143,7 @@ function iTRX_iTRX(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_iTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context3.next = 4;
               return _this.contract.setIntegrationProxy(_integrationProxy).send(txParams);
@@ -110188,7 +110188,7 @@ function iTRX_iTRX(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_iTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context4.next = 4;
               return _this.contract.nominateNewOwner(_owner).send(txParams);
@@ -110291,7 +110291,7 @@ function iTRX_iTRX(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_iTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context7.next = 4;
               return _this.contract.setSelfDestructBeneficiary(_beneficiary).send(txParams);
@@ -110338,7 +110338,7 @@ function iTRX_iTRX(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_iTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context8.next = 4;
               return _this.contract.transferFrom(from, to, value).send(txParams);
@@ -110411,7 +110411,7 @@ function iTRX_iTRX(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_iTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context10.next = 4;
               return _this.contract.terminateSelfDestruct().send(txParams);
@@ -110514,7 +110514,7 @@ function iTRX_iTRX(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_iTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context13.next = 4;
               return _this.contract.setExchangeRates(_exchangeRates).send(txParams);
@@ -110595,7 +110595,7 @@ function iTRX_iTRX(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_iTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context15.next = 4;
               return _this.contract.acceptOwnership().send(txParams);
@@ -110670,7 +110670,7 @@ function iTRX_iTRX(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_iTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context17.next = 4;
               return _this.contract.issue(account, amount).send(txParams);
@@ -110744,7 +110744,7 @@ function iTRX_iTRX(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_iTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context19.next = 4;
               return _this.contract.setSynthetixProxy(_synthetixProxy).send(txParams);
@@ -110818,7 +110818,7 @@ function iTRX_iTRX(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_iTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context21.next = 4;
               return _this.contract.setProxy(_proxy).send(txParams);
@@ -110862,7 +110862,7 @@ function iTRX_iTRX(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_iTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context22.next = 4;
               return _this.contract.selfDestruct().send(txParams);
@@ -110937,7 +110937,7 @@ function iTRX_iTRX(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_iTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context24.next = 4;
               return _this.contract.burn(account, amount).send(txParams);
@@ -110982,7 +110982,7 @@ function iTRX_iTRX(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_iTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context25.next = 4;
               return _this.contract.setTokenState(_tokenState).send(txParams);
@@ -111057,7 +111057,7 @@ function iTRX_iTRX(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_iTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context27.next = 4;
               return _this.contract.transfer(to, value).send(txParams);
@@ -111102,7 +111102,7 @@ function iTRX_iTRX(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_iTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context28.next = 4;
               return _this.contract.purge(addresses).send(txParams);
@@ -111176,7 +111176,7 @@ function iTRX_iTRX(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_iTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context30.next = 4;
               return _this.contract.setMessageSender(sender).send(txParams);
@@ -111220,7 +111220,7 @@ function iTRX_iTRX(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_iTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context31.next = 4;
               return _this.contract.initiateSelfDestruct().send(txParams);
@@ -111381,7 +111381,7 @@ function iTRX_iTRX(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_iTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context36.next = 4;
               return _this.contract.setFeePoolProxy(_feePoolProxy).send(txParams);
@@ -111551,7 +111551,7 @@ function iTRX_iTRX(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_iTRX_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context41.next = 4;
               return _this.contract.setTotalSupply(amount).send(txParams);
@@ -111652,7 +111652,7 @@ function iETH_iETH(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_iETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context2.next = 4;
               return _this.contract.approve(spender, value).send(txParams);
@@ -111697,7 +111697,7 @@ function iETH_iETH(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_iETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context3.next = 4;
               return _this.contract.setIntegrationProxy(_integrationProxy).send(txParams);
@@ -111742,7 +111742,7 @@ function iETH_iETH(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_iETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context4.next = 4;
               return _this.contract.nominateNewOwner(_owner).send(txParams);
@@ -111845,7 +111845,7 @@ function iETH_iETH(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_iETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context7.next = 4;
               return _this.contract.setSelfDestructBeneficiary(_beneficiary).send(txParams);
@@ -111892,7 +111892,7 @@ function iETH_iETH(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_iETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context8.next = 4;
               return _this.contract.transferFrom(from, to, value).send(txParams);
@@ -111965,7 +111965,7 @@ function iETH_iETH(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_iETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context10.next = 4;
               return _this.contract.terminateSelfDestruct().send(txParams);
@@ -112068,7 +112068,7 @@ function iETH_iETH(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_iETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context13.next = 4;
               return _this.contract.setExchangeRates(_exchangeRates).send(txParams);
@@ -112149,7 +112149,7 @@ function iETH_iETH(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_iETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context15.next = 4;
               return _this.contract.acceptOwnership().send(txParams);
@@ -112224,7 +112224,7 @@ function iETH_iETH(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_iETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context17.next = 4;
               return _this.contract.issue(account, amount).send(txParams);
@@ -112298,7 +112298,7 @@ function iETH_iETH(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_iETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context19.next = 4;
               return _this.contract.setSynthetixProxy(_synthetixProxy).send(txParams);
@@ -112372,7 +112372,7 @@ function iETH_iETH(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_iETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context21.next = 4;
               return _this.contract.setProxy(_proxy).send(txParams);
@@ -112416,7 +112416,7 @@ function iETH_iETH(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_iETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context22.next = 4;
               return _this.contract.selfDestruct().send(txParams);
@@ -112491,7 +112491,7 @@ function iETH_iETH(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_iETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context24.next = 4;
               return _this.contract.burn(account, amount).send(txParams);
@@ -112536,7 +112536,7 @@ function iETH_iETH(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_iETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context25.next = 4;
               return _this.contract.setTokenState(_tokenState).send(txParams);
@@ -112611,7 +112611,7 @@ function iETH_iETH(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_iETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context27.next = 4;
               return _this.contract.transfer(to, value).send(txParams);
@@ -112656,7 +112656,7 @@ function iETH_iETH(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_iETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context28.next = 4;
               return _this.contract.purge(addresses).send(txParams);
@@ -112730,7 +112730,7 @@ function iETH_iETH(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_iETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context30.next = 4;
               return _this.contract.setMessageSender(sender).send(txParams);
@@ -112774,7 +112774,7 @@ function iETH_iETH(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_iETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context31.next = 4;
               return _this.contract.initiateSelfDestruct().send(txParams);
@@ -112935,7 +112935,7 @@ function iETH_iETH(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_iETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context36.next = 4;
               return _this.contract.setFeePoolProxy(_feePoolProxy).send(txParams);
@@ -113105,7 +113105,7 @@ function iETH_iETH(contractSettings) {
               txParams = txParams || {};
               txParams = shasta_iETH_objectSpread({
                 // fee limit in SUN
-                feeLimit: 50000000
+                feeLimit: 1500000000
               }, txParams);
               _context41.next = 4;
               return _this.contract.setTotalSupply(amount).send(txParams);
