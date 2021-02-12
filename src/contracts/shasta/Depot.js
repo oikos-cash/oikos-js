@@ -23,7 +23,7 @@ function Depot(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 1500000000,
+      feeLimit: 1000000000,
       ...txParams,
     };
     const txHash = await this.contract.exchangeEtherForSNX().send(txParams);
@@ -50,7 +50,7 @@ function Depot(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 1500000000,
+      feeLimit: 1000000000,
       ...txParams,
     };
     const txHash = await this.contract.exchangeEtherForSynthsAtRate(guaranteedRate).send(txParams);
@@ -86,7 +86,7 @@ function Depot(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 1500000000,
+      feeLimit: 1000000000,
       ...txParams,
     };
     const txHash = await this.contract.exchangeSynthsForSynthetix(synthAmount).send(txParams);
@@ -103,7 +103,7 @@ function Depot(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 1500000000,
+      feeLimit: 1000000000,
       ...txParams,
     };
     const txHash = await this.contract.nominateNewOwner(_owner).send(txParams);
@@ -120,7 +120,7 @@ function Depot(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 1500000000,
+      feeLimit: 1000000000,
       ...txParams,
     };
     const txHash = await this.contract.setPaused(_paused).send(txParams);
@@ -146,7 +146,7 @@ function Depot(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 1500000000,
+      feeLimit: 1000000000,
       ...txParams,
     };
     const txHash = await this.contract.exchangeEtherForSynths().send(txParams);
@@ -163,7 +163,7 @@ function Depot(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 1500000000,
+      feeLimit: 1000000000,
       ...txParams,
     };
     const txHash = await this.contract.setSelfDestructBeneficiary(_beneficiary).send(txParams);
@@ -197,7 +197,7 @@ function Depot(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 1500000000,
+      feeLimit: 1000000000,
       ...txParams,
     };
     const txHash = await this.contract.setPriceStalePeriod(_time).send(txParams);
@@ -213,7 +213,7 @@ function Depot(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 1500000000,
+      feeLimit: 1000000000,
       ...txParams,
     };
     const txHash = await this.contract.terminateSelfDestruct().send(txParams);
@@ -231,7 +231,7 @@ function Depot(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 1500000000,
+      feeLimit: 1000000000,
       ...txParams,
     };
     const txHash = await this.contract.setSynth(_synth).send(txParams);
@@ -260,7 +260,7 @@ function Depot(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 1500000000,
+      feeLimit: 1000000000,
       ...txParams,
     };
     const txHash = await this.contract
@@ -313,7 +313,7 @@ function Depot(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 1500000000,
+      feeLimit: 1000000000,
       ...txParams,
     };
     const txHash = await this.contract
@@ -341,7 +341,7 @@ function Depot(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 1500000000,
+      feeLimit: 1000000000,
       ...txParams,
     };
     const txHash = await this.contract.setFundsWallet(_fundsWallet).send(txParams);
@@ -365,7 +365,7 @@ function Depot(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 1500000000,
+      feeLimit: 1000000000,
       ...txParams,
     };
     const txHash = await this.contract.acceptOwnership().send(txParams);
@@ -383,7 +383,7 @@ function Depot(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 1500000000,
+      feeLimit: 1000000000,
       ...txParams,
     };
     const txHash = await this.contract.setOracle(_oracle).send(txParams);
@@ -407,7 +407,7 @@ function Depot(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 1500000000,
+      feeLimit: 1000000000,
       ...txParams,
     };
     const txHash = await this.contract
@@ -434,7 +434,7 @@ function Depot(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 1500000000,
+      feeLimit: 1000000000,
       ...txParams,
     };
     const txHash = await this.contract.withdrawMyDepositedSynths().send(txParams);
@@ -466,7 +466,7 @@ function Depot(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 1500000000,
+      feeLimit: 1000000000,
       ...txParams,
     };
     const txHash = await this.contract.selfDestruct().send(txParams);
@@ -502,7 +502,7 @@ function Depot(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 1500000000,
+      feeLimit: 1000000000,
       ...txParams,
     };
     const txHash = await this.contract.setMinimumDepositAmount(_amount).send(txParams);
@@ -551,7 +551,7 @@ function Depot(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 1500000000,
+      feeLimit: 1000000000,
       ...txParams,
     };
     const txHash = await this.contract.initiateSelfDestruct().send(txParams);
@@ -596,7 +596,7 @@ function Depot(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 1500000000,
+      feeLimit: 1000000000,
       ...txParams,
     };
     const txHash = await this.contract.depositSynths(amount).send(txParams);
@@ -614,7 +614,7 @@ function Depot(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 1500000000,
+      feeLimit: 1000000000,
       ...txParams,
     };
     const txHash = await this.contract.withdrawSynthetix(amount).send(txParams);
@@ -656,7 +656,7 @@ function Depot(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 1500000000,
+      feeLimit: 1000000000,
       ...txParams,
     };
     const txHash = await this.contract.setSynthetix(_snxProxy).send(txParams);

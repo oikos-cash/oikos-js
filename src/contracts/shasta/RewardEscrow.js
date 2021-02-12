@@ -23,7 +23,7 @@ function RewardEscrow(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 1500000000,
+      feeLimit: 1000000000,
       ...txParams,
     };
     const txHash = await this.contract.nominateNewOwner(_owner).send(txParams);
@@ -40,7 +40,7 @@ function RewardEscrow(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 1500000000,
+      feeLimit: 1000000000,
       ...txParams,
     };
     const txHash = await this.contract.setFeePool(_feePool).send(txParams);
@@ -110,7 +110,7 @@ function RewardEscrow(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 1500000000,
+      feeLimit: 1000000000,
       ...txParams,
     };
     const txHash = await this.contract.vest().send(txParams);
@@ -181,7 +181,7 @@ function RewardEscrow(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 1500000000,
+      feeLimit: 1000000000,
       ...txParams,
     };
     const txHash = await this.contract.acceptOwnership().send(txParams);
@@ -234,7 +234,7 @@ function RewardEscrow(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 1500000000,
+      feeLimit: 1000000000,
       ...txParams,
     };
     const txHash = await this.contract.appendVestingEntry(account, quantity).send(txParams);
@@ -279,7 +279,7 @@ function RewardEscrow(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 1500000000,
+      feeLimit: 1000000000,
       ...txParams,
     };
     const txHash = await this.contract.setSynthetix(_synthetix).send(txParams);
