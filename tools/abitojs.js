@@ -376,7 +376,7 @@ const generateFunctionStr = (abiFn, source) => {
       txParams = txParams || {};
       txParams = {
         // fee limit in SUN
-        feeLimit: 1000000000,
+        feeLimit: 100000000,
         ...txParams
       };
       const txHash = await this.contract.${abiFn.name}(${methodParamsStr}).send(txParams);
