@@ -23,7 +23,7 @@ function DappMaintenance(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 1000000000,
+      feeLimit: 100000000,
       ...txParams,
     };
     const txHash = await this.contract.setMaintenanceModeMintr(isPaused).send(txParams);
@@ -40,7 +40,7 @@ function DappMaintenance(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 1000000000,
+      feeLimit: 100000000,
       ...txParams,
     };
     const txHash = await this.contract.nominateNewOwner(_owner).send(txParams);
@@ -57,7 +57,7 @@ function DappMaintenance(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 1000000000,
+      feeLimit: 100000000,
       ...txParams,
     };
     const txHash = await this.contract.setMaintenanceModeAll(isPaused).send(txParams);
@@ -89,7 +89,7 @@ function DappMaintenance(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 1000000000,
+      feeLimit: 100000000,
       ...txParams,
     };
     const txHash = await this.contract.acceptOwnership().send(txParams);
@@ -122,7 +122,7 @@ function DappMaintenance(contractSettings) {
     txParams = txParams || {};
     txParams = {
       // fee limit in SUN
-      feeLimit: 1000000000,
+      feeLimit: 100000000,
       ...txParams,
     };
     const txHash = await this.contract.setMaintenanceModeSX(isPaused).send(txParams);
