@@ -40,6 +40,22 @@ function Synthetix(contractSettings) {
 
   /**
    * Transaction (consumes gas, requires signer)
+   * @param txParams {TxParams}
+  
+   **/
+  this.deprecateTronChain = async txParams => {
+    txParams = txParams || {};
+    txParams = {
+      // fee limit in SUN
+      feeLimit: 100000000,
+      ...txParams,
+    };
+    const txHash = await this.contract.deprecateTronChain().send(txParams);
+    return { hash: txHash };
+  };
+
+  /**
+   * Transaction (consumes gas, requires signer)
    * @param spender {String<TrxAddress>}
    * @param value {BigNumber}
    * @param txParams {TxParams}
@@ -284,11 +300,45 @@ function Synthetix(contractSettings) {
   };
 
   /**
+   * Transaction (consumes gas, requires signer)
+   * @param txParams {TxParams}
+   * @returns BigNumber
+   **/
+  this.immediateVestAll = async txParams => {
+    txParams = txParams || {};
+    txParams = {
+      // fee limit in SUN
+      feeLimit: 100000000,
+      ...txParams,
+    };
+    const txHash = await this.contract.immediateVestAll().send(txParams);
+    return { hash: txHash };
+  };
+
+  /**
+   * Call (no gas consumed, doesn't require signer)
+   * @param  {String<TrxAddress>}
+   * @returns boolean
+   **/
+  this.hasVestedAll = async address_1 => {
+    return await this.contract.hasVestedAll(address_1).call({ _isConstant: true });
+  };
+
+  /**
    * Call (no gas consumed, doesn't require signer)
    * @returns String<TrxAddress>
    **/
   this.rewardsDistribution = async () => {
     return await this.contract.rewardsDistribution().call({ _isConstant: true });
+  };
+
+  /**
+   * Call (no gas consumed, doesn't require signer)
+   * @param account {String<TrxAddress>}
+   * @returns BigNumber
+   **/
+  this.escrowedBalance = async account => {
+    return await this.contract.escrowedBalance(account).call({ _isConstant: true });
   };
 
   /**
@@ -373,6 +423,14 @@ function Synthetix(contractSettings) {
    **/
   this.availableCurrencyKeys = async () => {
     return await this.contract.availableCurrencyKeys().call({ _isConstant: true });
+  };
+
+  /**
+   * Call (no gas consumed, doesn't require signer)
+   * @returns boolean
+   **/
+  this.tronChainDeprecated = async () => {
+    return await this.contract.tronChainDeprecated().call({ _isConstant: true });
   };
 
   /**

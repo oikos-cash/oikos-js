@@ -1,22 +1,22 @@
 [
 	{
-		"constant": false,
+		"constant": true,
 		"inputs": [],
-		"name": "exchangeEtherForSNX",
+		"name": "USDTdepositStartIndex",
 		"outputs": [
 			{
 				"name": "",
 				"type": "uint256"
 			}
 		],
-		"payable": true,
-		"stateMutability": "payable",
+		"payable": false,
+		"stateMutability": "view",
 		"type": "function"
 	},
 	{
 		"constant": true,
 		"inputs": [],
-		"name": "minimumDepositAmount",
+		"name": "SUSDminimumDepositAmount",
 		"outputs": [
 			{
 				"name": "",
@@ -29,40 +29,21 @@
 	},
 	{
 		"constant": false,
-		"inputs": [
-			{
-				"name": "guaranteedRate",
-				"type": "uint256"
-			}
-		],
-		"name": "exchangeEtherForSynthsAtRate",
-		"outputs": [
-			{
-				"name": "",
-				"type": "uint256"
-			}
-		],
-		"payable": true,
-		"stateMutability": "payable",
-		"type": "function"
-	},
-	{
-		"constant": true,
 		"inputs": [
 			{
 				"name": "amount",
 				"type": "uint256"
 			}
 		],
-		"name": "synthsReceivedForEther",
+		"name": "depositSUSD",
 		"outputs": [
 			{
 				"name": "",
-				"type": "uint256"
+				"type": "uint256[2]"
 			}
 		],
 		"payable": false,
-		"stateMutability": "view",
+		"stateMutability": "nonpayable",
 		"type": "function"
 	},
 	{
@@ -77,25 +58,6 @@
 		],
 		"payable": false,
 		"stateMutability": "view",
-		"type": "function"
-	},
-	{
-		"constant": false,
-		"inputs": [
-			{
-				"name": "synthAmount",
-				"type": "uint256"
-			}
-		],
-		"name": "exchangeSynthsForSynthetix",
-		"outputs": [
-			{
-				"name": "",
-				"type": "uint256"
-			}
-		],
-		"payable": false,
-		"stateMutability": "nonpayable",
 		"type": "function"
 	},
 	{
@@ -128,6 +90,25 @@
 	},
 	{
 		"constant": true,
+		"inputs": [
+			{
+				"name": "",
+				"type": "address"
+			}
+		],
+		"name": "SUSDsmallDeposits",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
 		"inputs": [],
 		"name": "initiationTime",
 		"outputs": [
@@ -143,15 +124,15 @@
 	{
 		"constant": false,
 		"inputs": [],
-		"name": "exchangeEtherForSynths",
+		"name": "withdrawMyDepositedUSDT",
 		"outputs": [
 			{
 				"name": "",
 				"type": "uint256"
 			}
 		],
-		"payable": true,
-		"stateMutability": "payable",
+		"payable": false,
+		"stateMutability": "nonpayable",
 		"type": "function"
 	},
 	{
@@ -183,9 +164,32 @@
 		"type": "function"
 	},
 	{
+		"constant": false,
+		"inputs": [],
+		"name": "terminateSelfDestruct",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [],
+		"name": "withdrawMyDepositedSUSD",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
 		"constant": true,
 		"inputs": [],
-		"name": "priceStalePeriod",
+		"name": "USDTtotalSellableDeposits",
 		"outputs": [
 			{
 				"name": "",
@@ -194,29 +198,6 @@
 		],
 		"payable": false,
 		"stateMutability": "view",
-		"type": "function"
-	},
-	{
-		"constant": false,
-		"inputs": [
-			{
-				"name": "_time",
-				"type": "uint256"
-			}
-		],
-		"name": "setPriceStalePeriod",
-		"outputs": [],
-		"payable": false,
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
-		"constant": false,
-		"inputs": [],
-		"name": "terminateSelfDestruct",
-		"outputs": [],
-		"payable": false,
-		"stateMutability": "nonpayable",
 		"type": "function"
 	},
 	{
@@ -236,71 +217,7 @@
 	{
 		"constant": true,
 		"inputs": [],
-		"name": "pricesAreStale",
-		"outputs": [
-			{
-				"name": "",
-				"type": "bool"
-			}
-		],
-		"payable": false,
-		"stateMutability": "view",
-		"type": "function"
-	},
-	{
-		"constant": false,
-		"inputs": [
-			{
-				"name": "newEthPrice",
-				"type": "uint256"
-			},
-			{
-				"name": "newSynthetixPrice",
-				"type": "uint256"
-			},
-			{
-				"name": "timeSent",
-				"type": "uint256"
-			}
-		],
-		"name": "updatePrices",
-		"outputs": [],
-		"payable": false,
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
-		"constant": true,
-		"inputs": [],
-		"name": "lastPriceUpdateTime",
-		"outputs": [
-			{
-				"name": "",
-				"type": "uint256"
-			}
-		],
-		"payable": false,
-		"stateMutability": "view",
-		"type": "function"
-	},
-	{
-		"constant": true,
-		"inputs": [],
-		"name": "totalSellableDeposits",
-		"outputs": [
-			{
-				"name": "",
-				"type": "uint256"
-			}
-		],
-		"payable": false,
-		"stateMutability": "view",
-		"type": "function"
-	},
-	{
-		"constant": true,
-		"inputs": [],
-		"name": "snxProxy",
+		"name": "oksProxy",
 		"outputs": [
 			{
 				"name": "",
@@ -323,29 +240,6 @@
 		],
 		"payable": false,
 		"stateMutability": "view",
-		"type": "function"
-	},
-	{
-		"constant": false,
-		"inputs": [
-			{
-				"name": "synthAmount",
-				"type": "uint256"
-			},
-			{
-				"name": "guaranteedRate",
-				"type": "uint256"
-			}
-		],
-		"name": "exchangeSynthsForSynthetixAtRate",
-		"outputs": [
-			{
-				"name": "",
-				"type": "uint256"
-			}
-		],
-		"payable": false,
-		"stateMutability": "nonpayable",
 		"type": "function"
 	},
 	{
@@ -377,20 +271,6 @@
 		"type": "function"
 	},
 	{
-		"constant": true,
-		"inputs": [],
-		"name": "depositStartIndex",
-		"outputs": [
-			{
-				"name": "",
-				"type": "uint256"
-			}
-		],
-		"payable": false,
-		"stateMutability": "view",
-		"type": "function"
-	},
-	{
 		"constant": false,
 		"inputs": [],
 		"name": "acceptOwnership",
@@ -403,11 +283,11 @@
 		"constant": false,
 		"inputs": [
 			{
-				"name": "_oracle",
-				"type": "address"
+				"name": "amount",
+				"type": "uint256"
 			}
 		],
-		"name": "setOracle",
+		"name": "withdrawOikos",
 		"outputs": [],
 		"payable": false,
 		"stateMutability": "nonpayable",
@@ -417,29 +297,44 @@
 		"constant": false,
 		"inputs": [
 			{
-				"name": "guaranteedEtherRate",
-				"type": "uint256"
-			},
-			{
-				"name": "guaranteedSynthetixRate",
+				"name": "amount",
 				"type": "uint256"
 			}
 		],
-		"name": "exchangeEtherForSynthetixAtRate",
+		"name": "exchangeUSDTForSynths",
 		"outputs": [
 			{
 				"name": "",
 				"type": "uint256"
 			}
 		],
-		"payable": true,
-		"stateMutability": "payable",
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "",
+				"type": "address"
+			}
+		],
+		"name": "USDTsmallDeposits",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
 		"type": "function"
 	},
 	{
 		"constant": true,
 		"inputs": [],
-		"name": "oracle",
+		"name": "owner",
 		"outputs": [
 			{
 				"name": "",
@@ -451,22 +346,13 @@
 		"type": "function"
 	},
 	{
-		"constant": false,
-		"inputs": [],
-		"name": "withdrawMyDepositedSynths",
-		"outputs": [],
-		"payable": false,
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
 		"constant": true,
 		"inputs": [],
-		"name": "owner",
+		"name": "SUSDdepositStartIndex",
 		"outputs": [
 			{
 				"name": "",
-				"type": "address"
+				"type": "uint256"
 			}
 		],
 		"payable": false,
@@ -489,6 +375,39 @@
 	},
 	{
 		"constant": false,
+		"inputs": [
+			{
+				"name": "amount",
+				"type": "uint256"
+			}
+		],
+		"name": "exchangeSynthsForUSDT",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "SUSDtotalSellableDeposits",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": false,
 		"inputs": [],
 		"name": "selfDestruct",
 		"outputs": [],
@@ -498,13 +417,8 @@
 	},
 	{
 		"constant": true,
-		"inputs": [
-			{
-				"name": "amount",
-				"type": "uint256"
-			}
-		],
-		"name": "synthetixReceivedForSynths",
+		"inputs": [],
+		"name": "SUSDdepositEndIndex",
 		"outputs": [
 			{
 				"name": "",
@@ -530,34 +444,6 @@
 		"type": "function"
 	},
 	{
-		"constant": false,
-		"inputs": [
-			{
-				"name": "_amount",
-				"type": "uint256"
-			}
-		],
-		"name": "setMinimumDepositAmount",
-		"outputs": [],
-		"payable": false,
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
-		"constant": true,
-		"inputs": [],
-		"name": "feePool",
-		"outputs": [
-			{
-				"name": "",
-				"type": "address"
-			}
-		],
-		"payable": false,
-		"stateMutability": "view",
-		"type": "function"
-	},
-	{
 		"constant": true,
 		"inputs": [
 			{
@@ -565,7 +451,7 @@
 				"type": "uint256"
 			}
 		],
-		"name": "deposits",
+		"name": "USDTdeposits",
 		"outputs": [
 			{
 				"name": "user",
@@ -597,7 +483,7 @@
 	{
 		"constant": true,
 		"inputs": [],
-		"name": "usdToEthPrice",
+		"name": "USDTminimumDepositAmount",
 		"outputs": [
 			{
 				"name": "",
@@ -636,32 +522,17 @@
 		"inputs": [
 			{
 				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "SUSDdeposits",
+		"outputs": [
+			{
+				"name": "user",
 				"type": "address"
-			}
-		],
-		"name": "smallDeposits",
-		"outputs": [
-			{
-				"name": "",
-				"type": "uint256"
-			}
-		],
-		"payable": false,
-		"stateMutability": "view",
-		"type": "function"
-	},
-	{
-		"constant": true,
-		"inputs": [
+			},
 			{
 				"name": "amount",
-				"type": "uint256"
-			}
-		],
-		"name": "synthetixReceivedForEther",
-		"outputs": [
-			{
-				"name": "",
 				"type": "uint256"
 			}
 		],
@@ -677,22 +548,13 @@
 				"type": "uint256"
 			}
 		],
-		"name": "depositSynths",
-		"outputs": [],
-		"payable": false,
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
-		"constant": false,
-		"inputs": [
+		"name": "depositUSDT",
+		"outputs": [
 			{
-				"name": "amount",
-				"type": "uint256"
+				"name": "",
+				"type": "uint256[2]"
 			}
 		],
-		"name": "withdrawSynthetix",
-		"outputs": [],
 		"payable": false,
 		"stateMutability": "nonpayable",
 		"type": "function"
@@ -700,35 +562,7 @@
 	{
 		"constant": true,
 		"inputs": [],
-		"name": "usdToSnxPrice",
-		"outputs": [
-			{
-				"name": "",
-				"type": "uint256"
-			}
-		],
-		"payable": false,
-		"stateMutability": "view",
-		"type": "function"
-	},
-	{
-		"constant": true,
-		"inputs": [],
-		"name": "ORACLE_FUTURE_LIMIT",
-		"outputs": [
-			{
-				"name": "",
-				"type": "uint256"
-			}
-		],
-		"payable": false,
-		"stateMutability": "view",
-		"type": "function"
-	},
-	{
-		"constant": true,
-		"inputs": [],
-		"name": "depositEndIndex",
+		"name": "USDTdepositEndIndex",
 		"outputs": [
 			{
 				"name": "",
@@ -743,11 +577,11 @@
 		"constant": false,
 		"inputs": [
 			{
-				"name": "_snxProxy",
+				"name": "_oksProxy",
 				"type": "address"
 			}
 		],
-		"name": "setSynthetix",
+		"name": "setOikos",
 		"outputs": [],
 		"payable": false,
 		"stateMutability": "nonpayable",
@@ -764,28 +598,12 @@
 				"type": "address"
 			},
 			{
-				"name": "_snxProxy",
+				"name": "_oksProxy",
 				"type": "address"
 			},
 			{
 				"name": "_synth",
 				"type": "address"
-			},
-			{
-				"name": "_feePool",
-				"type": "address"
-			},
-			{
-				"name": "_oracle",
-				"type": "address"
-			},
-			{
-				"name": "_usdToEthPrice",
-				"type": "uint256"
-			},
-			{
-				"name": "_usdToSnxPrice",
-				"type": "uint256"
 			}
 		],
 		"payable": false,
@@ -815,18 +633,6 @@
 		"inputs": [
 			{
 				"indexed": false,
-				"name": "newOracle",
-				"type": "address"
-			}
-		],
-		"name": "OracleUpdated",
-		"type": "event"
-	},
-	{
-		"anonymous": false,
-		"inputs": [
-			{
-				"indexed": false,
 				"name": "newSynthContract",
 				"type": "address"
 			}
@@ -839,45 +645,11 @@
 		"inputs": [
 			{
 				"indexed": false,
-				"name": "newSNXProxy",
+				"name": "newOKSProxy",
 				"type": "address"
 			}
 		],
-		"name": "SynthetixUpdated",
-		"type": "event"
-	},
-	{
-		"anonymous": false,
-		"inputs": [
-			{
-				"indexed": false,
-				"name": "priceStalePeriod",
-				"type": "uint256"
-			}
-		],
-		"name": "PriceStalePeriodUpdated",
-		"type": "event"
-	},
-	{
-		"anonymous": false,
-		"inputs": [
-			{
-				"indexed": false,
-				"name": "newEthPrice",
-				"type": "uint256"
-			},
-			{
-				"indexed": false,
-				"name": "newSynthetixPrice",
-				"type": "uint256"
-			},
-			{
-				"indexed": false,
-				"name": "timeSent",
-				"type": "uint256"
-			}
-		],
-		"name": "PricesUpdated",
+		"name": "OikosUpdated",
 		"type": "event"
 	},
 	{
@@ -921,7 +693,7 @@
 				"type": "uint256"
 			}
 		],
-		"name": "SynthWithdrawal",
+		"name": "USDTWithdrawal",
 		"type": "event"
 	},
 	{
@@ -943,7 +715,7 @@
 				"type": "uint256"
 			}
 		],
-		"name": "SynthDeposit",
+		"name": "eUSDTDeposit",
 		"type": "event"
 	},
 	{
@@ -965,7 +737,7 @@
 				"type": "uint256"
 			}
 		],
-		"name": "SynthDepositRemoved",
+		"name": "USDTDepositRemoved",
 		"type": "event"
 	},
 	{
@@ -987,7 +759,90 @@
 				"type": "uint256"
 			}
 		],
-		"name": "SynthDepositNotAccepted",
+		"name": "USDTDepositNotAccepted",
+		"type": "event"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"name": "user",
+				"type": "address"
+			},
+			{
+				"indexed": false,
+				"name": "amount",
+				"type": "uint256"
+			}
+		],
+		"name": "SUSDWithdrawal",
+		"type": "event"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": true,
+				"name": "user",
+				"type": "address"
+			},
+			{
+				"indexed": false,
+				"name": "amount",
+				"type": "uint256"
+			},
+			{
+				"indexed": true,
+				"name": "depositIndex",
+				"type": "uint256"
+			}
+		],
+		"name": "eSUSDDeposit",
+		"type": "event"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": true,
+				"name": "user",
+				"type": "address"
+			},
+			{
+				"indexed": false,
+				"name": "amount",
+				"type": "uint256"
+			},
+			{
+				"indexed": true,
+				"name": "depositIndex",
+				"type": "uint256"
+			}
+		],
+		"name": "SUSDDepositRemoved",
+		"type": "event"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"name": "user",
+				"type": "address"
+			},
+			{
+				"indexed": false,
+				"name": "amount",
+				"type": "uint256"
+			},
+			{
+				"indexed": false,
+				"name": "minimum",
+				"type": "uint256"
+			}
+		],
+		"name": "SUSDDepositNotAccepted",
 		"type": "event"
 	},
 	{
